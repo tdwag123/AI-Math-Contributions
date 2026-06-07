@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.1",
   "description": "Dataset of mathematics problems solved with AI assistance (full solutions only)",
   "entries": [
@@ -1868,8 +1868,23 @@
       "source": null,
       "source_problem_number": null,
       "level_of_contribution": "AI collaborating with humans",
-      "ai_systems": ["FunSearch (LLM-based program search)"],
-      "humans": ["B. Romera-Paredes", "M. Barekatain", "A. Novikov", "M. Balog", "M. P. Kumar", "E. Dupont", "F. J. R. Ruiz", "J. S. Ellenberg", "P. Wang", "O. Fawzi", "P. Kohli", "A. Fawzi"],
+      "ai_systems": [
+        "FunSearch (LLM-based program search)"
+      ],
+      "humans": [
+        "B. Romera-Paredes",
+        "M. Barekatain",
+        "A. Novikov",
+        "M. Balog",
+        "M. P. Kumar",
+        "E. Dupont",
+        "F. J. R. Ruiz",
+        "J. S. Ellenberg",
+        "P. Wang",
+        "O. Fawzi",
+        "P. Kohli",
+        "A. Fawzi"
+      ],
       "solution_status": "Improved lower bounds (new constructions)",
       "problem_tag": "corners problem grid sets",
       "problem_statement": "The corners problem asks for the largest possible subset $S \\subseteq [N] \\times [N]$ containing no nontrivial corner, i.e., no triple of points $(x, y), (x+d, y), (x, y+d)$ with $d > 0$. Construct large corner-free sets that improve known lower bounds for specific values of $N$.",
@@ -1886,8 +1901,23 @@
       "source": null,
       "source_problem_number": null,
       "level_of_contribution": "AI collaborating with humans",
-      "ai_systems": ["FunSearch (LLM-based program search)"],
-      "humans": ["B. Romera-Paredes", "M. Barekatain", "A. Novikov", "M. Balog", "M. P. Kumar", "E. Dupont", "F. J. R. Ruiz", "J. S. Ellenberg", "P. Wang", "O. Fawzi", "P. Kohli", "A. Fawzi"],
+      "ai_systems": [
+        "FunSearch (LLM-based program search)"
+      ],
+      "humans": [
+        "B. Romera-Paredes",
+        "M. Barekatain",
+        "A. Novikov",
+        "M. Balog",
+        "M. P. Kumar",
+        "E. Dupont",
+        "F. J. R. Ruiz",
+        "J. S. Ellenberg",
+        "P. Wang",
+        "O. Fawzi",
+        "P. Kohli",
+        "A. Fawzi"
+      ],
       "solution_status": "Improved lower bounds (new constructions)",
       "problem_tag": "Shannon capacity cycle graphs",
       "problem_statement": "For a graph $G$, the Shannon capacity $\\Theta(G)$ measures the maximum rate of zero-error information transmission through a channel with confusability graph $G$. Determining $\\Theta(C_n)$ for odd cycle graphs $C_n$ with $n \\geq 7$ is a long-standing open problem. Construct large independent sets in strong powers $C_n^k$ to improve known lower bounds on $\\Theta(C_n)$.",
@@ -1904,7 +1934,9 @@
       "source": "Erdős Problems",
       "source_problem_number": 12,
       "level_of_contribution": "AI standalone",
-      "ai_systems": ["Aristotle"],
+      "ai_systems": [
+        "Aristotle"
+      ],
       "humans": [],
       "solution_status": "Full solution (parts i and ii) (Lean)",
       "problem_tag": "divisibility-free set density",
@@ -1922,7 +1954,9 @@
       "source": "Erdős Problems",
       "source_problem_number": 138,
       "level_of_contribution": "AI standalone",
-      "ai_systems": ["Aristotle"],
+      "ai_systems": [
+        "Aristotle"
+      ],
       "humans": [],
       "solution_status": "Full solution (Lean)",
       "problem_tag": "Van der Waerden number growth",
@@ -1940,7 +1974,9 @@
       "source": "Green's Open Problems",
       "source_problem_number": 57,
       "level_of_contribution": "AI standalone",
-      "ai_systems": ["Aristotle"],
+      "ai_systems": [
+        "Aristotle"
+      ],
       "humans": [],
       "solution_status": "Full solution (real-valued case); counterexample found (complex-valued case) (Lean)",
       "problem_tag": "convolution function spaces abelian group",
@@ -1958,7 +1994,9 @@
       "source": null,
       "source_problem_number": null,
       "level_of_contribution": "AI standalone",
-      "ai_systems": ["Aristotle"],
+      "ai_systems": [
+        "Aristotle"
+      ],
       "humans": [],
       "solution_status": "New proof found (Lean)",
       "problem_tag": "anchored GDA convergence rate",
@@ -1976,7 +2014,9 @@
       "source": null,
       "source_problem_number": null,
       "level_of_contribution": "AI standalone",
-      "ai_systems": ["Aristotle"],
+      "ai_systems": [
+        "Aristotle"
+      ],
       "humans": [],
       "solution_status": "Full solution (bipartite variant) (Lean)",
       "problem_tag": "bipartite graph reconstruction conjecture",
@@ -1994,7 +2034,9 @@
       "source": null,
       "source_problem_number": null,
       "level_of_contribution": "AI standalone",
-      "ai_systems": ["Aristotle"],
+      "ai_systems": [
+        "Aristotle"
+      ],
       "humans": [],
       "solution_status": "New proof found (Lean)",
       "problem_tag": "maximum leaves spanning tree",
@@ -2012,7 +2054,9 @@
       "source": null,
       "source_problem_number": null,
       "level_of_contribution": "AI standalone",
-      "ai_systems": ["Aristotle"],
+      "ai_systems": [
+        "Aristotle"
+      ],
       "humans": [],
       "solution_status": "Full solution (Lean)",
       "problem_tag": "log-concavity pure O-sequences",
@@ -2030,7 +2074,9 @@
       "source": null,
       "source_problem_number": null,
       "level_of_contribution": "AI standalone",
-      "ai_systems": ["Aristotle"],
+      "ai_systems": [
+        "Aristotle"
+      ],
       "humans": [],
       "solution_status": "Full solution for N=d∈{4,6,10} (Lean)",
       "problem_tag": "monochromatic quantum graphs existence",
@@ -2040,6 +2086,766 @@
       "solution_reference": "https://arxiv.org/abs/2605.22763",
       "verification_status": "Lean verified",
       "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_097",
+      "source": "OEIS",
+      "source_problem_number": 108,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Catalan reciprocal sums distinct",
+      "problem_statement": "All the rational numbers $\\sum_{i=j}^{k} 1/C(i)$ with $0 < j \\leq k$ (where $C(i)$ are Catalan numbers) have pairwise distinct fractional parts.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_108_conjecture_2.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A000108 (https://oeis.org/A000108)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_098",
+      "source": "OEIS",
+      "source_problem_number": 2897,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Diagonal rational function generating function",
+      "problem_statement": "The generating function for $a(n) = \\binom{2n}{n}^3$ is also the diagonal of the rational function $1/(1-(x+y)(1-4zt)-z-t)$; if true, $a(n) = [x^n y^n z^n]\\,(1+x+y+z)^{2n}(1+x+y-z)^n(1+x-y+z)^n$.",
+      "date_solved": "2026",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_2897_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A002897 (https://oeis.org/A002897)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_099",
+      "source": "OEIS",
+      "source_problem_number": 28859,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Linear recurrence combinatorial interpretation",
+      "problem_statement": "The linear recurrence $a(n+2)=2a(n+1)+2a(n)$ with $a(0)=1$, $a(1)=3$ also counts length-$(n+1)$ sequences that cover an initial interval of positive integers and whose non-adjacent parts are weakly decreasing.",
+      "date_solved": "2026",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_A028859_conjecture_1.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A028859 (https://oeis.org/A028859)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_100",
+      "source": "OEIS",
+      "source_problem_number": 51293,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Integer-average subsets asymptotic expansion",
+      "problem_statement": "The number $a(n)$ of nonempty subsets of $\\{1,\\ldots,n\\}$ with integer average satisfies $a(n) = \\frac{2^{n+1}}{n}\\sum_{k=0}^{m}\\frac{F_k}{n^k} + o(n^{-m-1})$ for every fixed $m$, where $F_k$ are the ordered Bell numbers (Fubini numbers).",
+      "date_solved": "2026",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_51293_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A051293 (https://oeis.org/A051293)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_101",
+      "source": "OEIS",
+      "source_problem_number": 62567,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Digit reversal divisibility pattern",
+      "problem_statement": "Prove Conjecture 0 for OEIS A062567: the first multiple of $n$ whose digit-reversal is also divisible by $n$ satisfies the stated closed-form or structural property.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_62567_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A062567 (https://oeis.org/A062567)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_102",
+      "source": "OEIS",
+      "source_problem_number": 91669,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Primitive root prime characterization",
+      "problem_statement": "For $n > 2$, if $n \\mid a(n-1) + 2^{n-2}$ where $a(n) = \\frac{2^{n-1}}{n!}\\prod_{k=1}^{n-1}(2^k-1)$, then $n$ is prime with $2$ as a primitive root modulo $n$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/a091669_conjecture_primitive_root.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A091669 (https://oeis.org/A091669)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_103",
+      "source": "OEIS",
+      "source_problem_number": 103311,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Linear recurrence Fibonacci absolute values",
+      "problem_statement": "All terms of the 4th-order linear recurrence $a(n)$ (a transform of the Fibonacci numbers) have $|a(n)|$ equal to a Fibonacci number.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_103311_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A103311 (https://oeis.org/A103311)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_104",
+      "source": "OEIS",
+      "source_problem_number": 113254,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Odd-indexed terms perfect squares",
+      "problem_statement": "For the 4th-order linear recurrence family $a(m,n)$ with $m=8$, the terms $a(m, 2n+1)$ are perfect squares for all $n \\geq 0$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_113254_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A113254 (https://oeis.org/A113254)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_105",
+      "source": "OEIS",
+      "source_problem_number": 175386,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Binomial sum non-integrality",
+      "problem_statement": "For all $n > 1$, the rational number $\\sum_{i=1}^{n} \\frac{1}{i}\\binom{2n-i-1}{i-1}$ is not an integer.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_175386_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A175386 (https://oeis.org/A175386)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_106",
+      "source": "OEIS",
+      "source_problem_number": 194806,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Multiplicative covering set size bound",
+      "problem_statement": "The ratio $a(n)/\\pi(n)$ is bounded as $n \\to \\infty$, where $a(n)$ is the size of the smallest $S \\subseteq \\{1,\\ldots,n\\}$ such that $S \\cdot S \\supseteq \\{1,\\ldots,n\\}$ and $\\pi(n)$ is the prime-counting function.",
+      "date_solved": "2026",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_194806_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A194806 (https://oeis.org/A194806)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_107",
+      "source": "OEIS",
+      "source_problem_number": 211417,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Factorial ratio divisibility",
+      "problem_statement": "The quantities $\\frac{7a(n)}{2n+1}$, $\\frac{a(n)}{3n+1}$, $\\frac{a(n)}{5n+1}$, and $\\frac{42a(n)}{(2n+1)(3n+1)(5n+1)}$ are integers for all $n \\geq 0$, where $a(n) = \\frac{(30n)!\\,n!}{(15n)!(10n)!(6n)!}$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_a211417_conjecture_specific.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A211417 (https://oeis.org/A211417)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_108",
+      "source": "OEIS",
+      "source_problem_number": 224515,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "XOR square root existence",
+      "problem_statement": "For every $n \\geq 0$ there exists a unique least $k \\geq 0$ such that $\\sqrt{k^2 \\oplus (k+1)^2} = 2n+1$ (where $\\oplus$ denotes bitwise XOR).",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/A224515_conjecture_existence.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A224515 (https://oeis.org/A224515)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_109",
+      "source": "OEIS",
+      "source_problem_number": 227582,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Harmonic number floor identity",
+      "problem_statement": "For all $n \\geq 1$, $a(n) = \\left\\lfloor \\frac{1}{2H_n - H_{n^2+n-1} - \\gamma} \\right\\rfloor$, where $H_n = \\sum_{k=1}^{n}1/k$ and $\\gamma$ is the Euler-Mascheroni constant.",
+      "date_solved": "2026",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_227582_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A227582 (https://oeis.org/A227582)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_110",
+      "source": "OEIS",
+      "source_problem_number": 228143,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Hankel determinant generating function root",
+      "problem_statement": "If $A(x)$ is the ordinary generating function for sequence A228143 (an Apery-like sequence with integer Hankel determinants), then $A(x/3)^{1/8}$ has integer coefficients.",
+      "date_solved": "2026",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_228143_conjecture_1.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A228143 (https://oeis.org/A228143)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_111",
+      "source": "OEIS",
+      "source_problem_number": 237271,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Symmetric sigma 2-dense divisor sublists",
+      "problem_statement": "$a(n)$ equals the number of maximal sublists of divisors of $n$ (in increasing order) whose consecutive terms differ by a factor of at most $2$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_a237271_conjecture_2.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A237271 (https://oeis.org/A237271)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_112",
+      "source": "OEIS",
+      "source_problem_number": 243106,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Base-10 alternating prime sum digits",
+      "problem_statement": "For any $n$, the base-10 representation of $\\left|\\sum_{k=1}^{n}(-1)^{\\mathbf{1}[k\\text{ prime}]}\\cdot 10^k\\right|$ contains only digits from $\\{0,1,8,9\\}$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_243106_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A243106 (https://oeis.org/A243106)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_113",
+      "source": "OEIS",
+      "source_problem_number": 248802,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Smallest prime factor arithmetic progression",
+      "problem_statement": "For the sequence $a(n)$ of smallest prime factors of $2^{2^n+2}+3$: $a(10n+2) = 67$ for all $n \\geq 0$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_248802_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A248802 (https://oeis.org/A248802)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_114",
+      "source": "OEIS",
+      "source_problem_number": 248802,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Smallest prime factor arithmetic progression",
+      "problem_statement": "For the sequence $a(n)$ of smallest prime factors of $2^{2^n+2}+3$: $a(138n+6) = 1669$ for all $n \\geq 0$ with $n \\not\\equiv 2 \\pmod{5}$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_248802_conjecture_4.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A248802 (https://oeis.org/A248802)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_115",
+      "source": "OEIS",
+      "source_problem_number": 256012,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Non-squarefree partition positivity",
+      "problem_statement": "The number of partitions of $n$ into distinct non-squarefree parts satisfies $a(n) > 0$ for all $n > 23$.",
+      "date_solved": "2026",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_256012_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A256012 (https://oeis.org/A256012)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_116",
+      "source": "OEIS",
+      "source_problem_number": 258667,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Binomial sum asymptotic expansion",
+      "problem_statement": "The sequence $a(n)$ defined by an inner sum with binomial coefficients satisfies $a(n) \\sim e^{-2} \\cdot \\frac{n!}{n-2}\\sum_{k \\geq 0} \\frac{(-1)^k}{k!(n-1)_k}$ as $n \\to \\infty$.",
+      "date_solved": "2026",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_A258667_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A258667 (https://oeis.org/A258667)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_117",
+      "source": "OEIS",
+      "source_problem_number": 267581,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Rule 167 middle column bit positions",
+      "problem_statement": "The positions of $0$-bits in the middle column of the Rule 167 elementary cellular automaton (starting from a single live cell) are exactly $\\{2^n+1 : n \\geq 0\\}$.",
+      "date_solved": "2026",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_267581_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A267581 (https://oeis.org/A267581)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_118",
+      "source": "OEIS",
+      "source_problem_number": 271591,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Tribonacci sequence run lengths",
+      "problem_statement": "After the initial $0$s, the runs of consecutive $0$s in the second-MSB sequence of Tribonacci numbers have length exactly $4$ or $5$, and runs of $1$s have length exactly $3$ or $4$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_271591_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A271591 (https://oeis.org/A271591)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_119",
+      "source": "OEIS",
+      "source_problem_number": 278070,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Hypergeometric sequence modular periodicity",
+      "problem_statement": "For $a(n) = \\sum_{k=0}^{n}\\binom{n}{k}\\binom{n+k-1}{k}$, we have $a(n+m) \\equiv a(n) \\pmod{m}$ for all $n, m \\geq 1$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_278070_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A278070 (https://oeis.org/A278070)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_120",
+      "source": "OEIS",
+      "source_problem_number": 282779,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Cube residue period length",
+      "problem_statement": "The period of $k^3 \\bmod n$ (as a function of $k$) equals $n/3$ if $9 \\mid n$, and equals $n$ otherwise.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_282779_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A282779 (https://oeis.org/A282779)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_121",
+      "source": "OEIS",
+      "source_problem_number": 289411,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Digital sum partial sums symmetry",
+      "problem_statement": "For $a(n) = \\sum_{k=1}^{n}\\text{sgn}(s_5(k)-s(k))$ (digit sums in bases 5 and 10), the partial sums satisfy a palindrome symmetry: $a(m_j-i) = a(m_j+i)$ around midpoints $m_j = 10^j/2 - 1$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_289411_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A289411 (https://oeis.org/A289411)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_122",
+      "source": "OEIS",
+      "source_problem_number": 300997,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Cellular automaton step differences bounded",
+      "problem_statement": "The finite differences $a(n+1)-a(n)$ of the number of steps for a 1D cellular automaton (started with a mass-$n$ cell) to stabilise are always equal to $1$ or $2$.",
+      "date_solved": "2026",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_a300997_finite_difference_is_one_or_two.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A300997 (https://oeis.org/A300997)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_123",
+      "source": "OEIS",
+      "source_problem_number": 306424,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Finite base-b two-distinct-digit sequence",
+      "problem_statement": "The sequence of positive integers $n$ whose base-$b$ expansion (for all $3 \\leq b \\leq n-1$) uses at most $2$ distinct digits is finite, with $43$ as the largest term.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_306424_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A306424 (https://oeis.org/A306424)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_124",
+      "source": "OEIS",
+      "source_problem_number": 307865,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Euler pseudoprime base count",
+      "problem_statement": "If $2n+1$ is an absolute Euler pseudoprime, then $a(n) = 0$, where $a(n) = \\#\\{b : 1 \\leq b < 2n+1,\\, b^n \\equiv -1 \\pmod{2n+1}\\}$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_307865_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A307865 (https://oeis.org/A307865)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_125",
+      "source": "OEIS",
+      "source_problem_number": 309132,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Carmichael numbers squarefree denominator",
+      "problem_statement": "The composite numbers $n$ for which the denominator $a(n)$ of the Bernoulli-related fraction is squarefree are exactly the Carmichael numbers (A002997).",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/A309132_conjecture_carmichael.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A309132 (https://oeis.org/A309132)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_126",
+      "source": "OEIS",
+      "source_problem_number": 323557,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Generating function odd term positions",
+      "problem_statement": "In the coefficient sequence of $\\sum_{n \\geq 0} x^n(1+x^n)^n/(1+x^{n+1})^{n+1}$, the odd terms occur exactly at positions $n(n+1)$ for $n \\geq 0$.",
+      "date_solved": "2026",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_323557_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A323557 (https://oeis.org/A323557)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_127",
+      "source": "OEIS",
+      "source_problem_number": 325046,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Generating function odd term positions",
+      "problem_statement": "In the coefficient sequence of $\\sum_{n \\geq 0} x^n(1+x^n)^n/(1-x^{n+1})^{n+1}$, the odd terms occur exactly at positions $n(n+1)$ for $n \\geq 0$.",
+      "date_solved": "2026",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/a325046_odd_terms_at_k_times_k_plus_1.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A325046 (https://oeis.org/A325046)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_128",
+      "source": "OEIS",
+      "source_problem_number": 340737,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Rational sequence convergence to e",
+      "problem_statement": "The sequence of fractions $a(n)/A340738(n)$ converges to $e$, where $a(n)$ are the numerators of the rational approximations defined by the sequence.",
+      "date_solved": "2026",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_340737_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A340737 (https://oeis.org/A340737)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_129",
+      "source": "OEIS",
+      "source_problem_number": 341254,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Beatty sequence floor error bounds",
+      "problem_statement": "For $a(n) = \\lfloor r\\lfloor rn \\rfloor \\rfloor$ where $r = (2+\\sqrt{5})/2$, the error satisfies $\\tfrac{1}{4} < nr^2 - a(n) < 3$ for all $n \\geq 1$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_341254_conjecture_0.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A341254 (https://oeis.org/A341254)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_130",
+      "source": "OEIS",
+      "source_problem_number": 363102,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Continued fraction denominator primality",
+      "problem_statement": "The sequence $a(n)$ (related to $(n+2)\\sum_{k=0}^{n}k!/2$ and A051403) contains only $1$s and prime numbers.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_a363102_conjecture_1.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A363102 (https://oeis.org/A363102)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_131",
+      "source": "OEIS",
+      "source_problem_number": 363347,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Continued fraction primes mod 10",
+      "problem_statement": "The sequence of denominators $R_k(n)$ of a continued fraction expression contains all primes $\\equiv \\pm 1 \\pmod{10}$ (i.e., ending in $1$ or $9$).",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_363347_conjecture_2.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A363347 (https://oeis.org/A363347)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_132",
+      "source": "OEIS",
+      "source_problem_number": 368692,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Factorial ratio integrality",
+      "problem_statement": "The expression $a(n) = \\frac{(12n+6)!\\,(6n+9)!}{108\\cdot(4n+2)!\\,(2n+3)!\\,((6n+5)!)^2}$ is an integer for all $n \\geq 0$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_a368692_conjecture_integrality.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A368692 (https://oeis.org/A368692)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_133",
+      "source": "OEIS",
+      "source_problem_number": 372761,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Continued fraction odd prime frequency",
+      "problem_statement": "Except for $3$ and $5$, every odd prime appears exactly once in the sequence of denominators $A_k(n)$ of the tail of the continued fraction $k-(k+1)/A_{k+1}(n)$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/oeis_372761_conjecture_2.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A372761 (https://oeis.org/A372761)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_134",
+      "source": "OEIS",
+      "source_problem_number": 382590,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "Recurrence k-th prime factor periodic",
+      "problem_statement": "For every $k \\geq 1$, the sequence of $k$-th prime factors of the terms of A382590 is eventually periodic; this holds for any initial value $a(1) > 1$.",
+      "date_solved": "2026",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/A382590_conjecture_kth_prime_factor_is_eventually_periodic.lean",
+      "verification_status": "Lean verified",
+      "literature": "OEIS sequence A382590 (https://oeis.org/A382590)",
       "literature_found_on": null,
       "literature_similar": null
     }

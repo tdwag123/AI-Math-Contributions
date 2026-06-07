@@ -1,0 +1,192 @@
+{
+  "A000108": {
+    "conjecture_statement": "All the rational numbers Sum_{i=j..k} 1/a(i) with 0 < min{2,k} <= j <= k have pairwise distinct fractional parts.",
+    "mathematical_area": "Number Theory / Combinatorics",
+    "problem_tag": "Catalan reciprocal sums distinct"
+  },
+  "A002897": {
+    "conjecture_statement": "The g.f. is also the diagonal of the rational function 1/(1 - (x + y)*(1 - 4*z*t) - z - t) = 1/det(I - M*diag(x, y, z, t)), where I is the 4x4 unit matrix and M is the 4x4 matrix [1, 1, 1, 1; 1, 1, 1, 1; 1, 1, 1, -1; 1, 1, -1, 1]. If true, then a(n) = [(x*y*z)^n] (1 + x + y + z)^(2*n)*(1 + x + y - z)^n*(1 + x - y + z)^n.",
+    "mathematical_area": "Combinatorics / Algebraic Combinatorics",
+    "problem_tag": "Binomial coefficient diagonal generating function"
+  },
+  "A028859": {
+    "conjecture_statement": "Also the number of length n + 1 sequences that cover an initial interval of positive integers and whose non-adjacent parts are weakly decreasing.",
+    "mathematical_area": "Combinatorics",
+    "problem_tag": "Linear recurrence sequence interpretation"
+  },
+  "A051293": {
+    "conjecture_statement": "a(n) = 2^(n+1)/n * (1 + 1/n + 3/n^2 + 13/n^3 + 75/n^4 + 541/n^5 + o(1/n^5)); more precisely, a(n) is asymptotic to 2^(n+1)/n * Sum_{k=0..m} A000670(k)/n^k + o(1/n^(m+1)) for any m > 0.",
+    "mathematical_area": "Combinatorics / Asymptotic Analysis",
+    "problem_tag": "Integer-average subsets asymptotics"
+  },
+  "A062567": {
+    "conjecture_statement": "For n > 1, a(3^n) = 10^(3^(n-2)) - 1 (Jud McCranie's conjecture, subsequently disproved: a(3^5) = 4899999987 < 10^27 - 1).",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Digit reversal divisibility pattern"
+  },
+  "A091669": {
+    "conjecture_statement": "For n > 2, if n | a(n-1) + 2^(n-2), then n is a prime with 2 as a primitive root (i.e., n is in A001122).",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Primitive root prime characterization"
+  },
+  "A103311": {
+    "conjecture_statement": "All elements of the sequence, in absolute value, are Fibonacci numbers.",
+    "mathematical_area": "Combinatorics / Number Theory",
+    "problem_tag": "Linear recurrence Fibonacci absolute values"
+  },
+  "A113254": {
+    "conjecture_statement": "a(m, 2*n+1) is a perfect square for all m, n (see A113249).",
+    "mathematical_area": "Number Theory / Combinatorics",
+    "problem_tag": "Odd-indexed terms perfect squares"
+  },
+  "A175386": {
+    "conjecture_statement": "Sum_{i=1..n} (1/i)*C(2n-i-1, i-1) is not an integer for n > 1.",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Binomial sum non-integrality"
+  },
+  "A194806": {
+    "conjecture_statement": "Is a(n)/A000720(n) bounded as n tends to infinity? (The set S must contain 1 and all primes p <= n; all semiprimes <= n are then in S*S; thus a(n) >= A000720(n).)",
+    "mathematical_area": "Combinatorics / Number Theory",
+    "problem_tag": "Multiplicative covering set bound"
+  },
+  "A211417": {
+    "conjecture_statement": "7*a(n)/(2*n + 1), a(n)/(3*n + 1), a(n)/(5*n + 1) and 42*a(n)/((2*n + 1)*(3*n + 1)*(5*n + 1)) are integers for all n (checked up to n = 1000).",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Factorial ratio divisibility conjecture"
+  },
+  "A224515": {
+    "conjecture_statement": "Existence conjecture: For every n >= 0 there exists a least k >= 0 such that sqrt(k^2 XOR (k+1)^2) = 2n+1. (The second conjecture states this least k is also the only such k.)",
+    "mathematical_area": "Number Theory / Combinatorics",
+    "problem_tag": "XOR square root existence"
+  },
+  "A227582": {
+    "conjecture_statement": "a(n) = floor(1/(2*H(n) - H(n^2 + n - 1) - g)), where H denotes the harmonic number and g denotes the Euler-Mascheroni constant.",
+    "mathematical_area": "Analysis / Number Theory",
+    "problem_tag": "Harmonic number floor identity"
+  },
+  "A228143": {
+    "conjecture_statement": "If A(x) = 1 + 48*x + 161856*x^2 + ... denotes the o.g.f., then A(x/3)^(1/8) has integer coefficients.",
+    "mathematical_area": "Number Theory / Algebraic Combinatorics",
+    "problem_tag": "Hankel determinant generating function root"
+  },
+  "A237271": {
+    "conjecture_statement": "a(n) is the number of 2-dense sublists of divisors of n (maximal sublists of divisors of n whose terms increase by a factor of at most 2).",
+    "mathematical_area": "Number Theory / Combinatorics",
+    "problem_tag": "Symmetric sigma representation 2-dense"
+  },
+  "A243106": {
+    "conjecture_statement": "When expressed in base b, the absolute value of any partial sum Sum_{k=1..n} (-1)^isprime(k) * b^k only contains digits belonging to {0, 1, b-2, b-1}; here (for b=10) {0, 1, 8, 9}.",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Base-b digit set alternating sum"
+  },
+  "A248802_0": {
+    "conjecture_statement": "a(10*n + 2) = 67 for n >= 0.",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Smallest prime factor periodic"
+  },
+  "A248802_4": {
+    "conjecture_statement": "a(138*n + 6) = 1669 for n >= 0 and n not congruent to 2 mod 5.",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Smallest prime factor arithmetic progression"
+  },
+  "A256012": {
+    "conjecture_statement": "a(n) > 0 for n > 23.",
+    "mathematical_area": "Combinatorics / Number Theory",
+    "problem_tag": "Non-squarefree partitions positivity"
+  },
+  "A258667": {
+    "conjecture_statement": "a(n) ~ e^(-2) * n! / (n-2) * (1 + Sum_{k>=1} (-1)^k / (k! * (n-1)_k)), where (n)_k = n*(n-1)*...*(n-k+1).",
+    "mathematical_area": "Combinatorics / Asymptotic Analysis",
+    "problem_tag": "Menage variant asymptotic expansion"
+  },
+  "A267581": {
+    "conjecture_statement": "The positions of the 0-bits in the middle column of Rule 167 elementary cellular automaton are given by the sequence A000051 (i.e., 2^n + 1), implying the formula a(n) = 2*a(n-1) + 1 - floor((1/2)^((2^(n+1)) mod n)) with a(0)=1, a(1)=3.",
+    "mathematical_area": "Combinatorics / Computer Science",
+    "problem_tag": "Rule 167 cellular automaton middle column"
+  },
+  "A271591": {
+    "conjecture_statement": "After the first two 0's, the number of consecutive 0's in the sequence is only 4 or 5, and the number of consecutive 1's is only 3 or 4.",
+    "mathematical_area": "Number Theory / Combinatorics",
+    "problem_tag": "Tribonacci second MSB run lengths"
+  },
+  "A278070": {
+    "conjecture_statement": "a(n + k) == a(n) (mod k) for all n and k; equivalently, for each k, the sequence a(n) taken modulo k is periodic with period dividing k.",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Hypergeometric sequence modular periodicity"
+  },
+  "A282779": {
+    "conjecture_statement": "Let a_p(n) be the length of the period of the sequence k^p mod n where p is a prime; then a_p(n) = n/p if n == 0 (mod p^2), else a_p(n) = n.",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Period of prime power residues"
+  },
+  "A289411": {
+    "conjecture_statement": "For any k > 0, a(m_k - i) = a(m_k + i) for i = 0..m_k, where m_k = (10^k)/2 - 1; equivalently, sign(digitsum(5*(m_k - i)) - digitsum(m_k - i)) = -sign(digitsum(5*(m_k + i + 1)) - digitsum(m_k + i + 1)).",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Digital sum partial sums symmetry"
+  },
+  "A300997": {
+    "conjecture_statement": "The finite difference of the sequence a(n) (steps to stable configuration) only contains 1's and 2's; equivalently, a(n+1) - a(n) is always 1 or 2.",
+    "mathematical_area": "Combinatorics / Computer Science",
+    "problem_tag": "Cellular automaton step count differences"
+  },
+  "A306424": {
+    "conjecture_statement": "The sequence is finite, with 43 being the last term.",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Finite base-b two-digit numbers"
+  },
+  "A307865": {
+    "conjecture_statement": "If 2n+1 is an absolute Euler pseudoprime, then a(n) = 0.",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Euler pseudoprime base count"
+  },
+  "A309132": {
+    "conjecture_statement": "Composite numbers n such that a(n) is squarefree are only the Carmichael numbers (A002997).",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Carmichael numbers squarefree denominator"
+  },
+  "A323557": {
+    "conjecture_statement": "Odd terms occur only at positions n*(n+1) for n >= 0.",
+    "mathematical_area": "Combinatorics / Number Theory",
+    "problem_tag": "Generating function odd term positions"
+  },
+  "A325046": {
+    "conjecture_statement": "Odd terms occur only at positions n*(n+1) for n >= 0.",
+    "mathematical_area": "Combinatorics / Number Theory",
+    "problem_tag": "Generating function odd term positions"
+  },
+  "A340737": {
+    "conjecture_statement": "The sequence of fractions a(n)/A340738(n) converges to e.",
+    "mathematical_area": "Analysis / Number Theory",
+    "problem_tag": "Rational approximations convergence to e"
+  },
+  "A341254": {
+    "conjecture_statement": "1/4 < n*r^2 - a(n) < 3 for n >= 1, where r = (2 + sqrt(5))/2.",
+    "mathematical_area": "Number Theory / Analysis",
+    "problem_tag": "Beatty-type floor sequence error bounds"
+  },
+  "A363102": {
+    "conjecture_statement": "The sequence contains only 1's and primes.",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Continued fraction denominator primality"
+  },
+  "A363347": {
+    "conjecture_statement": "The sequence contains all prime numbers which end with a 1 or 9.",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Continued fraction primes ending digits"
+  },
+  "A368692": {
+    "conjecture_statement": "a(n) = (12*n+6)! * (6*n+9)! / (108 * (4*n+2)! * (2*n+3)! * ((6*n+5)!)^2) is an integer for all n >= 0.",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Factorial ratio integrality conjecture"
+  },
+  "A372761": {
+    "conjecture_statement": "Except for 3 and 5, all odd primes appear in the sequence exactly once.",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Continued fraction odd prime occurrences"
+  },
+  "A382590": {
+    "conjecture_statement": "For any k > 1, if you take the k-th prime factor of each term of the sequence, you get an eventually periodic sequence (and this holds even when the initial term a(1) is changed to any integer > 1).",
+    "mathematical_area": "Number Theory",
+    "problem_tag": "Recurrence prime factor eventual periodicity"
+  }
+}
