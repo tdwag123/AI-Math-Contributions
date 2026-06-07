@@ -1,0 +1,2047 @@
+﻿{
+  "schema_version": "1.1",
+  "description": "Dataset of mathematics problems solved with AI assistance (full solutions only)",
+  "entries": [
+    {
+      "id": "math_001",
+      "source": "Erdős Problems",
+      "source_problem_number": 38,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "Schnirelmann density basis",
+      "problem_statement": "Does there exist $B\\subset\\mathbb{N}$ which is not an additive basis, but is such that for every set $A\\subseteq\\mathbb{N}$ of Schnirelmann density $\\alpha$ and every $N$ there exists $b\\in B$ such that $\\lvert (A\\cup (A+b))\\cap \\{1,\\ldots,N\\}\\rvert\\geq (\\alpha+f(\\alpha))N$ where $f(\\alpha)>0$ for $0<\\alpha <1$?",
+      "date_solved": "2026-04-25",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/38",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_002",
+      "source": "Erdős Problems",
+      "source_problem_number": 90,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI internal model"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "unit distance pairs bound",
+      "problem_statement": "Does every set of $n$ distinct points in $\\mathbb{R}^2$ contain at most $n^{1+O(1/\\log\\log n)}$ many pairs which are distance 1 apart?",
+      "date_solved": "2026-05-20",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/90",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_003",
+      "source": "Erdős Problems",
+      "source_problem_number": 90,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Claude Mythos"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "unit distance pairs bound",
+      "problem_statement": "Does every set of $n$ distinct points in $\\mathbb{R}^2$ contain at most $n^{1+O(1/\\log\\log n)}$ many pairs which are distance 1 apart?",
+      "date_solved": "2026-05-26",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/90",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_004",
+      "source": "Erdős Problems",
+      "source_problem_number": 125,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "DeepMind prover agent"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "base 3 base 4 sumset",
+      "problem_statement": "Let $A = \\{ \\sum\\epsilon_k3^k : \\epsilon_k\\in \\{0,1\\}\\}$ be the set of integers which have only the digits $0,1$ when written base $3$, and $B=\\{ \\sum\\epsilon_k4^k : \\epsilon_k\\in \\{0,1\\}\\}$ be the set of integers which have only the digits $0,1$ when written base $4$. Does $A+B$ have positive lower density?",
+      "date_solved": "2026-03-30",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/125",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_005",
+      "source": "Erdős Problems",
+      "source_problem_number": 205,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle",
+        "GPT-5.2 Thinking"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "integers as power plus smooth",
+      "problem_statement": "Is it true that all sufficiently large $n$ can be written as $2^k+m$ for some $k\\geq 0$, where $\\Omega(m)<\\log\\log m$? (Here $\\Omega(m)$ is the number of prime divisors of $m$ counted with multiplicity.) What about $<\\epsilon \\log\\log m$? Or some more slowly growing function?",
+      "date_solved": "2026-01-10",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/205",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_006",
+      "source": "Erdős Problems",
+      "source_problem_number": 457,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aristotle",
+        "GPT-5.2 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "smooth numbers between primes",
+      "problem_statement": "Is there some $\\epsilon>0$ such that there are infinitely many $n$ where all primes $p\\leq (2+\\epsilon)\\log n$ divide $\\prod_{1\\leq i\\leq \\log n}(n+i)$?",
+      "date_solved": "2026-03-02",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/457",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_007",
+      "source": "Erdős Problems",
+      "source_problem_number": 694,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "Euler totient min max ratio",
+      "problem_statement": "Let $f_{\\max}(n)$ be the largest $m$ such that $\\phi(m)=n$, and $f_{\\min}(n)$ be the smallest such $m$, where $\\phi$ is Euler's totient function. Investigate $\\max_{n\\leq x}\\frac{f_{\\max}(n)}{f_{\\min}(n)}$ (where the maximum is restricted to those $n$ of the form $n=\\phi(m)$ for some $m$.)",
+      "date_solved": "2026-05-01",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/694",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_008",
+      "source": "Erdős Problems",
+      "source_problem_number": 741,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "DeepMind prover agent"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "dense sumset decomposition",
+      "problem_statement": "Let $A\\subseteq \\mathbb{N}$ be such that $A+A$ has positive (upper) density. Can one always decompose $A=A_1\\sqcup A_2$ such that $A_1+A_1$ and $A_2+A_2$ both have positive (upper) density? Is there a basis $A$ of order $2$ such that if $A=A_1\\sqcup A_2$ then $A_1+A_1$ and $A_2+A_2$ cannot both have bounded gaps?",
+      "date_solved": "2026-04-16",
+      "mathematical_area": "Additive Combinatorics",
+      "solution_reference": "https://www.erdosproblems.com/741",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_009",
+      "source": "Erdős Problems",
+      "source_problem_number": 960,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI internal model"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "ordinary lines independent set",
+      "problem_statement": "Let $r,k\\geq 2$ be fixed. Let $A\\subset \\mathbb{R}^2$ be a set of $n$ points with no $k$ points on a line. Determine the threshold $f_{r,k}(n)$ such that if there are at least $f_{r,k}(n)$ many ordinary lines (lines containing exactly two points) then there is a set $A'\\subseteq A$ of $r$ points such that all $\\binom{r}{2}$ many lines determined by $A'$ are ordinary. Is it true that $f_{r,k}(n)=o(n^2)$, or perhaps even $\\ll n$?",
+      "date_solved": "2026-04-09",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/960",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_010",
+      "source": "Erdős Problems",
+      "source_problem_number": 987,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI internal model"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "sequence limsup discrepancy",
+      "problem_statement": "Let $x_1,x_2,\\ldots \\in (0,1)$ be an infinite sequence and let $A_k=\\limsup_{n\\to \\infty}\\left\\lvert \\sum_{j\\leq n} e(kx_j)\\right\\rvert$, where $e(x)=e^{2\\pi ix}$. Is it true that $\\limsup_{k\\to \\infty} A_k=\\infty$? Is it possible for $A_k=o(k)$?",
+      "date_solved": "2026-04-09",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://www.erdosproblems.com/987",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_011",
+      "source": "Erdős Problems",
+      "source_problem_number": 990,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI internal model"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "polynomial roots argument distribution",
+      "problem_statement": "Let $f=a_0+\\cdots+a_dx^d\\in \\mathbb{C}[x]$ be a polynomial. Is it true that, if $f$ has roots $z_1,\\ldots,z_d$ with corresponding arguments $\\theta_1,\\ldots,\\theta_d\\in [0,2\\pi]$, then for all intervals $I\\subseteq [0,2\\pi]$ we have $\\left\\lvert (\\# \\theta_i \\in I) - \\frac{\\lvert I\\rvert}{2\\pi}d\\right\\rvert \\ll \\left(n\\log M\\right)^{1/2}$, where $n$ is the number of non-zero coefficients of $f$ and $M=\\frac{\\lvert a_0\\rvert+\\cdots +\\lvert a_d\\rvert}{(\\lvert a_0\\rvert\\lvert a_d\\rvert)^{1/2}}$?",
+      "date_solved": "2026-04-09",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://www.erdosproblems.com/990",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_012",
+      "source": "Erdős Problems",
+      "source_problem_number": 1014,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI internal model"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "Ramsey number ratio limit",
+      "problem_statement": "Let $R(k,l)$ be the Ramsey number, so the minimal $n$ such that every graph on at least $n$ vertices contains either a $K_k$ or an independent set on $l$ vertices. Prove, for fixed $k\\geq 3$, that $\\lim_{l\\to \\infty}\\frac{R(k,l+1)}{R(k,l)}=1$.",
+      "date_solved": "2026-04-23",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://www.erdosproblems.com/1014",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_013",
+      "source": "Erdős Problems",
+      "source_problem_number": 1051,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aletheia"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "series irrationality subsequence",
+      "problem_statement": "Is it true that if $1\\leq a_1<a_2<\\cdots$ is a sequence of integers with $\\liminf a_n^{1/2^n}>1$ then $\\sum_{n=1}^\\infty \\frac{1}{a_na_{n+1}}$ is irrational?",
+      "date_solved": "2026-01-29",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/1051",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_014",
+      "source": "Erdős Problems",
+      "source_problem_number": 1091,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI internal model"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "K4-free chromatic odd cycle",
+      "problem_statement": "Let $G$ be a $K_4$-free graph with chromatic number $4$. Must $G$ contain an odd cycle with at least two diagonals? More generally, is there some $f(r)\\to \\infty$ such that every graph with chromatic number $4$, in which every subgraph on $\\leq r$ vertices has chromatic number $\\leq 3$, contains an odd cycle with at least $f(r)$ diagonals?",
+      "date_solved": "2026-04-09",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://www.erdosproblems.com/1091",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_015",
+      "source": "Erdős Problems",
+      "source_problem_number": 1141,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI internal model"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "prime values quadratic minus square",
+      "problem_statement": "Are there infinitely many $n$ such that $n-k^2$ is prime for all $k$ with $(n,k)=1$ and $k^2<n$?",
+      "date_solved": "2026-04-09",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/1141",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_016",
+      "source": "Erdős Problems",
+      "source_problem_number": 1196,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "primitive set large elements",
+      "problem_statement": "Is it true that, for any $x$, if $A\\subset [x,\\infty)$ is a primitive set of integers (so that no distinct elements of $A$ divide each other) then $\\sum_{a\\in A}\\frac{1}{a\\log a}< 1+o(1)$, where the $o(1)$ term $\\to 0$ as $x\\to \\infty$?",
+      "date_solved": "2026-04-13",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/1196",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_017",
+      "source": "Erdős Problems",
+      "source_problem_number": 1202,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "primes congruence class covering",
+      "problem_statement": "Let $\\epsilon,\\eta>0$. Does there exist a $k$ such that, given any set of $k$ primes $p_1<\\cdots<p_k<n^{1-\\epsilon}$, each with a set $A_i$ of $\\frac{p_i-1}{2}$ many congruence classes modulo $p_i$, the number of $m\\leq n$ such that $m\\not\\in A_i\\pmod{p_i}$ for all $i$ is at most $\\epsilon n$?",
+      "date_solved": "2026-04-01",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/1202",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_018",
+      "source": "Erdős Problems",
+      "source_problem_number": 1217,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "divisibility chain logarithmic density",
+      "problem_statement": "Let $A=\\{a_1<a_2<\\cdots\\}$ be an infinite sequence of positive integers with positive lower logarithmic density. Must there exist a sequence $n_1<\\cdots$ such that $a_{n_i}\\mid a_{n_{i+1}}$ for all $i\\geq 1$ and $\\limsup_{x\\to \\infty}\\frac{1}{\\log\\log x}\\sum_{a_{n_i}<x}1 \\geq \\limsup_{x\\to \\infty} \\frac{1}{\\log\\log x}\\sum_{a_n<x}\\frac{1}{a_n\\log a_n}$?",
+      "date_solved": "2026-04-16",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/1217",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_019",
+      "source": "Erdős Problems",
+      "source_problem_number": 152,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "DeepMind prover agent"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "Sidon sumset isolated elements",
+      "problem_statement": "For any $M\\geq 1$, if $A\\subset \\mathbb{N}$ is a sufficiently large finite Sidon set then there are at least $M$ many $a\\in A+A$ such that $a+1,a-1\\not\\in A+A$.",
+      "date_solved": "2026-04-03",
+      "mathematical_area": "Additive Combinatorics",
+      "solution_reference": "https://www.erdosproblems.com/152",
+      "verification_status": "Lean verified",
+      "literature": "Erdős, Sárközy, and Sós (1994)",
+      "literature_found_on": "2026-04-03",
+      "literature_similar": true
+    },
+    {
+      "id": "math_020",
+      "source": "Erdős Problems",
+      "source_problem_number": 281,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "GPT-5.2 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "covering congruences density",
+      "problem_statement": "Let $n_1<n_2<\\cdots$ be an infinite sequence such that, for any choice of congruence classes $a_i\\pmod{n_i}$, the set of integers not satisfying any of the congruences $a_i\\pmod{n_i}$ has density $0$. Is it true that for every $\\epsilon>0$ there exists some $k$ such that, for every choice of congruence classes $a_i$, the density of integers not satisfying any of the congruences $a_i\\pmod{n_i}$ for $1\\leq i\\leq k$ is less than $\\epsilon$?",
+      "date_solved": "2026-01-17",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/281",
+      "verification_status": "Verified",
+      "literature": "Davenport and Erdős (1936) + Rogers (in Halberstam-Roth (1966))",
+      "literature_found_on": "2026-01-18",
+      "literature_similar": false
+    },
+    {
+      "id": "math_021",
+      "source": "Erdős Problems",
+      "source_problem_number": 333,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "Claude Opus 4.5",
+        "GPT-5.2 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "density zero sumset cover",
+      "problem_statement": "Let $A\\subseteq \\mathbb{N}$ be a set of density zero. Does there exist a $B$ such that $A\\subseteq B+B$ and $\\lvert B\\cap \\{1,\\ldots,N\\}\\rvert =o(N^{1/2})$ for all large $N$?",
+      "date_solved": "2025-12-25",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/333",
+      "verification_status": "Lean verified",
+      "literature": "Erdős and Newman (1977)",
+      "literature_found_on": "2025-12-25",
+      "literature_similar": true
+    },
+    {
+      "id": "math_022",
+      "source": "Erdős Problems",
+      "source_problem_number": 397,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "Aristotle",
+        "GPT-5.2 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "central binomial product equation",
+      "problem_statement": "Are there only finitely many solutions to $\\prod_i \\binom{2m_i}{m_i}=\\prod_j \\binom{2n_j}{n_j}$ with the $m_i,n_j$ distinct?",
+      "date_solved": "2026-01-10",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/397",
+      "verification_status": "Lean verified",
+      "literature": "China TST competition (2012)",
+      "literature_found_on": "2026-01-14",
+      "literature_similar": true
+    },
+    {
+      "id": "math_023",
+      "source": "Erdős Problems",
+      "source_problem_number": 397,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "Aletheia"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "central binomial product equation",
+      "problem_statement": "Are there only finitely many solutions to $\\prod_i \\binom{2m_i}{m_i}=\\prod_j \\binom{2n_j}{n_j}$ with the $m_i,n_j$ distinct?",
+      "date_solved": "2026-02-02",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/397",
+      "verification_status": "Verified",
+      "literature": "China TST competition (2012)",
+      "literature_found_on": "2026-02-02",
+      "literature_similar": true
+    },
+    {
+      "id": "math_024",
+      "source": "Erdős Problems",
+      "source_problem_number": 543,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "GPT-5.2 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "abelian group random generators",
+      "problem_statement": "Define $f(N)$ be the minimal $k$ such that the following holds: if $G$ is an abelian group of size $N$ and $A\\subseteq G$ is a random set of size $k$ then, with probability $\\geq 1/2$, all elements of $G$ can be written as $\\sum_{x\\in S}x$ for some $S\\subseteq A$. Is $f(N) \\leq \\log_2 N+o(\\log\\log N)$?",
+      "date_solved": "2026-01-21",
+      "mathematical_area": "Additive Combinatorics",
+      "solution_reference": "https://www.erdosproblems.com/543",
+      "verification_status": "Verified",
+      "literature": "Erdős and Hall (1977)",
+      "literature_found_on": "2026-01-26",
+      "literature_similar": true
+    },
+    {
+      "id": "math_025",
+      "source": "Erdős Problems",
+      "source_problem_number": 650,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (stronger than literature)",
+      "problem_tag": "set divisors interval count",
+      "problem_statement": "Let $f(m)$ be such that if $A\\subseteq \\{1,\\ldots,N\\}$ has $\\lvert A\\rvert=m$ then every interval in $[1,\\infty)$ of length $2N$ contains $\\geq f(m)$ many distinct integers $b_1,\\ldots,b_r$ where each $b_i$ is divisible by some $a_i\\in A$, where $a_1,\\ldots,a_r$ are distinct. Estimate $f(m)$. In particular is it true that $f(m)\\leq \\sqrt{m}$?",
+      "date_solved": "2026-03-06",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/650",
+      "verification_status": "Verified",
+      "literature": "Erdős and Selfridge (1978)",
+      "literature_found_on": "2026-03-07",
+      "literature_similar": false
+    },
+    {
+      "id": "math_026",
+      "source": "Erdős Problems",
+      "source_problem_number": 659,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "Aletheia"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "few distances no 3 collinear",
+      "problem_statement": "Is there a set of $n$ points in $\\mathbb{R}^2$ such that every subset of $4$ points determines at least $3$ distances, yet the total number of distinct distances is $\\ll \\frac{n}{\\sqrt{\\log n}}$?",
+      "date_solved": "2026-02-02",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/659",
+      "verification_status": "Verified",
+      "literature": "Sheffer and Lund (2014); Grayzel (2026)",
+      "literature_found_on": "2026-01-14; 2026-02-02",
+      "literature_similar": true
+    },
+    {
+      "id": "math_027",
+      "source": "Erdős Problems",
+      "source_problem_number": 728,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "Aristotle",
+        "GPT-5.2 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "factorial divisibility prime powers",
+      "problem_statement": "Let $C>0$ and $\\epsilon>0$ be sufficiently small. Are there infinitely many integers $a,b,n$ with $a\\geq \\epsilon n$ and $b\\geq \\epsilon n$ such that $a! b! \\mid n!(a+b-n)!$ and $a+b>n+C\\log n$?",
+      "date_solved": "2026-01-06",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/728",
+      "verification_status": "Lean verified",
+      "literature": "Pomerance (2014)",
+      "literature_found_on": "2026-01-05",
+      "literature_similar": true
+    },
+    {
+      "id": "math_028",
+      "source": "Erdős Problems",
+      "source_problem_number": 846,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "DeepMind prover agent"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "collinear points infinite set",
+      "problem_statement": "Let $A\\subset \\mathbb{R}^2$ be an infinite set for which there exists some $\\epsilon>0$ such that in any subset of $A$ of size $n$ there are always at least $\\epsilon n$ with no three on a line. Is it true that $A$ is the union of a finite number of sets where no three are on a line?",
+      "date_solved": "2026-02-21",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/846",
+      "verification_status": "Lean verified",
+      "literature": "Reiher, Rödl, and Sales (2024)",
+      "literature_found_on": "2026-02-25",
+      "literature_similar": false
+    },
+    {
+      "id": "math_029",
+      "source": "Erdős Problems",
+      "source_problem_number": 846,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "OpenAI internal model"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "collinear points infinite set",
+      "problem_statement": "Let $A\\subset \\mathbb{R}^2$ be an infinite set for which there exists some $\\epsilon>0$ such that in any subset of $A$ of size $n$ there are always at least $\\epsilon n$ with no three on a line. Is it true that $A$ is the union of a finite number of sets where no three are on a line?",
+      "date_solved": "2026-02-21",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/846",
+      "verification_status": "Verified",
+      "literature": "Reiher, Rödl, and Sales (2024)",
+      "literature_found_on": "2026-02-25",
+      "literature_similar": false
+    },
+    {
+      "id": "math_030",
+      "source": "Erdős Problems",
+      "source_problem_number": 851,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "GPT-5.2 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (building upon Romanoff (1934))",
+      "problem_tag": "integers as power plus smooth",
+      "problem_statement": "Let $\\epsilon>0$. Is there some $r\\ll_\\epsilon 1$ such that the density of integers of the form $2^k+n$, where $k\\geq 0$ and $n$ has at most $r$ prime divisors, is at least $1-\\epsilon$?",
+      "date_solved": "2026-02-05",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/851",
+      "verification_status": "Verified",
+      "literature": "Matthews (1982); Green and Sawhney (unpublished)",
+      "literature_found_on": "2026-02-06",
+      "literature_similar": true
+    },
+    {
+      "id": "math_031",
+      "source": "Erdős Problems",
+      "source_problem_number": 897,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "Archivara",
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "additive function consecutive limsup",
+      "problem_statement": "Let $f(n)$ be an additive function (so that $f(ab)=f(a)+f(b)$ if $(a,b)=1$) such that $\\limsup_{p,k}\\frac{f(p^k)}{\\log p^k}=\\infty$. Is it true that $\\limsup_n \\frac{f(n+1)-f(n)}{\\log n}=\\infty$? Or perhaps even $\\limsup_n \\frac{f(n+1)}{f(n)}=\\infty$?",
+      "date_solved": "2025-12-26",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/897",
+      "verification_status": "Lean verified",
+      "literature": "Wirsing (1981)",
+      "literature_found_on": "2025-12-26",
+      "literature_similar": true
+    },
+    {
+      "id": "math_032",
+      "source": "Erdős Problems",
+      "source_problem_number": 997,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "OpenAI internal model"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "sequence well-distributed primes",
+      "problem_statement": "Call $x_1,x_2,\\ldots \\in (0,1)$ well-distributed if, for every $\\epsilon>0$, if $k$ is sufficiently large then, for all $n>0$ and intervals $I\\subseteq [0,1]$, $\\lvert \\# \\{ n<m\\leq n+k : x_m\\in I\\} - \\lvert I\\rvert k\\rvert < \\epsilon k$. Is it true that, for every $\\alpha$, the sequence $\\{ \\alpha p_n\\}$ is not well-distributed, if $p_n$ is the sequence of primes?",
+      "date_solved": "2026-03-31",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://www.erdosproblems.com/997",
+      "verification_status": "Verified",
+      "literature": "Benatar (2014)",
+      "literature_found_on": "2026-04-01",
+      "literature_similar": true
+    },
+    {
+      "id": "math_033",
+      "source": "Erdős Problems",
+      "source_problem_number": 1026,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "monotone subsequence maximum sum",
+      "problem_statement": "Let $x_1,\\ldots,x_n$ be a sequence of distinct real numbers. Determine $\\max\\left(\\sum x_{i_r}\\right)$, where the maximum is taken over all monotonic subsequences.",
+      "date_solved": "2025-12-07",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://www.erdosproblems.com/1026",
+      "verification_status": "Lean verified",
+      "literature": "Tidor, Wang, and Yang (2016)",
+      "literature_found_on": "2025-12-08",
+      "literature_similar": false
+    },
+    {
+      "id": "math_034",
+      "source": "Erdős Problems",
+      "source_problem_number": 1089,
+      "level_of_contribution": "AI alongside literature",
+      "ai_systems": [
+        "Aletheia"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "points determining unit distances",
+      "problem_statement": "Let $g_d(n)$ be minimal such that every collection of $g_d(n)$ points in $\\mathbb{R}^d$ determines at least $n$ many distinct distances. Estimate $g_d(n)$. In particular, does $\\lim_{d\\to \\infty}\\frac{g_d(n)}{d^{n-1}}$ exist?",
+      "date_solved": "2026-02-01",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/1089",
+      "verification_status": "Verified",
+      "literature": "Bannai and Bannai (1981)",
+      "literature_found_on": "2026-02-01",
+      "literature_similar": true
+    },
+    {
+      "id": "math_035",
+      "source": "Erdős Problems",
+      "source_problem_number": 26,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "DeepMind prover agent"
+      ],
+      "humans": [],
+      "solution_status": "Solution to stronger problem",
+      "problem_tag": "divisors in shifted set",
+      "problem_statement": "Let $A\\subset\\mathbb{N}$ be infinite. Must there exist some $k\\geq 1$ such that almost all integers have a divisor of the form $a+k$ for some $a\\in A$?",
+      "date_solved": "2026-04-06",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/26",
+      "verification_status": "Verified",
+      "literature": "Ruzsa",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_036",
+      "source": "Erdős Problems",
+      "source_problem_number": 198,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "AlphaProof"
+      ],
+      "humans": [],
+      "solution_status": "New proof found",
+      "problem_tag": "Sidon set complement AP",
+      "problem_statement": "If $A\\subset \\mathbb{N}$ is a Sidon set then must the complement of $A$ contain an infinite arithmetic progression?",
+      "date_solved": "2025",
+      "mathematical_area": "Additive Combinatorics",
+      "solution_reference": "https://www.erdosproblems.com/198",
+      "verification_status": "Verified",
+      "literature": "Baumgartner (1975)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_037",
+      "source": "Erdős Problems",
+      "source_problem_number": 224,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Codex",
+        "GPT-5.2 Thinking"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "obtuse angle in point set",
+      "problem_statement": "If $A\\subseteq \\mathbb{R}^d$ is any set of $2^d+1$ points then some three points in $A$ determine an obtuse angle.",
+      "date_solved": "2026-01-14",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/224",
+      "verification_status": "Lean verified",
+      "literature": "Danzer and Grünbaum (1962)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_038",
+      "source": "Erdős Problems",
+      "source_problem_number": 258,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "divisor sum irrationality",
+      "problem_statement": "Let $a_1,a_2,\\ldots$ be a sequence of positive integers with $a_n\\to \\infty$. Is $\\sum_{n} \\frac{\\tau(n)}{a_1\\cdots a_n}$ irrational, where $\\tau(n)$ is the number of divisors of $n$?",
+      "date_solved": "2026-04-14",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/258",
+      "verification_status": "Verified",
+      "literature": "Tao and Teräväinen (2025)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_039",
+      "source": "Erdős Problems",
+      "source_problem_number": 379,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Seed Prover 1.5"
+      ],
+      "humans": [],
+      "solution_status": "New proof found",
+      "problem_tag": "binomial coefficient prime power",
+      "problem_statement": "Let $S(n)$ denote the largest integer such that, for all $1\\leq k<n$, the binomial coefficient $\\binom{n}{k}$ is divisible by $p^{S(n)}$ for some prime $p$ (depending on $k$). Is it true that $\\limsup S(n)=\\infty$?",
+      "date_solved": "2025-12-21",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/379",
+      "verification_status": "Verified",
+      "literature": "Cambie, Kovač, and Tao (2025)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_040",
+      "source": "Erdős Problems",
+      "source_problem_number": 493,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Aristotle",
+        "GPT",
+        "Seed Prover"
+      ],
+      "humans": [],
+      "solution_status": "New or existing proof found (Lean)",
+      "problem_tag": "product minus sum representation",
+      "problem_statement": "Does there exist a $k$ such that every sufficiently large integer can be written in the form $\\prod_{i=1}^k a_i - \\sum_{i=1}^k a_i$ for some integers $a_i\\geq 2$?",
+      "date_solved": "2025",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/493",
+      "verification_status": "Lean verified",
+      "literature": "Seamans (2025)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_041",
+      "source": "Erdős Problems",
+      "source_problem_number": 729,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Aristotle",
+        "GPT-5.2 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "factorial denominator smooth primes",
+      "problem_statement": "Let $C>0$ be a constant. Are there infinitely many integers $a,b,n$ with $a+b> n+C\\log n$ such that the denominator of $\\frac{n!}{a!b!}$ contains only primes $\\ll_C 1$?",
+      "date_solved": "2026-01-08",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/729",
+      "verification_status": "Lean verified",
+      "literature": "Aristotle, Barreto, and GPT-5.2 Pro (2026) (full solution to [728])",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_042",
+      "source": "Erdős Problems",
+      "source_problem_number": 848,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Gemini 3.1 Pro",
+        "GPT-5.2 Thinking",
+        "GPT-5.4 Thinking"
+      ],
+      "humans": [],
+      "solution_status": "Derived explicit bound",
+      "problem_tag": "product plus one squarefree restriction",
+      "problem_statement": "Is the maximum size of a set $A\\subseteq \\{1,\\ldots,N\\}$ such that $ab+1$ is never squarefree (for all $a,b\\in A$) achieved by taking those $n\\equiv 7\\pmod{25}$?",
+      "date_solved": "2026-03-05",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/848",
+      "verification_status": "Verified",
+      "literature": "Sawhney (2025)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_043",
+      "source": "Erdős Problems",
+      "source_problem_number": 871,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Claude Opus 4.5",
+        "Gemini 3 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Existing partial result upgraded to full solution (Lean)",
+      "problem_tag": "additive basis partition two bases",
+      "problem_statement": "Let $A$ be an additive basis of order $2$, and suppose $1_A\\ast 1_A(n)\\to \\infty$ as $n\\to \\infty$. Can $A$ be partitioned into two disjoint additive bases of order $2$?",
+      "date_solved": "2026-01-05",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/871",
+      "verification_status": "Lean verified",
+      "literature": "Erdős and Nathanson (1989)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_044",
+      "source": "Erdős Problems",
+      "source_problem_number": 958,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "equidistant points line or circle",
+      "problem_statement": "Let $A\\subset \\mathbb{R}^2$ be a finite set of size $n$, and let $\\{d_1,\\ldots,d_k\\}$ be the set of distances determined by $A$. Let $f(d)$ be the multiplicity of $d$. Is it true that $k=n-1$ and $\\{f(d_i)\\}=\\{n-1,\\ldots,1\\}$ if and only if $A$ is a set of equidistant points on a line or a circle?",
+      "date_solved": "2025-12-27",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/958",
+      "verification_status": "Lean verified",
+      "literature": "Clemen, Dumitrescu, and Liu (2025)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_045",
+      "source": "Erdős Problems",
+      "source_problem_number": 966,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "AP-free set Ramsey coloring",
+      "problem_statement": "Let $k,r\\geq 2$. Does there exist a set $A\\subseteq \\mathbb{N}$ that contains no non-trivial arithmetic progression of length $k+1$, yet in any $r$-colouring of $A$ there must exist a monochromatic non-trivial arithmetic progression of length $k$?",
+      "date_solved": "2026-02-25",
+      "mathematical_area": "Additive Combinatorics",
+      "solution_reference": "https://www.erdosproblems.com/966",
+      "verification_status": "Lean verified",
+      "literature": "Spencer (unpublished)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_046",
+      "source": "Erdős Problems",
+      "source_problem_number": 1007,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "graph unit distance dimension 4",
+      "problem_statement": "The dimension of a graph $G$ is the minimal $n$ such that $G$ can be embedded in $\\mathbb{R}^n$ such that every edge of $G$ is a unit line segment. What is the smallest number of edges in a graph with dimension $4$?",
+      "date_solved": "2026-01-19",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://www.erdosproblems.com/1007",
+      "verification_status": "Lean verified",
+      "literature": "House (2013); Chaffee and Noble (2016)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_047",
+      "source": "Erdős Problems",
+      "source_problem_number": 1043,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "polynomial lemniscate projection bound",
+      "problem_statement": "Let $f\\in \\mathbb{C}[x]$ be a monic non-constant polynomial. Must there exist a straight line $\\ell$ such that the projection of $\\{ z: \\lvert f(z)\\rvert\\leq 1\\}$ onto $\\ell$ has measure at most $2$?",
+      "date_solved": "2025-12-28",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://www.erdosproblems.com/1043",
+      "verification_status": "Lean verified",
+      "literature": "Pommerenke (1961)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_048",
+      "source": "Erdős Problems",
+      "source_problem_number": 1043,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "GPT"
+      ],
+      "humans": [],
+      "solution_status": "New proof found",
+      "problem_tag": "polynomial lemniscate projection bound",
+      "problem_statement": "Let $f\\in \\mathbb{C}[x]$ be a monic non-constant polynomial. Must there exist a straight line $\\ell$ such that the projection of $\\{ z: \\lvert f(z)\\rvert\\leq 1\\}$ onto $\\ell$ has measure at most $2$?",
+      "date_solved": "2025-12-30",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://www.erdosproblems.com/1043",
+      "verification_status": "Verified",
+      "literature": "Pommerenke (1961); Aristotle",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_049",
+      "source": "Erdős Problems",
+      "source_problem_number": 1047,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "polynomial sublevel set convexity",
+      "problem_statement": "Let $f\\in \\mathbb{C}[x]$ be a monic polynomial with $m$ distinct roots, and let $c>0$ be a constant small enough such that $\\{ z: \\lvert f(z)\\rvert\\leq c\\}$ has $m$ distinct connected components. Must all these components be convex?",
+      "date_solved": "2026-01-21",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://www.erdosproblems.com/1047",
+      "verification_status": "Lean verified",
+      "literature": "Goodman (1966)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_050",
+      "source": "Erdős Problems",
+      "source_problem_number": 1048,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [],
+      "solution_status": "Proof found (Lean)",
+      "problem_tag": "polynomial sublevel set diameter",
+      "problem_statement": "If $f\\in \\mathbb{C}[x]$ is a monic polynomial with all roots satisfying $\\lvert z\\rvert \\leq r$ for some $r<2$, then must $\\{ z: \\lvert f(z)\\rvert <1\\}$ have a connected component with diameter $>2-r$?",
+      "date_solved": "2026-01-28",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://www.erdosproblems.com/1048",
+      "verification_status": "Lean verified",
+      "literature": "Pommerenke (1961)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_051",
+      "source": "Erdős Problems",
+      "source_problem_number": 1090,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Aristotle",
+        "Gemini 3 Flash"
+      ],
+      "humans": [],
+      "solution_status": "Proof found (Lean)",
+      "problem_tag": "monochromatic collinear points Ramsey",
+      "problem_statement": "Let $k\\geq 3$. Does there exist a finite set $A\\subset \\mathbb{R}^2$ such that, in any $2$-colouring of $A$, there exists a line which contains at least $k$ points from $A$, and all the points of $A$ on the line have the same colour?",
+      "date_solved": "2026-02-27",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/1090",
+      "verification_status": "Lean verified",
+      "literature": "Graham and Selfridge (unpublished, ~1975)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_052",
+      "source": "Erdős Problems",
+      "source_problem_number": 1197,
+      "level_of_contribution": "AI building on literature",
+      "ai_systems": [
+        "Aristotle",
+        "GPT-5.4 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "measure set ratio density",
+      "problem_statement": "Let $E\\subset (0,\\infty)$ be a set of positive measure. Is it true that, for almost all $x>0$, for all sufficiently large (depending on $x$) integers $n$ there exists an integer $r\\geq 1$ such that $nx\\in r\\cdot E$?",
+      "date_solved": "2026-04-13",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://www.erdosproblems.com/1197",
+      "verification_status": "Lean verified",
+      "literature": "Buczolich and Mauldin (1999)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_053",
+      "source": "Erdős Problems",
+      "source_problem_number": 42,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Harjas Sandhu"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "disjoint Sidon difference sets",
+      "problem_statement": "Let $M\\geq 1$ and $N$ be sufficiently large in terms of $M$. Is it true that for every Sidon set $A\\subset \\{1,\\ldots,N\\}$ there is another Sidon set $B\\subset \\{1,\\ldots,N\\}$ of size $M$ such that $(A-A)\\cap(B-B)=\\{0\\}$?",
+      "date_solved": "2026-04-27",
+      "mathematical_area": "Additive Combinatorics",
+      "solution_reference": "https://www.erdosproblems.com/42",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_054",
+      "source": "Erdős Problems",
+      "source_problem_number": 90,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Ingo Althöfer",
+        "Paata Ivanisvili",
+        "Tomasz Kania",
+        "leloy",
+        "mlewko",
+        "Eric Naslund",
+        "norxornor",
+        "Will Sawin",
+        "Carl Schildkraut",
+        "spiderduckpig",
+        "Tseng"
+      ],
+      "solution_status": "Improved explicit bound",
+      "problem_tag": "unit distance pairs bound",
+      "problem_statement": "Does every set of $n$ distinct points in $\\mathbb{R}^2$ contain at most $n^{1+O(1/\\log\\log n)}$ many pairs which are distance 1 apart?",
+      "date_solved": "2026-05-21",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/90",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_055",
+      "source": "Erdős Problems",
+      "source_problem_number": 202,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [
+        "Boon Suan Ho"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "disjoint congruence classes count",
+      "problem_statement": "Let $n_1<\\cdots < n_r\\leq N$ with associated $a_i\\pmod{n_i}$ such that the congruence classes are disjoint (that is, every integer is $\\equiv a_i\\pmod{n_i}$ for at most one $1\\leq i\\leq r$). How large can $r$ be in terms of $N$?",
+      "date_solved": "2026-04-23",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/202",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_056",
+      "source": "Erdős Problems",
+      "source_problem_number": 283,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Kevin Barreto",
+        "Liam Price"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "polynomial unit fraction sums",
+      "problem_statement": "Let $p:\\mathbb{Z}\\to \\mathbb{Z}$ be a polynomial whose leading coefficient is positive and such that there exists no $d\\geq 2$ with $d\\mid p(n)$ for all $n\\geq 1$. Is it true that, for all sufficiently large $m$, there exist integers $1\\leq n_1<\\cdots <n_k$ such that $1=\\frac{1}{n_1}+\\cdots+\\frac{1}{n_k}$ and $m=p(n_1)+\\cdots+p(n_k)$?",
+      "date_solved": "2026-05-03",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/283",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_057",
+      "source": "Erdős Problems",
+      "source_problem_number": 326,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5"
+      ],
+      "humans": [
+        "Aron Bhalla"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "minimal basis quadratic growth",
+      "problem_statement": "Does there exist $A=\\{a_1<a_2<\\cdots\\}\\subset \\mathbb{N}$ which is a minimal basis of order $2$ (i.e. every large integer is the sum of $2$ elements from $A$, and no proper subset of $A$ has this property), such that $\\lim_{k\\to \\infty}\\frac{a_k}{k^2}=c$ for some $c\\neq 0$?",
+      "date_solved": "2026-05-20",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/326",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_058",
+      "source": "Erdős Problems",
+      "source_problem_number": 330,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "David Turturean"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "minimal basis positive density",
+      "problem_statement": "Does there exist a minimal basis with positive density, say $A\\subset\\mathbb{N}$, such that for any $n\\in A$ the (upper) density of integers which cannot be represented without using $n$ is positive?",
+      "date_solved": "2026-04-24",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/330",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_059",
+      "source": "Erdős Problems",
+      "source_problem_number": 347,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle",
+        "Claude Opus",
+        "Codex",
+        "GPT"
+      ],
+      "humans": [
+        "Enrique Barschkis",
+        "Wouter van Doorn",
+        "jbbaehr22",
+        "Bartosz Naskrecki",
+        "Terence Tao"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "complete sequence doubling ratio",
+      "problem_statement": "Is there a sequence $A=\\{a_1\\leq a_2\\leq \\cdots\\}$ of integers with $\\lim \\frac{a_{n+1}}{a_n}=2$ such that $P(A')= \\left\\{\\sum_{n\\in B}n : B\\subseteq A'\\textrm{ finite }\\right\\}$ has density $1$ for every cofinite subsequence $A'$ of $A$?",
+      "date_solved": "2026-02-04",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/347",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_060",
+      "source": "Erdős Problems",
+      "source_problem_number": 351,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Kevin Barreto",
+        "Liam Price"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "polynomial strongly complete sequence",
+      "problem_statement": "Let $p(x)\\in \\mathbb{Q}[x]$ with positive leading coefficient. Is it true that $A=\\{ p(n)+1/n : n\\in \\mathbb{N}\\}$ is strongly complete, in the sense that, for any finite set $B$, $\\left\\{\\sum_{n\\in X}n : X\\subseteq A\\backslash B\\textrm{ finite }\\right\\}$ contains all sufficiently large integers?",
+      "date_solved": "2026-05-03",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/351",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_061",
+      "source": "Erdős Problems",
+      "source_problem_number": 369,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT"
+      ],
+      "humans": [
+        "Sky Yang"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "consecutive smooth integers",
+      "problem_statement": "Let $\\epsilon>0$ and $k\\geq 2$. Is it true that, for all sufficiently large $n$, there is a sequence of $k$ consecutive integers in $\\{1,\\ldots,n\\}$ all of which are $n^\\epsilon$-smooth?",
+      "date_solved": "2026-03-26",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/369",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_062",
+      "source": "Erdős Problems",
+      "source_problem_number": 380,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [
+        "Terence Tao"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "greatest prime factor bad intervals",
+      "problem_statement": "We call an interval $[u,v]$ 'bad' if the greatest prime factor of $\\prod_{u\\leq m\\leq v}m$ occurs with an exponent greater than $1$. Let $B(x)$ count the number of $n\\leq x$ which are contained in at least one bad interval. Is it true that $B(x)\\sim \\#\\{ n\\leq x: P(n)^2\\mid n\\}$, where $P(n)$ is the largest prime factor of $n$?",
+      "date_solved": "2026-03-31",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/380",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_063",
+      "source": "Erdős Problems",
+      "source_problem_number": 401,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle",
+        "GPT-5.2 Pro"
+      ],
+      "humans": [
+        "Boris Alexeev",
+        "Kevin Barreto",
+        "Liam Price",
+        "Nat Sothanaphan"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "factorial divisors sum bound",
+      "problem_statement": "Is there some function $f(r)$ such that $f(r)\\to \\infty$ as $r\\to\\infty$, such that, for infinitely many $n$, there exist $a_1,a_2$ with $a_1+a_2> n+f(r)\\log n$ such that $a_1!a_2! \\mid n!2^n3^n\\cdots p_r^n$?",
+      "date_solved": "2026-01-10",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/401",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_064",
+      "source": "Erdős Problems",
+      "source_problem_number": 603,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [
+        "Przemek Chojecki"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "set system chromatic coloring",
+      "problem_statement": "Let $(A_i)$ be a family of countably infinite sets such that $\\lvert A_i\\cap A_j\\rvert \\neq 2$ for all $i\\neq j$. Find the smallest cardinal $C$ such that $\\cup A_i$ can always be coloured with at most $C$ colours so that no $A_i$ is monochromatic.",
+      "date_solved": "2026-04-21",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://www.erdosproblems.com/603",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_065",
+      "source": "Erdős Problems",
+      "source_problem_number": 610,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle",
+        "GPT-5.4 Pro"
+      ],
+      "humans": [
+        "Przemek Chojecki"
+      ],
+      "solution_status": "Full solution (Lean) (implicit in literature)",
+      "problem_tag": "clique transversal number bound",
+      "problem_statement": "For a graph $G$ let $\\tau(G)$ denote the minimal number of vertices that include at least one from each maximal clique of $G$ (aside from isolated vertices). Is it true that if $G$ has $n$ vertices then $\\tau(G) \\leq n-\\omega(n)\\sqrt{n}$ for some $\\omega(n)\\to \\infty$, or even $\\tau(G) \\leq n-c\\sqrt{n\\log n}$ for some absolute constant $c>0$?",
+      "date_solved": "2026-04-21",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://www.erdosproblems.com/610",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_066",
+      "source": "Erdős Problems",
+      "source_problem_number": 659,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Gemini 3"
+      ],
+      "humans": [
+        "Benjamin Grayzel"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "few distances no 3 collinear",
+      "problem_statement": "Is there a set of $n$ points in $\\mathbb{R}^2$ such that every subset of $4$ points determines at least $3$ distances, yet the total number of distinct distances is $\\ll \\frac{n}{\\sqrt{\\log n}}$?",
+      "date_solved": "2026-01-13",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/659",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_067",
+      "source": "Erdős Problems",
+      "source_problem_number": 690,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Multiscalar Fields System"
+      ],
+      "humans": [
+        "Davide Crapis",
+        "Shouqiao Wang"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "kth prime factor density unimodal",
+      "problem_statement": "Let $d_k(p)$ be the density of those integers whose $k$th smallest prime factor is $p$. For fixed $k\\geq 1$ is $d_k(p)$ unimodular in $p$? That is, it first increases in $p$ until its maximum then decreases.",
+      "date_solved": "2026-05-08",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/690",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_068",
+      "source": "Erdős Problems",
+      "source_problem_number": 696,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle",
+        "Claude Code",
+        "Claude Opus 4.7",
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Jake Mallen",
+        "David Turturean"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "prime chain congruence divisors",
+      "problem_statement": "Let $h(n)$ be the largest $\\ell$ such that there is a sequence of primes $p_1<\\cdots < p_\\ell$ all dividing $n$ with $p_{i+1}\\equiv 1\\pmod{p_i}$. Let $H(n)$ be the largest $u$ such that there is a sequence of integers $d_1<\\cdots < d_u$ all dividing $n$ with $d_{i+1}\\equiv 1\\pmod{d_i}$. Estimate $h(n)$ and $H(n)$. Is it true that $H(n)/h(n)\\to \\infty$ for almost all $n$?",
+      "date_solved": "2026-04-26",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/696",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_069",
+      "source": "Erdős Problems",
+      "source_problem_number": 750,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Przemek Chojecki"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "chromatic number large independent sets",
+      "problem_statement": "Let $f(m)$ be some function such that $f(m)\\to \\infty$ as $m\\to \\infty$. Does there exist a graph $G$ of infinite chromatic number such that every subgraph on $m$ vertices contains an independent set of size at least $\\frac{m}{2}-f(m)$?",
+      "date_solved": "2026-05-03",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://www.erdosproblems.com/750",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_070",
+      "source": "Erdős Problems",
+      "source_problem_number": 848,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5"
+      ],
+      "humans": [
+        "Mehtaab Sawhney",
+        "Mark Sellke"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "product plus one squarefree restriction",
+      "problem_statement": "Is the maximum size of a set $A\\subseteq \\{1,\\ldots,N\\}$ such that $ab+1$ is never squarefree (for all $a,b\\in A$) achieved by taking those $n\\equiv 7\\pmod{25}$?",
+      "date_solved": "2025-10-12",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/848",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_071",
+      "source": "Erdős Problems",
+      "source_problem_number": 858,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [
+        "Przemek Chojecki"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "multiplicative Sidon logarithmic sum",
+      "problem_statement": "Let $A\\subseteq \\{1,\\ldots,N\\}$ be such that there is no solution to $at=b$ with $a,b\\in A$ and the smallest prime factor of $t$ is $>a$. Estimate the maximum of $\\frac{1}{\\log N}\\sum_{n\\in A}\\frac{1}{n}$.",
+      "date_solved": "2026-04-15",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/858",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_072",
+      "source": "Erdős Problems",
+      "source_problem_number": 863,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [
+        "Boon Suan Ho"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "B2r set density constant",
+      "problem_statement": "Let $r\\geq 2$ and let $A\\subseteq \\{1,\\ldots,N\\}$ be a set of maximal size such that there are at most $r$ solutions to $n=a+b$ with $a\\leq b$ for any $n$. Similarly, let $B\\subseteq \\{1,\\ldots,N\\}$ be a set of maximal size such that there are at most $r$ solutions to $n=a-b$ for any $n\\geq 1$. If $\\lvert A\\rvert\\sim c_rN^{1/2}$ and $\\lvert B\\rvert \\sim c_r'N^{1/2}$ then is it true that $c_r\\neq c_r'$ for $r\\geq 2$? Is it true that $c_r'<c_r$?",
+      "date_solved": "2026-04-22",
+      "mathematical_area": "Additive Combinatorics",
+      "solution_reference": "https://www.erdosproblems.com/863",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_073",
+      "source": "Erdős Problems",
+      "source_problem_number": 888,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle",
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Przemek Chojecki"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "multiplicative Sidon set size",
+      "problem_statement": "What is the size of the largest $A\\subseteq \\{1,\\ldots,n\\}$ such that if $a\\leq b\\leq c\\leq d\\in A$ are such that $abcd$ is a square then $ad=bc$?",
+      "date_solved": "2026-04-25",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/888",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_074",
+      "source": "Erdős Problems",
+      "source_problem_number": 896,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Przemek Chojecki"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "unique product representation count",
+      "problem_statement": "Estimate the maximum of $F(A,B)$ as $A,B$ range over all subsets of $\\{1,\\ldots,N\\}$, where $F(A,B)$ counts the number of $m$ such that $m=ab$ has exactly one solution (with $a\\in A$ and $b\\in B$).",
+      "date_solved": "2026-04-26",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/896",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_075",
+      "source": "Erdős Problems",
+      "source_problem_number": 953,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Przemek Chojecki"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "no integer distances measurable set",
+      "problem_statement": "Let $A\\subset \\{ x\\in \\mathbb{R}^2 : \\lvert x\\rvert <r\\}$ be a measurable set with no integer distances, that is, such that $\\lvert a-b\\rvert \\not\\in \\mathbb{Z}$ for any distinct $a,b\\in A$. How large can the measure of $A$ be?",
+      "date_solved": "2026-04-27",
+      "mathematical_area": "Geometry",
+      "solution_reference": "https://www.erdosproblems.com/953",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_076",
+      "source": "Erdős Problems",
+      "source_problem_number": 996,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [
+        "Boon Suan Ho"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "lacunary sequence Fourier convergence",
+      "problem_statement": "Let $n_1<n_2<\\cdots$ be a lacunary sequence of integers, and let $f\\in L^2([0,1])$. Is there an absolute constant $C>0$ such that, if $\\| f-f_n\\|_2 \\ll \\frac{1}{(\\log\\log\\log n)^{C}}$ then $\\lim_{N\\to\\infty}\\frac{1}{N}\\sum_{k\\leq N}f(\\{\\alpha n_k\\})=\\int_0^1 f(x)\\mathrm{d}x$ for almost every $\\alpha$?",
+      "date_solved": "2026-04-21",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://www.erdosproblems.com/996",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_077",
+      "source": "Erdős Problems",
+      "source_problem_number": 1092,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Przemek Chojecki"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "local chromatic number linear bound",
+      "problem_statement": "Let $f_r(n)$ be maximal such that, if a graph $G$ has the property that every subgraph $H$ on $m$ vertices is the union of a graph with chromatic number $\\leq r$ and a graph with $\\leq f_r(m)$ edges, then $G$ has chromatic number $\\leq r+1$. Is it true that $f_2(n) \\gg n$? More generally, is $f_r(n)\\gg_r n$?",
+      "date_solved": "2026-04-28",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://www.erdosproblems.com/1092",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_078",
+      "source": "Erdős Problems",
+      "source_problem_number": 1138,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro",
+        "GPT-5.5 Thinking"
+      ],
+      "humans": [
+        "Kireet Cheri",
+        "Sourish Kumrawat",
+        "Hrishi Sunder"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "prime gap ergodic distribution",
+      "problem_statement": "Let $x/2<y<x$ and $C>1$. If $d=\\max_{p_n<x} (p_{n+1}-p_n)$, where $p_n$ denotes the $n$th prime, then is it true that $\\pi(y+Cd)-\\pi(y)\\sim\\frac{Cd}{\\log y}$?",
+      "date_solved": "2026-04-25",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/1138",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_079",
+      "source": "Erdős Problems",
+      "source_problem_number": 1148,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Gemini 3 Pro",
+        "Gemini 3.1 Pro",
+        "GPT-5.2 Pro",
+        "GPT-5.2 Thinking",
+        "GPT-5.4 Pro"
+      ],
+      "humans": [
+        "Ingo Althöfer",
+        "Przemek Chojecki",
+        "Wouter van Doorn"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "integers as sum of two squares minus square",
+      "problem_statement": "Can every large integer $n$ be written as $n=x^2+y^2-z^2$ with $\\max(x^2,y^2,z^2)\\leq n$?",
+      "date_solved": "2026-01-24",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/1148",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_080",
+      "source": "Erdős Problems",
+      "source_problem_number": 1148,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Ingo Althöfer",
+        "Przemek Chojecki"
+      ],
+      "solution_status": "Solution to stronger problem",
+      "problem_tag": "integers as sum of two squares minus square",
+      "problem_statement": "Can every large integer $n$ be written as $n=x^2+y^2-z^2$ with $\\max(x^2,y^2,z^2)\\leq n$?",
+      "date_solved": "2026-05-19",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/1148",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_081",
+      "source": "Erdős Problems",
+      "source_problem_number": 1151,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Przemek Chojecki"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "Lagrange interpolation limit points",
+      "problem_statement": "Given $a_1,\\ldots,a_n\\in [-1,1]$ let $\\mathcal{L}^nf(x) = \\sum_{1\\leq i\\leq n}f(a_i)\\ell_i(x)$ be the unique polynomial of degree $n-1$ which agrees with $f$ on $a_i$ for $1\\leq i\\leq n$. Let $a_i$ be the set of Chebyshev nodes. Prove that, for any closed $A\\subseteq [-1,1]$, there exists a continuous function $f$ such that $A$ is the set of limit points of $\\mathcal{L}^nf(x)$.",
+      "date_solved": "2026-04-30",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://www.erdosproblems.com/1151",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_082",
+      "source": "Erdős Problems",
+      "source_problem_number": 1153,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "AlphaEvolve",
+        "Claude",
+        "Gemini Pro",
+        "GPT-5.2 Thinking",
+        "GPT-5.4 Pro"
+      ],
+      "humans": [
+        "Aron Bhalla",
+        "Nat Sothanaphan",
+        "Terence Tao"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "Lebesgue function interpolation nodes",
+      "problem_statement": "For $x_1,\\ldots,x_n\\in [-1,1]$ let $l_k(x)=\\frac{\\prod_{i\\neq k}(x-x_i)}{\\prod_{i\\neq k}(x_k-x_i)}$ and $\\lambda(x)=\\sum_k \\lvert l_k(x)\\rvert$. Is it true that, for any fixed $-1\\leq a< b\\leq 1$, $\\max_{x\\in [a,b]}\\lambda(x)> \\left(\\frac{2}{\\pi}-o(1)\\right)\\log n$?",
+      "date_solved": "2026-02-02",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://www.erdosproblems.com/1153",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_083",
+      "source": "Erdős Problems",
+      "source_problem_number": 1190,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [
+        "Boon Suan Ho"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "covering system sum bound",
+      "problem_statement": "Let $\\epsilon_m=\\max \\sum \\frac{1}{n_i}$ where the maximum is taken over all finite sequences $m<n_1<\\cdots<n_k$ for which there exist congruences $a_i\\pmod{n_i}$ such that no integer satisfies two such congruences. Estimate $\\epsilon_m$.",
+      "date_solved": "2026-04-23",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/1190",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_084",
+      "source": "Erdős Problems",
+      "source_problem_number": 1195,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.4 Pro"
+      ],
+      "humans": [
+        "Boon Suan Ho"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "ratio-free set infinite measure",
+      "problem_statement": "Let $S\\subset \\mathbb{R}$ be a set of infinite measure such that $x/y$ is never an integer for all distinct $x,y\\in S$. How fast can $\\lvert S\\cap (0,x)\\rvert$ tend to infinity?",
+      "date_solved": "2026-04-19",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://www.erdosproblems.com/1195",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_085",
+      "source": "Erdős Problems",
+      "source_problem_number": 1196,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.4 Thinking"
+      ],
+      "humans": [
+        "Nat Sothanaphan"
+      ],
+      "solution_status": "Full solution (stronger than literature)",
+      "problem_tag": "primitive set large elements",
+      "problem_statement": "Is it true that, for any $x$, if $A\\subset [x,\\infty)$ is a primitive set of integers (so that no distinct elements of $A$ divide each other) then $\\sum_{a\\in A}\\frac{1}{a\\log a}< 1+o(1)$, where the $o(1)$ term $\\to 0$ as $x\\to \\infty$?",
+      "date_solved": "2026-04-16",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://www.erdosproblems.com/1196",
+      "verification_status": "Verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_086",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "FunSearch (LLM-based program search)"
+      ],
+      "humans": [
+        "B. Romera-Paredes",
+        "M. Barekatain",
+        "A. Novikov",
+        "M. Balog",
+        "M. P. Kumar",
+        "E. Dupont",
+        "F. J. R. Ruiz",
+        "J. S. Ellenberg",
+        "P. Wang",
+        "O. Fawzi",
+        "P. Kohli",
+        "A. Fawzi"
+      ],
+      "solution_status": "New constructions / improved lower bounds",
+      "problem_tag": "cap set extremal combinatorics",
+      "problem_statement": "The cap set problem asks for the largest possible size of a subset $A \\subseteq \\mathbb{F}_3^n$ containing no non-trivial three-term arithmetic progression (that is, there are no distinct $x, y, z \\in A$ with $x + z = 2y$). Construct cap sets in $\\mathbb{F}_3^n$ whose sizes improve on the best previously known lower bounds, both for specific finite dimensions and in the asymptotic regime as $n \\to \\infty$.",
+      "date_solved": "2023-12-14",
+      "mathematical_area": "Extremal Combinatorics",
+      "solution_reference": "https://doi.org/10.1038/s41586-023-06924-6",
+      "verification_status": "Computer verified (systematic evaluator over generated programs)",
+      "literature": "Jordan S. Ellenberg and Dion Gijswijt, On large subsets of F_3^n with no three-term arithmetic progression, Ann. of Math. (2) 185 (2017), no. 1, 339–343.",
+      "literature_found_on": "2023-12-14",
+      "literature_similar": false
+    },
+    {
+      "id": "math_087",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": ["FunSearch (LLM-based program search)"],
+      "humans": ["B. Romera-Paredes", "M. Barekatain", "A. Novikov", "M. Balog", "M. P. Kumar", "E. Dupont", "F. J. R. Ruiz", "J. S. Ellenberg", "P. Wang", "O. Fawzi", "P. Kohli", "A. Fawzi"],
+      "solution_status": "Improved lower bounds (new constructions)",
+      "problem_tag": "corners problem grid sets",
+      "problem_statement": "The corners problem asks for the largest possible subset $S \\subseteq [N] \\times [N]$ containing no nontrivial corner, i.e., no triple of points $(x, y), (x+d, y), (x, y+d)$ with $d > 0$. Construct large corner-free sets that improve known lower bounds for specific values of $N$.",
+      "date_solved": "2023-12-14",
+      "mathematical_area": "Extremal Combinatorics",
+      "solution_reference": "https://doi.org/10.1038/s41586-023-06924-6",
+      "verification_status": "Computer verified (systematic evaluator over generated programs)",
+      "literature": "Ajtai and Szemerédi (1974)",
+      "literature_found_on": "2023-12-14",
+      "literature_similar": true
+    },
+    {
+      "id": "math_088",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": ["FunSearch (LLM-based program search)"],
+      "humans": ["B. Romera-Paredes", "M. Barekatain", "A. Novikov", "M. Balog", "M. P. Kumar", "E. Dupont", "F. J. R. Ruiz", "J. S. Ellenberg", "P. Wang", "O. Fawzi", "P. Kohli", "A. Fawzi"],
+      "solution_status": "Improved lower bounds (new constructions)",
+      "problem_tag": "Shannon capacity cycle graphs",
+      "problem_statement": "For a graph $G$, the Shannon capacity $\\Theta(G)$ measures the maximum rate of zero-error information transmission through a channel with confusability graph $G$. Determining $\\Theta(C_n)$ for odd cycle graphs $C_n$ with $n \\geq 7$ is a long-standing open problem. Construct large independent sets in strong powers $C_n^k$ to improve known lower bounds on $\\Theta(C_n)$.",
+      "date_solved": "2023-12-14",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://doi.org/10.1038/s41586-023-06924-6",
+      "verification_status": "Computer verified (systematic evaluator over generated programs)",
+      "literature": "Lovász (1979)",
+      "literature_found_on": "2023-12-14",
+      "literature_similar": true
+    },
+    {
+      "id": "math_089",
+      "source": "Erdős Problems",
+      "source_problem_number": 12,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": ["Aristotle"],
+      "humans": [],
+      "solution_status": "Full solution (parts i and ii) (Lean)",
+      "problem_tag": "divisibility-free set density",
+      "problem_statement": "Let $A$ be an infinite set of positive integers such that there are no distinct $a,b,c\\in A$ with $a\\mid (b+c)$ and $b,c>a$. (i) Is there such an $A$ with $\\liminf_{N\\to\\infty}\\frac{\\lvert A\\cap\\{1,\\ldots,N\\}\\rvert}{N^{1/2}}>0$? (ii) Does there exist an absolute constant $c>0$ such that any such $A$ satisfies $\\lvert A\\cap\\{1,\\ldots,N\\}\\rvert < N^{1-c}$ for infinitely many $N$?",
+      "date_solved": "2026",
+      "mathematical_area": "Additive Combinatorics",
+      "solution_reference": "https://arxiv.org/abs/2605.22763",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_090",
+      "source": "Erdős Problems",
+      "source_problem_number": 138,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": ["Aristotle"],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "Van der Waerden number growth",
+      "problem_statement": "Let $W(k)$ be the least $N$ such that any $2$-colouring of $\\{1,\\ldots,N\\}$ contains a monochromatic $k$-term arithmetic progression. Is it true that $W(k+1)-W(k)\\to\\infty$? Is it true that $W(k+1)/W(k)\\to\\infty$?",
+      "date_solved": "2026",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://arxiv.org/abs/2605.22763",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_091",
+      "source": "Green's Open Problems",
+      "source_problem_number": 57,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": ["Aristotle"],
+      "humans": [],
+      "solution_status": "Full solution (real-valued case); counterexample found (complex-valued case) (Lean)",
+      "problem_tag": "convolution function spaces abelian group",
+      "problem_statement": "Let $G$ be an abelian group. Let $\\Phi(G)$ be the space of functions on $G$ that are convex combinations of functions of the form $\\phi(g)=\\mathbb{E}_{x_1+x_2+x_3=g}f_1(x_2,x_3)f_2(x_1,x_3)f_3(x_1,x_2)$ with $\\|f_i\\|_\\infty\\leq 1$. Let $\\Phi'(G)$ be defined the same way but with $f_3(x_1,x_2)$ required to depend only on $x_1+x_2$. Do $\\Phi(G)$ and $\\Phi'(G)$ coincide?",
+      "date_solved": "2026",
+      "mathematical_area": "Additive Combinatorics",
+      "solution_reference": "https://arxiv.org/abs/2605.22763",
+      "verification_status": "Lean verified",
+      "literature": "Ben Green, 100 Open Problems (people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_092",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": ["Aristotle"],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "anchored GDA convergence rate",
+      "problem_statement": "Prove an exact $O(1/t)$ convergence rate for the Anchored Gradient Descent-Ascent (Anchored GDA) algorithm applied to min-max problems with convex-concave objectives, and determine the optimal learning schedule parameter achieving this rate.",
+      "date_solved": "2026",
+      "mathematical_area": "Optimization",
+      "solution_reference": "https://arxiv.org/abs/2605.22763",
+      "verification_status": "Lean verified",
+      "literature": "Ryu et al.",
+      "literature_found_on": null,
+      "literature_similar": false
+    },
+    {
+      "id": "math_093",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": ["Aristotle"],
+      "humans": [],
+      "solution_status": "Full solution (bipartite variant) (Lean)",
+      "problem_tag": "bipartite graph reconstruction conjecture",
+      "problem_statement": "The graph reconstruction conjecture asserts that every graph on $n\\geq 3$ vertices is uniquely determined (up to isomorphism) by its multiset of vertex-deleted subgraphs. Prove the bipartite variant of this conjecture.",
+      "date_solved": "2026",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://arxiv.org/abs/2605.22763",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_094",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": ["Aristotle"],
+      "humans": [],
+      "solution_status": "New proof found (Lean)",
+      "problem_tag": "maximum leaves spanning tree",
+      "problem_statement": "Prove the Graffiti conjecture (c. 1996) relating the maximum number of leaves in a spanning tree of a graph $G$ to the independence numbers of vertex neighbourhoods in $G$.",
+      "date_solved": "2026",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://arxiv.org/abs/2605.22763",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_095",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": ["Aristotle"],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "log-concavity pure O-sequences",
+      "problem_statement": "Prove that the Hilbert function of any pure $O$-sequence of codimension $3$ and type $2$ is log-concave, i.e., if $h_0, h_1, \\ldots, h_e$ is such a sequence then $h_i^2 \\geq h_{i-1}h_{i+1}$ for all $1\\leq i\\leq e-1$.",
+      "date_solved": "2026",
+      "mathematical_area": "Commutative Algebra",
+      "solution_reference": "https://arxiv.org/abs/2605.22763",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_096",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": ["Aristotle"],
+      "humans": [],
+      "solution_status": "Full solution for N=d∈{4,6,10} (Lean)",
+      "problem_tag": "monochromatic quantum graphs existence",
+      "problem_statement": "A quantum graph on $N$ vertices with $d$ colours is monochromatic if it admits a quantum $d$-colouring in which all vertices receive the same colour. Prove the existence of monochromatic quantum graphs for $N=d\\in\\{4,6,10\\}$.",
+      "date_solved": "2026",
+      "mathematical_area": "Quantum Information",
+      "solution_reference": "https://arxiv.org/abs/2605.22763",
+      "verification_status": "Lean verified",
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    }
+  ]
+}
