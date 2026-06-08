@@ -20,7 +20,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_002",
@@ -40,7 +41,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_003",
@@ -60,7 +62,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_004",
@@ -80,7 +83,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_005",
@@ -101,7 +105,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_006",
@@ -122,7 +127,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_007",
@@ -142,7 +148,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_008",
@@ -162,7 +169,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_009",
@@ -182,7 +190,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_010",
@@ -202,7 +211,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_011",
@@ -222,7 +232,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_012",
@@ -242,7 +253,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_013",
@@ -262,7 +274,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_014",
@@ -282,7 +295,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_015",
@@ -302,7 +316,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_016",
@@ -322,7 +337,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_017",
@@ -342,7 +358,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_018",
@@ -362,7 +379,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_019",
@@ -382,7 +400,8 @@
       "verification_status": "Lean verified",
       "literature": "Erdős, Sárközy, and Sós (1994)",
       "literature_found_on": "2026-04-03",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": true
     },
     {
       "id": "math_020",
@@ -402,7 +421,8 @@
       "verification_status": "Verified",
       "literature": "Davenport and Erdős (1936) + Rogers (in Halberstam-Roth (1966))",
       "literature_found_on": "2026-01-18",
-      "literature_similar": false
+      "literature_similar": false,
+      "was_conjecture": true
     },
     {
       "id": "math_021",
@@ -423,7 +443,8 @@
       "verification_status": "Lean verified",
       "literature": "Erdős and Newman (1977)",
       "literature_found_on": "2025-12-25",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": true
     },
     {
       "id": "math_022",
@@ -444,7 +465,8 @@
       "verification_status": "Lean verified",
       "literature": "China TST competition (2012)",
       "literature_found_on": "2026-01-14",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": true
     },
     {
       "id": "math_023",
@@ -464,7 +486,8 @@
       "verification_status": "Verified",
       "literature": "China TST competition (2012)",
       "literature_found_on": "2026-02-02",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": true
     },
     {
       "id": "math_024",
@@ -484,7 +507,8 @@
       "verification_status": "Verified",
       "literature": "Erdős and Hall (1977)",
       "literature_found_on": "2026-01-26",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": true
     },
     {
       "id": "math_025",
@@ -504,7 +528,8 @@
       "verification_status": "Verified",
       "literature": "Erdős and Selfridge (1978)",
       "literature_found_on": "2026-03-07",
-      "literature_similar": false
+      "literature_similar": false,
+      "was_conjecture": true
     },
     {
       "id": "math_026",
@@ -524,7 +549,8 @@
       "verification_status": "Verified",
       "literature": "Sheffer and Lund (2014); Grayzel (2026)",
       "literature_found_on": "2026-01-14; 2026-02-02",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": true
     },
     {
       "id": "math_027",
@@ -545,7 +571,8 @@
       "verification_status": "Lean verified",
       "literature": "Pomerance (2014)",
       "literature_found_on": "2026-01-05",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": true
     },
     {
       "id": "math_028",
@@ -565,7 +592,8 @@
       "verification_status": "Lean verified",
       "literature": "Reiher, Rödl, and Sales (2024)",
       "literature_found_on": "2026-02-25",
-      "literature_similar": false
+      "literature_similar": false,
+      "was_conjecture": true
     },
     {
       "id": "math_029",
@@ -585,7 +613,8 @@
       "verification_status": "Verified",
       "literature": "Reiher, Rödl, and Sales (2024)",
       "literature_found_on": "2026-02-25",
-      "literature_similar": false
+      "literature_similar": false,
+      "was_conjecture": true
     },
     {
       "id": "math_030",
@@ -605,7 +634,8 @@
       "verification_status": "Verified",
       "literature": "Matthews (1982); Green and Sawhney (unpublished)",
       "literature_found_on": "2026-02-06",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": true
     },
     {
       "id": "math_031",
@@ -626,7 +656,8 @@
       "verification_status": "Lean verified",
       "literature": "Wirsing (1981)",
       "literature_found_on": "2025-12-26",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": true
     },
     {
       "id": "math_032",
@@ -646,7 +677,8 @@
       "verification_status": "Verified",
       "literature": "Benatar (2014)",
       "literature_found_on": "2026-04-01",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": true
     },
     {
       "id": "math_033",
@@ -666,7 +698,8 @@
       "verification_status": "Lean verified",
       "literature": "Tidor, Wang, and Yang (2016)",
       "literature_found_on": "2025-12-08",
-      "literature_similar": false
+      "literature_similar": false,
+      "was_conjecture": true
     },
     {
       "id": "math_034",
@@ -686,7 +719,8 @@
       "verification_status": "Verified",
       "literature": "Bannai and Bannai (1981)",
       "literature_found_on": "2026-02-01",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": true
     },
     {
       "id": "math_035",
@@ -706,7 +740,8 @@
       "verification_status": "Verified",
       "literature": "Ruzsa",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_036",
@@ -726,7 +761,8 @@
       "verification_status": "Verified",
       "literature": "Baumgartner (1975)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_037",
@@ -747,7 +783,8 @@
       "verification_status": "Lean verified",
       "literature": "Danzer and Grünbaum (1962)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_038",
@@ -767,7 +804,8 @@
       "verification_status": "Verified",
       "literature": "Tao and Teräväinen (2025)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_039",
@@ -787,7 +825,8 @@
       "verification_status": "Verified",
       "literature": "Cambie, Kovač, and Tao (2025)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_040",
@@ -809,7 +848,8 @@
       "verification_status": "Lean verified",
       "literature": "Seamans (2025)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_041",
@@ -830,7 +870,8 @@
       "verification_status": "Lean verified",
       "literature": "Aristotle, Barreto, and GPT-5.2 Pro (2026) (full solution to [728])",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_042",
@@ -852,7 +893,8 @@
       "verification_status": "Verified",
       "literature": "Sawhney (2025)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_043",
@@ -873,7 +915,8 @@
       "verification_status": "Lean verified",
       "literature": "Erdős and Nathanson (1989)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_044",
@@ -893,7 +936,8 @@
       "verification_status": "Lean verified",
       "literature": "Clemen, Dumitrescu, and Liu (2025)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_045",
@@ -913,7 +957,8 @@
       "verification_status": "Lean verified",
       "literature": "Spencer (unpublished)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_046",
@@ -933,7 +978,8 @@
       "verification_status": "Lean verified",
       "literature": "House (2013); Chaffee and Noble (2016)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_047",
@@ -953,7 +999,8 @@
       "verification_status": "Lean verified",
       "literature": "Pommerenke (1961)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_048",
@@ -973,7 +1020,8 @@
       "verification_status": "Verified",
       "literature": "Pommerenke (1961); Aristotle",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_049",
@@ -993,7 +1041,8 @@
       "verification_status": "Lean verified",
       "literature": "Goodman (1966)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_050",
@@ -1013,7 +1062,8 @@
       "verification_status": "Lean verified",
       "literature": "Pommerenke (1961)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_051",
@@ -1034,7 +1084,8 @@
       "verification_status": "Lean verified",
       "literature": "Graham and Selfridge (unpublished, ~1975)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_052",
@@ -1055,7 +1106,8 @@
       "verification_status": "Lean verified",
       "literature": "Buczolich and Mauldin (1999)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_053",
@@ -1077,7 +1129,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_054",
@@ -1109,7 +1162,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_055",
@@ -1131,7 +1185,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_056",
@@ -1154,7 +1209,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_057",
@@ -1176,7 +1232,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_058",
@@ -1198,7 +1255,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_059",
@@ -1227,7 +1285,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_060",
@@ -1250,7 +1309,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_061",
@@ -1272,7 +1332,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_062",
@@ -1294,7 +1355,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_063",
@@ -1320,7 +1382,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_064",
@@ -1342,7 +1405,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_065",
@@ -1365,7 +1429,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_066",
@@ -1387,7 +1452,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_067",
@@ -1410,7 +1476,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_068",
@@ -1436,7 +1503,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_069",
@@ -1458,7 +1526,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_070",
@@ -1481,7 +1550,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_071",
@@ -1503,7 +1573,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_072",
@@ -1525,7 +1596,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_073",
@@ -1548,7 +1620,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_074",
@@ -1570,7 +1643,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_075",
@@ -1592,7 +1666,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_076",
@@ -1614,7 +1689,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_077",
@@ -1636,7 +1712,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_078",
@@ -1661,7 +1738,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_079",
@@ -1689,7 +1767,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_080",
@@ -1712,7 +1791,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_081",
@@ -1734,7 +1814,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_082",
@@ -1762,7 +1843,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_083",
@@ -1784,7 +1866,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_084",
@@ -1806,7 +1889,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_085",
@@ -1828,7 +1912,8 @@
       "verification_status": "Verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_086",
@@ -1861,7 +1946,8 @@
       "verification_status": "Computer verified (systematic evaluator over generated programs)",
       "literature": "Jordan S. Ellenberg and Dion Gijswijt, On large subsets of F_3^n with no three-term arithmetic progression, Ann. of Math. (2) 185 (2017), no. 1, 339–343.",
       "literature_found_on": "2023-12-14",
-      "literature_similar": false
+      "literature_similar": false,
+      "was_conjecture": false
     },
     {
       "id": "math_087",
@@ -1894,7 +1980,8 @@
       "verification_status": "Computer verified (systematic evaluator over generated programs)",
       "literature": "Ajtai and Szemerédi (1974)",
       "literature_found_on": "2023-12-14",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": false
     },
     {
       "id": "math_088",
@@ -1927,7 +2014,8 @@
       "verification_status": "Computer verified (systematic evaluator over generated programs)",
       "literature": "Lovász (1979)",
       "literature_found_on": "2023-12-14",
-      "literature_similar": true
+      "literature_similar": true,
+      "was_conjecture": false
     },
     {
       "id": "math_089",
@@ -1947,7 +2035,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_090",
@@ -1967,7 +2056,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_091",
@@ -1987,7 +2077,8 @@
       "verification_status": "Lean verified",
       "literature": "Ben Green, 100 Open Problems (people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_092",
@@ -2007,7 +2098,8 @@
       "verification_status": "Lean verified",
       "literature": "Ryu et al.",
       "literature_found_on": null,
-      "literature_similar": false
+      "literature_similar": false,
+      "was_conjecture": false
     },
     {
       "id": "math_093",
@@ -2027,7 +2119,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_094",
@@ -2047,7 +2140,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_095",
@@ -2067,7 +2161,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_096",
@@ -2087,7 +2182,8 @@
       "verification_status": "Lean verified",
       "literature": null,
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": null
     },
     {
       "id": "math_097",
@@ -2107,7 +2203,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A000108 (https://oeis.org/A000108)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_098",
@@ -2127,7 +2224,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A002897 (https://oeis.org/A002897)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_099",
@@ -2147,7 +2245,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A028859 (https://oeis.org/A028859)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_100",
@@ -2167,7 +2266,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A051293 (https://oeis.org/A051293)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_101",
@@ -2187,7 +2287,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A062567 (https://oeis.org/A062567)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_102",
@@ -2207,7 +2308,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A091669 (https://oeis.org/A091669)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_103",
@@ -2227,7 +2329,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A103311 (https://oeis.org/A103311)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_104",
@@ -2247,7 +2350,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A113254 (https://oeis.org/A113254)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_105",
@@ -2267,7 +2371,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A175386 (https://oeis.org/A175386)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_106",
@@ -2287,7 +2392,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A194806 (https://oeis.org/A194806)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_107",
@@ -2307,7 +2413,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A211417 (https://oeis.org/A211417)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_108",
@@ -2327,7 +2434,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A224515 (https://oeis.org/A224515)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_109",
@@ -2347,7 +2455,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A227582 (https://oeis.org/A227582)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_110",
@@ -2367,7 +2476,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A228143 (https://oeis.org/A228143)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_111",
@@ -2387,7 +2497,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A237271 (https://oeis.org/A237271)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_112",
@@ -2407,7 +2518,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A243106 (https://oeis.org/A243106)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_113",
@@ -2427,7 +2539,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A248802 (https://oeis.org/A248802)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_114",
@@ -2447,7 +2560,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A248802 (https://oeis.org/A248802)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_115",
@@ -2467,7 +2581,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A256012 (https://oeis.org/A256012)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_116",
@@ -2487,7 +2602,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A258667 (https://oeis.org/A258667)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_117",
@@ -2507,7 +2623,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A267581 (https://oeis.org/A267581)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_118",
@@ -2527,7 +2644,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A271591 (https://oeis.org/A271591)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_119",
@@ -2547,7 +2665,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A278070 (https://oeis.org/A278070)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_120",
@@ -2567,7 +2686,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A282779 (https://oeis.org/A282779)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_121",
@@ -2587,7 +2707,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A289411 (https://oeis.org/A289411)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_122",
@@ -2607,7 +2728,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A300997 (https://oeis.org/A300997)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_123",
@@ -2627,7 +2749,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A306424 (https://oeis.org/A306424)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_124",
@@ -2647,7 +2770,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A307865 (https://oeis.org/A307865)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_125",
@@ -2667,7 +2791,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A309132 (https://oeis.org/A309132)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_126",
@@ -2687,7 +2812,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A323557 (https://oeis.org/A323557)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_127",
@@ -2707,7 +2833,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A325046 (https://oeis.org/A325046)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_128",
@@ -2727,7 +2854,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A340737 (https://oeis.org/A340737)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_129",
@@ -2747,7 +2875,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A341254 (https://oeis.org/A341254)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_130",
@@ -2767,7 +2896,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A363102 (https://oeis.org/A363102)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_131",
@@ -2787,7 +2917,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A363347 (https://oeis.org/A363347)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_132",
@@ -2807,7 +2938,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A368692 (https://oeis.org/A368692)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_133",
@@ -2827,7 +2959,8 @@
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A372761 (https://oeis.org/A372761)",
       "literature_found_on": null,
-      "literature_similar": null
+      "literature_similar": null,
+      "was_conjecture": true
     },
     {
       "id": "math_134",
@@ -2846,6 +2979,269 @@
       "solution_reference": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/OEIS/A382590_conjecture_kth_prime_factor_is_eventually_periodic.lean",
       "verification_status": "Lean verified",
       "literature": "OEIS sequence A382590 (https://oeis.org/A382590)",
+      "literature_found_on": null,
+      "literature_similar": null,
+      "was_conjecture": true
+    },
+    {
+      "id": "math_135",
+      "source": "D. Anderson Conjectures",
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Rethlas",
+        "Archon"
+      ],
+      "humans": [],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "weak vs quasi-completeness",
+      "problem_statement": "Let $(R, \\mathfrak{m})$ be a Noetherian local ring. $R$ is \\emph{quasi-complete} if for every decreasing sequence of ideals $(A_n)$ and each $k \\geq 1$ there exists $s_k$ such that $A_{s_k} \\subseteq (\\bigcap_n A_n) + \\mathfrak{m}^k$; it is \\emph{weakly quasi-complete} if this holds for every such sequence with $\\bigcap_n A_n = 0$. Does weak quasi-completeness imply quasi-completeness?",
+      "date_solved": "2026-04-04",
+      "mathematical_area": "Commutative Algebra",
+      "solution_reference": "https://arxiv.org/abs/2604.03789",
+      "verification_status": "Lean verified",
+      "literature": "D. D. Anderson, \"Quasi-complete semilocal rings and modules,\" in Commutative Algebra: Recent Advances in Commutative Rings, Integer-Valued Polynomials, and Polynomial Functions (Springer, 2014), Problem 8a",
+      "literature_found_on": null,
+      "literature_similar": null,
+      "was_conjecture": true
+    },
+    {
+      "id": "math_136",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Google Gemini DeepThink",
+        "FullProof"
+      ],
+      "humans": [
+        "Jim Bryan",
+        "Balazs Elek",
+        "Freddie Manners",
+        "George Salafatinos",
+        "Ravi Vakil"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "motivic class genus-0 flag variety maps",
+      "problem_statement": "Let $\\beta = (d_1, \\ldots, d_n)$ be strictly monotonic (i.e.\\ $0 < d_n < \\cdots < d_1$) and set $D = \\sum_{k=1}^n 2d_k$. Determine the motivic class $[\\Omega^2_{d_n,\\ldots,d_1}(\\operatorname{Fl}_{n+1})]$ in the Grothendieck group of varieties $K_0(\\operatorname{Var}_k)$. The answer is $[\\operatorname{GL}_n \\times \\mathbb{A}^{D - n^2}]$.",
+      "date_solved": "2026-01-12",
+      "mathematical_area": "Algebraic Geometry",
+      "solution_reference": "https://arxiv.org/abs/2601.07222",
+      "verification_status": "Verified",
+      "was_conjecture": false,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_137",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "ChatGPT GPT-5 Pro"
+      ],
+      "humans": [
+        "Uijeong Jang",
+        "Ernest K. Ryu"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "Nesterov NAG point convergence",
+      "problem_statement": "Let $f: \\mathbb{R}^n \\to \\mathbb{R}$ be $L$-smooth and convex with a minimizer. Consider Nesterov's Accelerated Gradient (NAG) method: $x_{k+1} = y_k - \\tfrac{1}{L}\\nabla f(y_k)$, $y_{k+1} = x_{k+1} + \\tfrac{t_k - 1}{t_{k+1}}(x_{k+1} - x_k)$, with $t_1 = 1$ and $t_{k+1} = \\tfrac{1 + \\sqrt{1 + 4t_k^2}}{2}$. Prove that the iterates $x_k$ converge to a minimizer of $f$.",
+      "date_solved": "2025-10-21",
+      "mathematical_area": "Optimization",
+      "solution_reference": "https://arxiv.org/abs/2510.23513",
+      "verification_status": "Verified",
+      "was_conjecture": true,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_138",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "ChatGPT GPT-5 Pro"
+      ],
+      "humans": [
+        "Edgar Dobriban"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "minimax density estimation Wasserstein contamination",
+      "problem_statement": "Let $f$ be an $s$-H\\\"older smooth density on $\\mathbb{R}^p$ and suppose $n$ i.i.d.\\ observations are drawn from a distribution $\\varepsilon$-close in $W_{q,r}$ Wasserstein distance to $f$. Determine the minimax optimal rate of density estimation. The answer is $\\max\\!\\left\\{n^{-\\frac{2s}{2s+p}},\\, \\varepsilon^{\\frac{2s}{s+1+p/r}}\\right\\}$, achieved by kernel density estimation with bandwidth $h^\\star \\asymp \\max\\!\\left\\{n^{-\\frac{1}{2s+p}},\\, \\varepsilon^{\\frac{1}{s+1+p/r}}\\right\\}$.",
+      "date_solved": "2025-12-17",
+      "mathematical_area": "Statistics",
+      "solution_reference": "https://arxiv.org/abs/2511.18828",
+      "verification_status": "Verified",
+      "was_conjecture": false,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_139",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "ChatGPT GPT-5 Pro"
+      ],
+      "humans": [
+        "Adil Salim"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "biconjugation gradient Taylor expansion",
+      "problem_statement": "Let $\\phi: \\mathbb{R}^d \\to \\mathbb{R}$ be convex and twice differentiable at $x$ with $\\nabla^2 \\phi(x)$ symmetric positive definite, and let $h \\in C^2_c(\\mathbb{R}^d)$. Prove that for all $|t|$ sufficiently small (depending on $x$), $\\nabla(\\phi + th)^{**}(x) = \\nabla\\phi(x) + t\\nabla h(x)$, i.e.\\ the remainder in the Taylor expansion of the gradient of the biconjugate is exactly zero.",
+      "date_solved": "2025-10-31",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://arxiv.org/abs/2510.26647",
+      "verification_status": "Verified",
+      "was_conjecture": false,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_140",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "ChatGPT GPT-5 Pro"
+      ],
+      "humans": [
+        "Moran Feldman",
+        "Amin Karbasi"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "monotone plus non-monotone DR-submodular maximization",
+      "problem_statement": "Let $G, H: [0,1]^{\\mathcal{N}} \\to \\mathbb{R}_{\\geq 0}$ be DR-submodular with $G$ monotone, and let $P \\subseteq [0,1]^{\\mathcal{N}}$ be a down-closed convex set. Prove that a Frank-Wolfe-based algorithm maximizing $F = G + H$ over $P$ achieves an $(\\alpha, \\beta)$-approximation with $\\alpha = 1 - 1/e$ and $\\beta = 1/e$.",
+      "date_solved": "2025-09",
+      "mathematical_area": "Optimization",
+      "solution_reference": "https://arxiv.org/abs/2509.18383",
+      "verification_status": "Verified",
+      "was_conjecture": false,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_141",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "ChatGPT GPT-5 Pro"
+      ],
+      "humans": [
+        "Moran Feldman",
+        "Amin Karbasi"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "bicriteria submodular maximization p-system",
+      "problem_statement": "Let $f: 2^{\\mathcal{N}} \\to \\mathbb{R}_{\\geq 0}$ be monotone submodular and $(\\mathcal{N}, \\mathcal{I})$ a $p$-system. Find the optimal bicriteria guarantee $(1 - \\varepsilon,\\, g_p(\\varepsilon))$ for submodular maximization over this constraint. The answer is $g_p(\\varepsilon) = \\lceil \\ln(1/\\varepsilon) / \\ln((p+1)/p) \\rceil$, achieved by a Frank-Wolfe-based algorithm — a bound superior to the authors' original conjecture.",
+      "date_solved": "2025-09",
+      "mathematical_area": "Optimization",
+      "solution_reference": "https://arxiv.org/abs/2509.18383",
+      "verification_status": "Verified",
+      "was_conjecture": false,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_142",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "ChatGPT GPT-5 Pro"
+      ],
+      "humans": [
+        "Moran Feldman",
+        "Amin Karbasi"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "weakly DR-submodular maximization convex set",
+      "problem_statement": "Let $F: [0,1]^{\\mathcal{N}} \\to \\mathbb{R}_{\\geq 0}$ be monotone and $\\gamma$-weakly DR-submodular, and let $\\mathcal{C} \\subseteq [0,1]^{\\mathcal{N}}$ be a convex set. Prove that a Frank-Wolfe-based algorithm maximizing $F$ over $\\mathcal{C}$ achieves a $1 - e^{-\\gamma}$ approximation ratio.",
+      "date_solved": "2025-09",
+      "mathematical_area": "Optimization",
+      "solution_reference": "https://arxiv.org/abs/2509.18383",
+      "verification_status": "Verified",
+      "was_conjecture": false,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_143",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Gemini"
+      ],
+      "humans": [
+        "David P. Woodruff"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "online submodular welfare maximization conjecture refuted",
+      "problem_statement": "Conjecture 15 of Korula, Mirrokni et al.\\ (2015): in online submodular welfare maximization, copying an item to the end of a stream yields bounded gains relative to moving it, which would imply the greedy algorithm achieves a competitive ratio of at least $0.567$. Refute this conjecture by constructing a counterexample.",
+      "date_solved": "2026-02",
+      "mathematical_area": "Algorithms",
+      "solution_reference": "https://arxiv.org/abs/2602.03837",
+      "verification_status": "Unverified",
+      "was_conjecture": true,
+      "literature": "Korula, Mirrokni et al. (2015), Online Submodular Welfare Maximization: Greedy Beats 1/2 in Random Order",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_144",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Gemini"
+      ],
+      "humans": [
+        "David P. Woodruff"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "star graph minimal Steiner tree cost simplex embedding",
+      "problem_statement": "Among all graphs $G$ with $m$ edges whose vertices are embedded as the vertices of a regular simplex in $\\mathbb{R}^m$, prove that the star graph $K_{1,m}$ has the minimum Euclidean Steiner tree cost.",
+      "date_solved": "2026-02",
+      "mathematical_area": "Combinatorial Geometry",
+      "solution_reference": "https://arxiv.org/abs/2602.03837",
+      "verification_status": "Unverified",
+      "was_conjecture": null,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_145",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Gemini"
+      ],
+      "humans": [
+        "Adel Javanmard",
+        "David P. Woodruff"
+      ],
+      "solution_status": "Partial contribution",
+      "problem_tag": "Courtade-Kumar most informative Boolean function conjecture",
+      "problem_statement": "The Courtade--Kumar conjecture (2014): among all Boolean functions $f: \\{0,1\\}^n \\to \\{0,1\\}$, the dictator maximizes mutual information $I(f(X); Y)$, where $X \\sim \\mathrm{Uniform}(\\{0,1\\}^n)$ and $Y$ is obtained by flipping each bit of $X$ independently with probability $\\alpha \\in (0, 1/2)$. Equivalently (Li--M\\'edard conjecture): the dictator maximizes $\\|T_{1-2\\alpha} f\\|_p$ for all $p \\geq 1$. Gemini helped prove the bound for unbalanced functions and established an optimal $O(\\lambda^2)$ error in the high-noise regime.",
+      "date_solved": "2026-01",
+      "mathematical_area": "Information Theory",
+      "solution_reference": "https://arxiv.org/abs/2601.09679",
+      "verification_status": "Unverified",
+      "was_conjecture": true,
+      "literature": "Courtade & Kumar (2014); Li & Medard",
       "literature_found_on": null,
       "literature_similar": null
     }
