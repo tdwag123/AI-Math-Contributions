@@ -2,6 +2,8 @@
 
 A curated dataset tracking mathematics problems solved or meaningfully advanced with AI assistance. Each entry records the problem, the AI system(s) involved, the human collaborators, and the solution status.
 
+This dataset intends to be used to better understand the current limitations and success cases of AI being used in mathematics. It would be nice to have the LLM output (CoT included) for problems where this is possible.
+
 ## Dataset
 
 **File:** `ai_math_contributions.json`  
