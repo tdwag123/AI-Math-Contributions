@@ -3244,6 +3244,271 @@
       "literature": "Courtade & Kumar (2014); Li & Medard",
       "literature_found_on": null,
       "literature_similar": null
+    },
+    {
+      "id": "math_146",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "ChatGPT-5.2 (Thinking)"
+      ],
+      "humans": [
+        "Brecht Verbeken",
+        "Brando Vagenende",
+        "Marie-Anne Guerry",
+        "Andres Algaba",
+        "Vincent Ginis"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "Ran-Teng spectral region 4-cycle matrices",
+      "problem_statement": "Characterize the exact nonreal spectral region of the family of $4$-cycle row-stochastic nonnegative matrices (Conjecture 20 of Ran and Teng, 2024).",
+      "date_solved": "2026-02",
+      "mathematical_area": "Linear Algebra",
+      "solution_reference": "https://arxiv.org/abs/2602.18918",
+      "verification_status": "Verified",
+      "was_conjecture": true,
+      "literature": "Ran and Teng (2024)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_147",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5"
+      ],
+      "humans": [
+        "Sébastien Bubeck",
+        "Mark Sellke",
+        "Steven Yin"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "tree subgraph count inequalities paths stars wyes",
+      "problem_statement": "Prove inequalities between the normalized counts of paths, stars, and wyes as subgraphs of trees (Conjecture 1 of Bubeck, Sellke, and Yin, 2025); GPT-5 also produced a shorter, more elegant proof of the previously known inequality (Theorem IV.3.1) that the human authors adopted.",
+      "date_solved": "2025-11",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://arxiv.org/abs/2511.16072",
+      "verification_status": "Verified",
+      "was_conjecture": false,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_148",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5"
+      ],
+      "humans": [
+        "Charles-Philippe Diez",
+        "Luis da Maia",
+        "Ivan Nourdin"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "Malliavin-Stein quantitative fourth-moment theorem",
+      "problem_statement": "Extend the qualitative fourth-moment theorem to a quantitative formulation with explicit convergence rates in both the Gaussian and Poisson settings within the Malliavin--Stein framework — a derivation that had not previously been addressed in the literature.",
+      "date_solved": "2025-09",
+      "mathematical_area": "Probability Theory",
+      "solution_reference": "https://arxiv.org/abs/2509.03065",
+      "verification_status": "Verified",
+      "was_conjecture": false,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_149",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "AxiomProver"
+      ],
+      "humans": [
+        "Evan Chen",
+        "Chris Cummins",
+        "Dejan Grubisic",
+        "Leopold Haller",
+        "Letong Hong",
+        "Andranik Kurghinyan",
+        "Kenny Lau",
+        "Hugh Leather",
+        "Seewoo Lee",
+        "Aram Markosyan",
+        "Ken Ono",
+        "Manooshree Patel",
+        "Gaurang Pendharkar",
+        "Vedant Rathi",
+        "Alex Schneidman",
+        "Volker Seeker",
+        "Shubho Sengupta",
+        "Ishan Sinha",
+        "Jimmy Xin",
+        "Jujian Zhang"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "Fel's conjecture numerical semigroup syzygies",
+      "problem_statement": "Prove Fel's conjecture: for any numerical semigroup $S$, the normalized alternating syzygy power sums $K_p(S)$ satisfy an explicit formula in terms of the gap power sums $G_r(S)$ and universal symmetric polynomials, for all $p \\geq 0$.",
+      "date_solved": "2026-02",
+      "mathematical_area": "Algebra",
+      "solution_reference": "https://arxiv.org/abs/2602.03716",
+      "verification_status": "Lean verified",
+      "was_conjecture": true,
+      "literature": "Fel (2006)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_150",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "AxiomProver"
+      ],
+      "humans": [
+        "Dawei Chen",
+        "Evan Chen",
+        "Kenny Lau",
+        "Ken Ono",
+        "Jujian Zhang"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "spin parity k-differentials genus zero one",
+      "problem_statement": "Completely determine the spin parity of $k$-differentials with prescribed zero and pole orders on Riemann surfaces of genus zero and one, by proving Conjecture A.10 — a number-theoretic hypothesis reformulated in terms of Jacobi symbols and reduced to a combinatorial identity.",
+      "date_solved": "2026-02",
+      "mathematical_area": "Algebraic Geometry",
+      "solution_reference": "https://arxiv.org/abs/2602.03722",
+      "verification_status": "Lean verified",
+      "was_conjecture": true,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_151",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "Aletheia"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "eigenweights arithmetic Hirzebruch proportionality",
+      "problem_statement": "Compute the eigenweights for all classical groups in the Arithmetic Hirzebruch Proportionality Principle — determining the structure constants that relate arithmetic volumes of moduli stacks of shtukas to L-functions via differential operators, extending the partial results of Feng--Yun--Zhang to the general case.",
+      "date_solved": "2026-01",
+      "mathematical_area": "Arithmetic Geometry",
+      "solution_reference": "https://arxiv.org/abs/2601.23245",
+      "verification_status": "Verified",
+      "was_conjecture": false,
+      "literature": "Feng, Yun, and Zhang (arithmetic Hirzebruch proportionality)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_152",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aletheia"
+      ],
+      "humans": [
+        "Joonkyung Lee",
+        "Jaehyeon Seo"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "multivariate independence polynomial lower bounds",
+      "problem_statement": "Prove that for every simple graph $G$ with degree sequence $d_1,\\ldots,d_n$ and $\\lambda_1,\\ldots,\\lambda_n \\geq 0$, the multivariate independence polynomial satisfies $Z_G(\\lambda_1,\\ldots,\\lambda_n) \\geq \\prod_{i=1}^{n}(1+(d_i+1)\\lambda_i)^{1/(d_i+1)}$, generalizing the univariate inequality of Sah, Sawhney, Stoner, and Zhao.",
+      "date_solved": "2026-02",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://arxiv.org/abs/2602.02450",
+      "verification_status": "Verified",
+      "was_conjecture": false,
+      "literature": "Sah, Sawhney, Stoner, and Zhao (univariate case)",
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_153",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5 Pro"
+      ],
+      "humans": [
+        "Paata Ivanisvili",
+        "Xinyuan Xie"
+      ],
+      "solution_status": "Counterexample found",
+      "problem_tag": "NICD majority optimality erasures counterexample",
+      "problem_statement": "Does the majority function maximize $\\mathbb{E}|f(Z)|$ over all Boolean functions $f:\\{0,1\\}^n \\to \\{-1,1\\}$ in the Non-Interactive Correlation Distillation (NICD) model with erasures, for all erasure parameters $p\\in(0,1)$? (From the Simons 'Real Analysis in Computer Science' open problem list.)",
+      "date_solved": "2025-10",
+      "mathematical_area": "Analysis",
+      "solution_reference": "https://arxiv.org/abs/2510.20013",
+      "verification_status": "Verified",
+      "was_conjecture": true,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_154",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aletheia"
+      ],
+      "humans": [
+        "Anand Patel"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "Hodge bundle simplicity moduli curves",
+      "problem_statement": "Prove that the Hodge bundle $\\mathbb{E}$ over the moduli space $\\overline{\\mathcal{M}}_g$ of stable genus-$g \\geq 2$ curves contains no non-trivial sub-bundles (simplicity of the Hodge bundle).",
+      "date_solved": "2026-03",
+      "mathematical_area": "Algebraic Geometry",
+      "solution_reference": "https://arxiv.org/abs/2603.19052",
+      "verification_status": "Verified",
+      "was_conjecture": null,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
+    },
+    {
+      "id": "math_155",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5",
+        "Gemini 3 Pro",
+        "Claude Opus 4.5",
+        "GPT-5.2",
+        "Claude Code"
+      ],
+      "humans": [
+        "Johannes Schmitt"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "extremal psi-class intersection numbers moduli curves",
+      "problem_statement": "Among all pure $\\psi$-class intersection numbers $D(\\mathbf{e}) = \\langle \\tau_{e_1}\\cdots\\tau_{e_n}\\rangle_g$ with $\\sum e_i = 3g-3+n$, prove that the minimum is achieved when all but one exponent vanishes (powers of a single $\\psi$-class) and the maximum is achieved for balanced exponent vectors ($|e_i - e_j| \\leq 1$ for all $i,j$).",
+      "date_solved": "2025-12",
+      "mathematical_area": "Algebraic Geometry",
+      "solution_reference": "https://arxiv.org/abs/2512.14575",
+      "verification_status": "Verified",
+      "was_conjecture": false,
+      "literature": null,
+      "literature_found_on": null,
+      "literature_similar": null
     }
   ]
 }
