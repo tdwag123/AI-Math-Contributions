@@ -1,5 +1,7 @@
 # AI Math Contributions
 
+NOTE: This repo is being updated weekly by an agent. If you see an issue, please let me know.
+
 A curated dataset tracking mathematics problems solved or meaningfully advanced with AI assistance. Each entry records the problem, the AI system(s) involved, the human collaborators, and the solution status.
 
 This dataset intends to be used to better understand the current limitations and success cases of AI being used in mathematics. It would be nice to have the LLM output (CoT included) for problems where this is possible.
@@ -102,6 +104,7 @@ Recommended workflow:
 Key rules:
 
 - `was_conjecture: true` only if the problem was established and publicly known before the solving paper.
+<<<<<<< HEAD
 - `was_conjecture: false` if the paper's authors posed the problem themselves.
 - `was_conjecture: null` if the prior status is unclear after a reasonable literature check.
 - `verification_status: "Verified"` only if the result has been peer-reviewed or confirmed by independent mathematicians.
@@ -130,3 +133,7 @@ A weekly automation should be able to:
 4. Run `python validate_dataset.py`.
 5. Run `python update_readme_stats.py`.
 6. Report the candidate sources checked, entries added, validation result, and any uncertain cases left out.
+=======
+- `verification_status: "Verified"` only if the result has been peer-reviewed or confirmed by independent mathematicians. If the result has been verified in Lean or another language, use "Lean Verified"
+- List each distinct conjecture or problem as its own entry
+>>>>>>> 8fcdf8651503bcde5c136e83484ea4a7e017b0af
