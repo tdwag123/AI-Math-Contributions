@@ -3509,6 +3509,88 @@
       "literature": null,
       "literature_found_on": null,
       "literature_similar": null
+    },
+    {
+      "id": "math_156",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "DeepMind supervised learning models"
+      ],
+      "humans": [
+        "Alex Davies",
+        "Andras Juhasz",
+        "Marc Lackenby",
+        "Nenad Tomasev"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "natural slope signature hyperbolic knots",
+      "problem_statement": "For a hyperbolic knot $K$, introduce the natural slope from cusp geometry and prove that $|2\\sigma(K)-\\operatorname{slope}(K)|$ is bounded by a constant times $\\operatorname{vol}(K)\\operatorname{inj}(K)^{-3}$, giving a new relationship between algebraic and geometric knot invariants.",
+      "date_solved": "2021-12-01",
+      "mathematical_area": "Topology",
+      "solution_reference": "https://doi.org/10.1038/s41586-021-04086-x",
+      "verification_status": "Verified",
+      "literature": "Davies, Juhasz, Lackenby, and Tomasev, The signature and cusp geometry of hyperbolic knots, arXiv:2111.15323",
+      "literature_found_on": "Nature article and arXiv mathematical account: https://arxiv.org/abs/2111.15323",
+      "literature_similar": "The Nature paper states that machine learning identified relevant cusp-geometry features, after which the theorem was formulated and proved by the human collaborators.",
+      "was_conjecture": false
+    },
+    {
+      "id": "math_157",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "DeepMind supervised learning models"
+      ],
+      "humans": [
+        "Charles Blundell",
+        "Lars Buesing",
+        "Alex Davies",
+        "Petar Velickovic",
+        "Geordie Williamson"
+      ],
+      "solution_status": "Partial contribution",
+      "problem_tag": "Kazhdan-Lusztig hypercube decomposition Bruhat intervals",
+      "problem_statement": "Advance the combinatorial invariance problem for Kazhdan--Lusztig polynomials by discovering a canonical hypercube decomposition of Bruhat intervals and a formula that computes the polynomial from the resulting components in symmetric groups.",
+      "date_solved": "2021-12-01",
+      "mathematical_area": "Representation Theory",
+      "solution_reference": "https://doi.org/10.1038/s41586-021-04086-x",
+      "verification_status": "Verified",
+      "literature": "Blundell, Buesing, Davies, Velickovic, and Williamson, Towards combinatorial invariance for Kazhdan-Lusztig polynomials, arXiv:2111.15161",
+      "literature_found_on": "Nature article and arXiv mathematical account: https://arxiv.org/abs/2111.15161",
+      "literature_similar": "Lusztig and Dyer's combinatorial invariance conjecture for Kazhdan--Lusztig polynomials; the entry records a peer-reviewed partial advance, not a complete proof of the full conjecture.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_158",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "AlphaTensor"
+      ],
+      "humans": [
+        "Alhussein Fawzi",
+        "Matej Balog",
+        "Aja Huang",
+        "Thomas Hubert",
+        "Bernardino Romera-Paredes",
+        "Demis Hassabis",
+        "Pushmeet Kohli"
+      ],
+      "solution_status": "Improved explicit bound",
+      "problem_tag": "small matrix multiplication tensor decompositions",
+      "problem_statement": "Find lower-rank bilinear algorithms for fixed-size matrix multiplication tensors; AlphaTensor discovered, among many algorithms, a $4\\times 4$ matrix multiplication algorithm over $\\mathbb{F}_2$ using 47 scalar multiplications instead of the 49 obtained by recursively applying Strassen's algorithm.",
+      "date_solved": "2022-10-05",
+      "mathematical_area": "Computational Complexity",
+      "solution_reference": "https://doi.org/10.1038/s41586-022-05172-4",
+      "verification_status": "Verified",
+      "literature": "Strassen, Gaussian elimination is not optimal, Numerische Mathematik 13 (1969); Fawzi et al., Discovering faster matrix multiplication algorithms with reinforcement learning, Nature 610 (2022)",
+      "literature_found_on": "Nature article and Google DeepMind AlphaTensor project materials",
+      "literature_similar": "Subsequent work quickly improved some finite-field cases further, for example a 95-multiplication algorithm for $5\\times 5$ matrices over $\\mathbb{F}_2$; the AlphaTensor entry records the peer-reviewed AI-discovered algorithms and their original bounds.",
+      "was_conjecture": true
     }
   ]
 }

@@ -8,7 +8,7 @@ This dataset intends to be used to better understand the current limitations and
 
 **File:** `ai_math_contributions.json`  
 **Schema version:** 1.1  
-**Entries:** 145
+**Entries:** 158
 
 ## Schema
 
@@ -52,29 +52,29 @@ Each entry in the `entries` array has the following fields:
 |---|---|
 | Erdős Problems | 87 |
 | OEIS | 38 |
-| Individual papers | 18 |
-| D. Anderson Conjectures | 1 |
+| Individual papers | 31 |
 | Green's Open Problems | 1 |
+| D. Anderson Conjectures | 1 |
 
 ### By mathematical area (top 8)
 | Area | Entries |
 |---|---|
 | Number Theory | 70 |
-| Analysis | 15 |
+| Analysis | 16 |
 | Combinatorics | 14 |
 | Geometry | 13 |
+| Graph Theory | 11 |
 | Additive Combinatorics | 9 |
-| Graph Theory | 9 |
 | Optimization | 5 |
-| Extremal Combinatorics | 2 |
+| Algebraic Geometry | 4 |
 
 ### Was it a pre-existing conjecture?
-- **133 entries** (`was_conjecture: true`) — longstanding conjectures posed by others (Erdős, OEIS labels, Green, Courtade–Kumar, Anderson, etc.)
-- **10 entries** (`was_conjecture: false`) — open research problems posed by the solving paper's own authors
-- **2 entries** (`was_conjecture: null`) — unclear
+- **139 entries** (`was_conjecture: true`) - longstanding conjectures posed by others
+- **16 entries** (`was_conjecture: false`) - open research problems posed by the solving paper's own authors
+- **3 entries** (`was_conjecture: null`) - unclear
 
 ### AI systems represented
-GPT-5.5 Pro, GPT-5.4 Pro, GPT-5.2 Pro, GPT-5.2 Thinking, OpenAI internal model, Claude Mythos, Claude Opus, Gemini, Aristotle, Aletheia, AlphaProof, AlphaEvolve, DeepMind prover agent, FunSearch, Seed Prover, and others.
+Aletheia, AlphaEvolve, AlphaProof, AlphaTensor, Archivara, Archon, Aristotle, AxiomProver, ChatGPT GPT-5 Pro, ChatGPT-5.2 (Thinking), Claude, Claude Code, Claude Mythos, Claude Opus, Claude Opus 4.5, Claude Opus 4.7, Codex, DeepMind prover agent, DeepMind supervised learning models, FullProof, FunSearch (LLM-based program search), GPT, GPT-5, GPT-5 Pro, GPT-5.2, GPT-5.2 Pro, GPT-5.2 Thinking, GPT-5.4 Pro, GPT-5.4 Thinking, GPT-5.5, GPT-5.5 Pro, GPT-5.5 Thinking, Gemini, Gemini 3, Gemini 3 Flash, Gemini 3 Pro, Gemini 3.1 Pro, Gemini Pro, Google Gemini DeepThink, Multiscalar Fields System, OpenAI internal model, Rethlas, Seed Prover, Seed Prover 1.5
 
 ## Sources
 
@@ -86,8 +86,47 @@ GPT-5.5 Pro, GPT-5.4 Pro, GPT-5.2 Pro, GPT-5.2 Thinking, OpenAI internal model, 
 
 ## Adding an entry
 
-Append to the `entries` array in `ai_math_contributions.json`. Key rules:
+Append one object to the `entries` array in `ai_math_contributions.json`.
+
+Recommended workflow:
+
+1. Find a candidate result with a reliable public source.
+2. Confirm that AI made a meaningful mathematical contribution, not just editing or exposition.
+3. Use the next unused `math_###` id.
+4. Fill every schema field, using `null` only where the schema allows it.
+5. Add a direct `solution_reference` URL to the paper, official problem page, formalization, or project page.
+6. Run `python validate_dataset.py`.
+7. Run `python update_readme_stats.py`.
+8. Re-run `python validate_dataset.py` and review the diff before committing.
+
+Key rules:
 
 - `was_conjecture: true` only if the problem was established and publicly known before the solving paper.
-- `verification_status: "Verified"` only if the result has been peer-reviewed or confirmed by independent mathematicians. If the result has been verified in Lean or another language, use "Lean Verified"
-- List each distinct conjecture or problem as its own entry
+- `was_conjecture: false` if the paper's authors posed the problem themselves.
+- `was_conjecture: null` if the prior status is unclear after a reasonable literature check.
+- `verification_status: "Verified"` only if the result has been peer-reviewed or confirmed by independent mathematicians.
+- Use a Lean verification status only when a formal proof artifact is available.
+- List each distinct conjecture or problem as its own entry.
+- Do not add speculative claims, announcements without a durable source, or results where the AI contribution is unclear.
+
+## Source review policy
+
+Prefer sources that can be checked later:
+
+- arXiv, journal, conference, or institutional paper pages
+- official problem-list pages such as Erdos Problems, OEIS, or a maintained open-problem list
+- formal proof repositories or project pages for Lean-verified results
+- author-maintained pages that link to the underlying paper or proof
+
+Avoid using social posts, screenshots, private messages, or informal claims as the only evidence. They can be useful leads, but entries should point to a durable mathematical source.
+
+## Automation checklist
+
+A weekly automation should be able to:
+
+1. Search approved sources for new candidate results.
+2. Add only entries with clear evidence for the mathematical result and AI contribution.
+3. Preserve the existing JSON field order.
+4. Run `python validate_dataset.py`.
+5. Run `python update_readme_stats.py`.
+6. Report the candidate sources checked, entries added, validation result, and any uncertain cases left out.
