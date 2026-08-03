@@ -10,7 +10,7 @@ This dataset intends to be used to better understand the current limitations and
 
 **File:** `ai_math_contributions.json`  
 **Schema version:** 1.1  
-**Entries:** 158
+**Entries:** 184
 
 ## Schema
 
@@ -52,9 +52,10 @@ Each entry in the `entries` array has the following fields:
 ### By source
 | Source | Entries |
 |---|---|
-| Erdős Problems | 87 |
+| Erdős Problems | 90 |
+| Individual papers | 46 |
 | OEIS | 38 |
-| Individual papers | 31 |
+| Kourovka Notebook | 8 |
 | Green's Open Problems | 1 |
 | D. Anderson Conjectures | 1 |
 
@@ -63,20 +64,20 @@ Each entry in the `entries` array has the following fields:
 |---|---|
 | Number Theory | 70 |
 | Analysis | 16 |
-| Combinatorics | 14 |
+| Graph Theory | 15 |
+| Combinatorics | 15 |
 | Geometry | 13 |
-| Graph Theory | 11 |
 | Additive Combinatorics | 9 |
+| Group Theory | 8 |
 | Optimization | 5 |
-| Algebraic Geometry | 4 |
 
 ### Was it a pre-existing conjecture?
-- **139 entries** (`was_conjecture: true`) - longstanding conjectures posed by others
+- **165 entries** (`was_conjecture: true`) - longstanding conjectures posed by others
 - **16 entries** (`was_conjecture: false`) - open research problems posed by the solving paper's own authors
 - **3 entries** (`was_conjecture: null`) - unclear
 
 ### AI systems represented
-Aletheia, AlphaEvolve, AlphaProof, AlphaTensor, Archivara, Archon, Aristotle, AxiomProver, ChatGPT GPT-5 Pro, ChatGPT-5.2 (Thinking), Claude, Claude Code, Claude Mythos, Claude Opus, Claude Opus 4.5, Claude Opus 4.7, Codex, DeepMind prover agent, DeepMind supervised learning models, FullProof, FunSearch (LLM-based program search), GPT, GPT-5, GPT-5 Pro, GPT-5.2, GPT-5.2 Pro, GPT-5.2 Thinking, GPT-5.4 Pro, GPT-5.4 Thinking, GPT-5.5, GPT-5.5 Pro, GPT-5.5 Thinking, Gemini, Gemini 3, Gemini 3 Flash, Gemini 3 Pro, Gemini 3.1 Pro, Gemini Pro, Google Gemini DeepThink, Multiscalar Fields System, OpenAI internal model, Rethlas, Seed Prover, Seed Prover 1.5
+Aletheia, AlphaEvolve, AlphaProof, AlphaTensor, Archivara, Archon, Aristotle, AxiomProver, ChatGPT GPT-5 Pro, ChatGPT-5.2 (Thinking), Claude, Claude Code, Claude Fable 5, Claude Mythos, Claude Opus, Claude Opus 4.5, Claude Opus 4.7, Codex, DeepMind prover agent, DeepMind supervised learning models, FullProof, FunSearch (LLM-based program search), GPT, GPT-5, GPT-5 Pro, GPT-5.2, GPT-5.2 Pro, GPT-5.2 Thinking, GPT-5.4 Pro, GPT-5.4 Thinking, GPT-5.5, GPT-5.5 Pro, GPT-5.5 Thinking, GPT-5.6 Sol Ultra, Gemini, Gemini 3, Gemini 3 Flash, Gemini 3 Pro, Gemini 3.1 Pro, Gemini Pro, Google Gemini DeepThink, Multiscalar Fields System, OpenAI Astra, OpenAI Codex, OpenAI internal model, Rethlas, Seed Prover, Seed Prover 1.5
 
 ## Sources
 
@@ -84,6 +85,7 @@ Aletheia, AlphaEvolve, AlphaProof, AlphaTensor, Archivara, Archon, Aristotle, Ax
 - **[OEIS](https://oeis.org/)** — sequences with open conjectures from the On-Line Encyclopedia of Integer Sequences
 - **[Green's Open Problems](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf)** — Ben Green's list of open problems in additive combinatorics
 - **D. Anderson Conjectures** — conjectures by Dave Anderson (algebraic geometry / flag varieties)
+- **Kourovka Notebook** — long-running open problems in group theory
 - **Individual papers** — results from arXiv preprints and published papers, cited per entry in `solution_reference`
 
 ## Adding an entry
@@ -104,7 +106,6 @@ Recommended workflow:
 Key rules:
 
 - `was_conjecture: true` only if the problem was established and publicly known before the solving paper.
-<<<<<<< HEAD
 - `was_conjecture: false` if the paper's authors posed the problem themselves.
 - `was_conjecture: null` if the prior status is unclear after a reasonable literature check.
 - `verification_status: "Verified"` only if the result has been peer-reviewed or confirmed by independent mathematicians.
@@ -133,7 +134,3 @@ A weekly automation should be able to:
 4. Run `python validate_dataset.py`.
 5. Run `python update_readme_stats.py`.
 6. Report the candidate sources checked, entries added, validation result, and any uncertain cases left out.
-=======
-- `verification_status: "Verified"` only if the result has been peer-reviewed or confirmed by independent mathematicians. If the result has been verified in Lean or another language, use "Lean Verified"
-- List each distinct conjecture or problem as its own entry
->>>>>>> 8fcdf8651503bcde5c136e83484ea4a7e017b0af

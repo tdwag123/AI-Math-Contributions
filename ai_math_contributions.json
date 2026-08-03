@@ -3591,6 +3591,652 @@
       "literature_found_on": "Nature article and Google DeepMind AlphaTensor project materials",
       "literature_similar": "Subsequent work quickly improved some finite-field cases further, for example a 95-multiplication algorithm for $5\\times 5$ matrices over $\\mathbb{F}_2$; the AlphaTensor entry records the peer-reviewed AI-discovered algorithms and their original bounds.",
       "was_conjecture": true
+    },
+    {
+      "id": "math_159",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "AlphaEvolve"
+      ],
+      "humans": [
+        "Alexander Novikov",
+        "Ngan Vu",
+        "Marvin Eisenberger",
+        "Emilien Dupont",
+        "Po-Sen Huang",
+        "Adam Zsolt Wagner",
+        "Sergey Shirobokov",
+        "Borislav Kozlovskii",
+        "Francisco J. R. Ruiz",
+        "Abbas Mehrabian",
+        "M. Pawan Kumar",
+        "Abigail See",
+        "Swarat Chaudhuri",
+        "George Holland",
+        "Alex Davies",
+        "Sebastian Nowozin",
+        "Pushmeet Kohli",
+        "Matej Balog"
+      ],
+      "solution_status": "Improved explicit bound",
+      "problem_tag": "4x4 complex matrix multiplication tensor rank",
+      "problem_statement": "Find a bilinear algorithm for multiplying two $4\\times 4$ matrices over $\\mathbb{C}$ using fewer scalar multiplications than the 49 obtained by two recursive applications of Strassen's algorithm; AlphaEvolve found a 48-scalar-multiplication procedure in this setting.",
+      "date_solved": "2025-05-14",
+      "mathematical_area": "Computational Complexity",
+      "solution_reference": "https://arxiv.org/abs/2506.13131",
+      "verification_status": "Verified",
+      "literature": "Strassen, Gaussian elimination is not optimal, Numerische Mathematik 13 (1969); Novikov et al., AlphaEvolve: A coding agent for scientific and algorithmic discovery, arXiv:2506.13131",
+      "literature_found_on": "Google DeepMind AlphaEvolve announcement and arXiv white paper; independent follow-up by Dumas, Pernet, and Sedoglavic, arXiv:2506.13242",
+      "literature_similar": "The AlphaEvolve construction was over complex numbers; Dumas, Pernet, and Sedoglavic subsequently derived a 48-multiplication rational/non-complex variant, so this entry records AlphaEvolve's original bound improvement rather than the later refinement.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_160",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "AlphaEvolve"
+      ],
+      "humans": [
+        "Bogdan Georgiev",
+        "Javier Gomez-Serrano",
+        "Terence Tao",
+        "Adam Zsolt Wagner"
+      ],
+      "solution_status": "Improved lower bounds",
+      "problem_tag": "kissing number dimension 11 lower bound",
+      "problem_statement": "Improve the best known lower bound for the kissing number $K(11)$, the maximum number of non-overlapping unit spheres in $\\mathbb{R}^{11}$ that can simultaneously touch a common unit sphere; AlphaEvolve discovered a configuration of 593 outer spheres, establishing $K(11)\\geq 593$.",
+      "date_solved": "2025-05-14",
+      "mathematical_area": "Metric Geometry",
+      "solution_reference": "https://arxiv.org/abs/2511.02864",
+      "verification_status": "Computer verified",
+      "literature": "Georgiev, Gomez-Serrano, Tao, and Wagner, Mathematical exploration and discovery at scale, arXiv:2511.02864; Google DeepMind AlphaEvolve announcement",
+      "literature_found_on": "Google DeepMind announcement reported the 593-sphere configuration; the later arXiv mathematical account describes AlphaEvolve's broader open-problem exploration.",
+      "literature_similar": "This is a new lower bound, not a proof of the exact value of $K(11)$.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_161",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI Astra"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "Cohn-Elkies sphere packing LP exponent",
+      "problem_statement": "Determine the high-dimensional exponential rate of the Cohn--Elkies linear-programming bound for sphere packing: prove that $\\mathrm{LP}_d^{1/d}\\to \\sqrt{e/(2\\pi)}$, giving the first improvement to the general sphere-packing leading exponent since the Kabatianskii--Levenshtein bound.",
+      "date_solved": "2026-08-01",
+      "mathematical_area": "Metric Geometry",
+      "solution_reference": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "verification_status": "Lean verified",
+      "literature": "Afkhami-Jeddi, Cohn, Hartman, de Laat, and Tajdini (2020), conjectures on the high-dimensional Cohn--Elkies rate; Cohn--Elkies (2003)",
+      "literature_found_on": "OpenAI Ten Advances manuscript, OpenAI announcement, and public Lean certificate",
+      "literature_similar": "This determines the asymptotic strength of the Cohn--Elkies linear program and the associated Fourier sign-uncertainty constants; it does not solve exact high-dimensional sphere packing.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_162",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI Astra"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Improved explicit bound (Lean)",
+      "problem_tag": "binary code exponent beyond MRRW",
+      "problem_statement": "For every fixed relative distance $0<\\delta<1/2$, improve the optimized McEliece--Rodemich--Rumsey--Welch upper bound for the asymptotic rate of binary error-correcting codes by an exponential factor.",
+      "date_solved": "2026-08-01",
+      "mathematical_area": "Coding Theory",
+      "solution_reference": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "verification_status": "Lean verified",
+      "literature": "McEliece, Rodemich, Rumsey, and Welch (1977), New upper bounds on the rate of a code via the Delsarte-MacWilliams inequalities",
+      "literature_found_on": "OpenAI Ten Advances manuscript, OpenAI announcement, and public Lean certificate",
+      "literature_similar": "The result improves the general asymptotic exponent but does not determine the optimal binary-code rate.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_163",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI Astra"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Improved explicit bound (Lean)",
+      "problem_tag": "spherical code exponent beyond Kabatianskii-Levenshtein",
+      "problem_statement": "For high-dimensional spherical codes with fixed maximum inner product $0<s<1$, improve the optimized Kabatianskii--Levenshtein exponent by constructing a hierarchy using harmonics orthogonal to each code point.",
+      "date_solved": "2026-08-01",
+      "mathematical_area": "Metric Geometry",
+      "solution_reference": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "verification_status": "Lean verified",
+      "literature": "Kabatianskii and Levenshtein (1978), Bounds for packings on a sphere and in space",
+      "literature_found_on": "OpenAI Ten Advances manuscript, OpenAI announcement, and public Lean certificate",
+      "literature_similar": "This is a general exponential improvement over the classical spherical-code bound, not a determination of the optimal spherical-code exponent.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_164",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI Astra"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Counterexample found (Lean)",
+      "problem_tag": "explicit non-sofic group",
+      "problem_statement": "Construct a countable group that is not sofic; the unit group $L_{\\mathbb{F}_2}(1,2)^\\times$ of the binary Leavitt algebra is shown not to admit finite permutation approximations.",
+      "date_solved": "2026-08-01",
+      "mathematical_area": "Group Theory",
+      "solution_reference": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "verification_status": "Lean verified",
+      "literature": "Gromov and Weiss on sofic groups and finite permutation approximations",
+      "literature_found_on": "OpenAI Ten Advances manuscript, OpenAI announcement, and public Lean certificate",
+      "literature_similar": "The result addresses soficity and does not settle the separate hyperlinearity question.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_165",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI Astra"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Counterexample found (Lean)",
+      "problem_tag": "Connes group factor rigidity conjecture",
+      "problem_statement": "Disprove Connes's group-factor rigidity conjecture by constructing infinitely many pairwise nonisomorphic ICC property-$(T)$ groups with isomorphic group von Neumann algebras, also answering Popa's finite-to-one weakening negatively.",
+      "date_solved": "2026-08-01",
+      "mathematical_area": "Operator Algebras",
+      "solution_reference": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "verification_status": "Lean verified",
+      "literature": "Connes's rigidity program for property-$(T)$ groups and Popa's related finite-to-one question",
+      "literature_found_on": "OpenAI Ten Advances manuscript, OpenAI announcement, and public Lean certificate",
+      "literature_similar": "This concerns the bare group-factor functor for ICC property-$(T)$ groups and does not contradict stronger $W^*$-superrigidity theorems under additional hypotheses.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_166",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI Astra"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Improved lower bounds (Lean)",
+      "problem_tag": "permanent arithmetic circuit lower bounds",
+      "problem_statement": "Prove unconditional lower bounds for exact arithmetic computation of the permanent: division-free circuits for the $n\\times n$ permanent require $\\Omega(n^2\\log\\log n)$ gates, and arithmetic formulas require $\\Omega(n^4/\\log n)$ leaves.",
+      "date_solved": "2026-08-01",
+      "mathematical_area": "Computational Complexity",
+      "solution_reference": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "verification_status": "Lean verified",
+      "literature": "Valiant's permanent/VNP framework and the arithmetic circuit lower-bound program",
+      "literature_found_on": "OpenAI Ten Advances manuscript, OpenAI announcement, and public Lean certificate",
+      "literature_similar": "These are superlinear unrestricted lower bounds but do not prove that the permanent has no polynomial-size arithmetic circuits.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_167",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI Astra"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "quantum parallel repetition entangled games",
+      "problem_statement": "Prove qualitative exponential parallel repetition for every finite two-player one-round entangled game $G$ with entangled value $\\omega^*(G)<1$, showing that $\\omega^*(G^{\\otimes n})$ decays exponentially in $n$.",
+      "date_solved": "2026-08-01",
+      "mathematical_area": "Quantum Information",
+      "solution_reference": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "verification_status": "Lean verified",
+      "literature": "Raz's classical parallel repetition theorem and the long-running quantum/entangled-games parallel repetition problem",
+      "literature_found_on": "OpenAI Ten Advances manuscript, OpenAI announcement, and public Lean certificate",
+      "literature_similar": "The theorem settles the qualitative conjecture for arbitrary finite entangled games; the quantitative exponent is not claimed to be optimal.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_168",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI Astra"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Improved lower bounds (Lean)",
+      "problem_tag": "Euclidean closest vector polynomial hardness",
+      "problem_statement": "Give a deterministic polynomial-time many-one reduction from 3SAT proving that Euclidean $\\mathrm{GapCVP}_{n^{1/400}}$ is NP-hard, with related polynomial-factor hardness consequences for nearest codeword, syndrome decoding, and fixed rational $\\ell_p$ norms.",
+      "date_solved": "2026-08-01",
+      "mathematical_area": "Computational Complexity",
+      "solution_reference": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "verification_status": "Lean verified",
+      "literature": "The closest vector problem approximation-hardness literature in lattice algorithms and post-quantum cryptography",
+      "literature_found_on": "OpenAI Ten Advances manuscript, OpenAI announcement, and public Lean certificate",
+      "literature_similar": "This establishes a fixed polynomial approximation-hardness factor by direct reduction but does not determine the optimal hardness exponent.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_169",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI Astra"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "Ehrhart sharp volume conjecture",
+      "problem_statement": "Prove Ehrhart's sharp volume inequality: if $K\\subset\\mathbb{R}^n$ is a full-dimensional compact convex body with barycenter $0$ and $\\operatorname{int}(K)\\cap\\mathbb{Z}^n=\\{0\\}$, then $\\operatorname{vol}(K)\\leq (n+1)^n/n!$.",
+      "date_solved": "2026-08-01",
+      "mathematical_area": "Convex Geometry",
+      "solution_reference": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "verification_status": "Lean verified",
+      "literature": "Ehrhart's 1964 sharp volume conjecture for lattice-point-free convex bodies",
+      "literature_found_on": "OpenAI Ten Advances manuscript, OpenAI announcement, and public Lean certificate",
+      "literature_similar": "The sharp inequality is proved in all dimensions; the equality-case classification remains a separate question.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_170",
+      "source": "Erdős Problems",
+      "source_problem_number": 183,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI Astra"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Counterexample found (Lean)",
+      "problem_tag": "multicolor triangle Ramsey growth",
+      "problem_statement": "Disprove the expectation that $R_k(3)^{1/k}$ remains bounded by proving a superexponential lower bound $R_k(3)\\geq (ck/(\\log k)^{1/3})^k$, hence $R_k(3)=k^{\\Theta(k)}$.",
+      "date_solved": "2026-08-01",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "verification_status": "Lean verified",
+      "literature": "Erdős Problem #183 and the multicolor triangle Ramsey number literature",
+      "literature_found_on": "OpenAI Ten Advances manuscript, OpenAI announcement, public Lean certificate, and Erdos Problems record",
+      "literature_similar": "This resolves the finite-exponential-growth question and the equivalent unbounded-Shannon-capacity formulation; constants and optimal lower-order factors remain separate issues.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_171",
+      "source": "Erdős Problems",
+      "source_problem_number": 180,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI Astra"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Counterexample found (Lean)",
+      "problem_tag": "Erdos-Simonovits compactness extremal families",
+      "problem_statement": "Disprove the corrected Erdős--Simonovits compactness conjecture by constructing a finite family $\\mathcal{F}$ of connected bipartite graphs, each containing a cycle, such that $\\operatorname{ex}(n,\\mathcal{F})=O(n^{4/3-1/48})$ while every member $F\\in\\mathcal{F}$ has $\\operatorname{ex}(n,F)=\\Omega(n^{4/3})$.",
+      "date_solved": "2026-08-01",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "verification_status": "Lean verified",
+      "literature": "Erdős--Simonovits compactness problems for extremal graph families",
+      "literature_found_on": "OpenAI Ten Advances manuscript, OpenAI announcement, public Lean certificate, and Erdos Problems record",
+      "literature_similar": "This addresses the meaningful corrected cyclic connected-bipartite version, not merely the literal formulation that had simpler folklore counterexamples.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_172",
+      "source": "Erdős Problems",
+      "source_problem_number": 146,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "OpenAI Astra"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Counterexample found (Lean)",
+      "problem_tag": "2-degenerate bipartite extremal graph bound",
+      "problem_statement": "Disprove the $r=2$ case of Erdős's conjecture that every fixed bipartite $r$-degenerate graph $H$ has $\\operatorname{ex}(n,H)=O(n^{2-1/r})$, by constructing a fixed connected bipartite $2$-degenerate graph with $\\operatorname{ex}(n,H)\\geq c n^{3/2+\\varepsilon}$.",
+      "date_solved": "2026-08-01",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "verification_status": "Lean verified",
+      "literature": "Erdős Problem #146 and the extremal theory of sparse bipartite graphs",
+      "literature_found_on": "OpenAI Ten Advances manuscript, OpenAI announcement, public Lean certificate, and Erdos Problems record",
+      "literature_similar": "The construction refutes the predicted $O(n^{3/2})$ bound for one fixed $2$-degenerate graph; the optimal exponent is not claimed.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_173",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "GPT-5.6 Sol Ultra",
+        "Codex"
+      ],
+      "humans": [
+        "OpenAI researchers"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "cycle double cover conjecture",
+      "problem_statement": "Prove the Cycle Double Cover Conjecture: every finite bridgeless undirected graph has a multiset of cycles in which every edge occurs exactly twice.",
+      "date_solved": "2026-07-09",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://github.com/openai/cdc-lean",
+      "verification_status": "Lean verified",
+      "literature": "Tutte, Itai--Rodeh, Szekeres, and Seymour formulations of the cycle double cover conjecture; OpenAI proof note at https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "literature_found_on": "OpenAI proof note and public cdc-lean repository verification record",
+      "literature_similar": "The Lean repository reports an unconditional theorem for finite loopless bridgeless multigraphs, with no project-specific axioms; statement-fidelity and scholarly review remain important caveats.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_174",
+      "source": "Kourovka Notebook",
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [
+        "Wouter van Doorn",
+        "Elias Judin",
+        "Pietro Monticone",
+        "Daniel Morrison"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "maximal locally soluble normal subgroups",
+      "problem_statement": "Kourovka Notebook Problem 3.46 asks whether there exists a group having more than one but only finitely many maximal locally soluble normal subgroups; the construction gives a group with exactly two such subgroups.",
+      "date_solved": "2026-07-20",
+      "mathematical_area": "Group Theory",
+      "solution_reference": "https://arxiv.org/abs/2607.17477",
+      "verification_status": "Lean verified",
+      "literature": "Kourovka Notebook Problem 3.46",
+      "literature_found_on": "arXiv:2607.17477 and its public Lean 4 formalization",
+      "literature_similar": "One of eight independent Kourovka Notebook solutions in the paper; the authors state that Aristotle autonomously discovered and formally verified the result in Lean.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_175",
+      "source": "Kourovka Notebook",
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [
+        "Wouter van Doorn",
+        "Elias Judin",
+        "Pietro Monticone",
+        "Daniel Morrison"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "permuted product cardinality group elements",
+      "problem_statement": "Kourovka Notebook Problem 18.50 asks whether, for positive integers $n$ and $1\\leq k\\leq n!$, one can find $n$ distinct group elements whose $n!$ ordered products take exactly $k$ distinct values; the paper proves this for every such $n,k$.",
+      "date_solved": "2026-07-20",
+      "mathematical_area": "Group Theory",
+      "solution_reference": "https://arxiv.org/abs/2607.17477",
+      "verification_status": "Lean verified",
+      "literature": "Kourovka Notebook Problem 18.50",
+      "literature_found_on": "arXiv:2607.17477 and its public Lean 4 formalization",
+      "literature_similar": "The construction encodes permutation inversions in a central extension and then uses a finite central quotient.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_176",
+      "source": "Kourovka Notebook",
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [
+        "Wouter van Doorn",
+        "Elias Judin",
+        "Pietro Monticone",
+        "Daniel Morrison"
+      ],
+      "solution_status": "Counterexample found (Lean)",
+      "problem_tag": "totient sums finite group simplicity",
+      "problem_statement": "Kourovka Notebook Problem 19.25 asks whether a finite group's order and the statistic $\\sum_{g\\in G}\\varphi(|g|)$ determine whether the group is simple; the paper gives a simple group and a non-simple group of order $6048$ with the same statistic $23984$.",
+      "date_solved": "2026-07-20",
+      "mathematical_area": "Group Theory",
+      "solution_reference": "https://arxiv.org/abs/2607.17477",
+      "verification_status": "Lean verified",
+      "literature": "Kourovka Notebook Problem 19.25",
+      "literature_found_on": "arXiv:2607.17477 and its public Lean 4 formalization",
+      "literature_similar": "The formalization checks the explicit finite-group examples and the totient-sum equality.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_177",
+      "source": "Kourovka Notebook",
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [
+        "Wouter van Doorn",
+        "Elias Judin",
+        "Pietro Monticone",
+        "Daniel Morrison"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "surjective noninjective Rota-Baxter operator",
+      "problem_statement": "Kourovka Notebook Problem 20.125 asks whether a nonabelian group can admit a Rota--Baxter operator that is surjective but not injective; the paper constructs such an operator on a nonabelian group.",
+      "date_solved": "2026-07-20",
+      "mathematical_area": "Group Theory",
+      "solution_reference": "https://arxiv.org/abs/2607.17477",
+      "verification_status": "Lean verified",
+      "literature": "Kourovka Notebook Problem 20.125",
+      "literature_found_on": "arXiv:2607.17477 and its public Lean 4 formalization",
+      "literature_similar": "The paper supplies both a conventional construction and a Lean development of the group and operator identities.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_178",
+      "source": "Kourovka Notebook",
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [
+        "Wouter van Doorn",
+        "Elias Judin",
+        "Pietro Monticone",
+        "Daniel Morrison"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "horizontal class transpositions symmetric group",
+      "problem_statement": "Kourovka Notebook Problem 21.8 asks whether the group generated by horizontal class transpositions of moduli at most $k$ is isomorphic to $S_{\\operatorname{lcm}(2,\\ldots,k)}$ for every $k\\geq 4$; the paper proves this isomorphism.",
+      "date_solved": "2026-07-20",
+      "mathematical_area": "Group Theory",
+      "solution_reference": "https://arxiv.org/abs/2607.17477",
+      "verification_status": "Lean verified",
+      "literature": "Kourovka Notebook Problem 21.8; J. Pan independently proved the same result",
+      "literature_found_on": "arXiv:2607.17477, its public Lean 4 formalization, and Pan's independent preprint",
+      "literature_similar": "The problem now has an AI-assisted Lean-verified proof and an independent human proof.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_179",
+      "source": "Kourovka Notebook",
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [
+        "Wouter van Doorn",
+        "Elias Judin",
+        "Pietro Monticone",
+        "Daniel Morrison"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "cograph power graphs chordal",
+      "problem_statement": "Kourovka Notebook Problem 21.24 asks whether, if the power graph of a finite group contains no induced path on four vertices, it must also contain no induced cycle of length at least four; the paper proves every finite-group cograph power graph is chordal.",
+      "date_solved": "2026-07-20",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://arxiv.org/abs/2607.17477",
+      "verification_status": "Lean verified",
+      "literature": "Kourovka Notebook Problem 21.24; M. Rundstrom independent solution note",
+      "literature_found_on": "arXiv:2607.17477, its public Lean 4 formalization, and an independent solution note",
+      "literature_similar": "The result was solved independently by another route; both routes are credited in the public record.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_180",
+      "source": "Kourovka Notebook",
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [
+        "Wouter van Doorn",
+        "Elias Judin",
+        "Pietro Monticone",
+        "Daniel Morrison"
+      ],
+      "solution_status": "Counterexample found (Lean)",
+      "problem_tag": "right-relatively convex subgroups sublattice",
+      "problem_statement": "Kourovka Notebook Problem 21.147 asks whether right-relatively convex subgroups of a right-orderable nonabelian group must form a sublattice of the subgroup lattice; the paper constructs a nonabelian right-orderable counterexample.",
+      "date_solved": "2026-07-20",
+      "mathematical_area": "Group Theory",
+      "solution_reference": "https://arxiv.org/abs/2607.17477",
+      "verification_status": "Lean verified",
+      "literature": "Kourovka Notebook Problem 21.147",
+      "literature_found_on": "arXiv:2607.17477 and its public Lean 4 formalization",
+      "literature_similar": "The authors note that an initial abelian example was known; the recorded result resolves the intended nonabelian formulation.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_181",
+      "source": "Kourovka Notebook",
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle"
+      ],
+      "humans": [
+        "Wouter van Doorn",
+        "Elias Judin",
+        "Pietro Monticone",
+        "Daniel Morrison"
+      ],
+      "solution_status": "Counterexample found (Lean)",
+      "problem_tag": "p-group extension rank inequality",
+      "problem_statement": "Kourovka Notebook Problem 21.150 asks whether, for an extension $G=A\\rtimes B$ of elementary abelian $p$-groups with $a\\in A$ and $C_B(a)=1$, the subgroup $H=\\langle a,B\\rangle$ satisfies $\\operatorname{rank}(Z(H)\\cap H')\\leq \\operatorname{rank}(B)$; the paper constructs an explicit counterexample.",
+      "date_solved": "2026-07-20",
+      "mathematical_area": "Group Theory",
+      "solution_reference": "https://arxiv.org/abs/2607.17477",
+      "verification_status": "Lean verified",
+      "literature": "Kourovka Notebook Problem 21.150",
+      "literature_found_on": "arXiv:2607.17477 and its public Lean 4 formalization",
+      "literature_similar": "The formal development checks the finite construction and the stated elementary-abelian and trivial-centralizer hypotheses.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_182",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "OpenAI Codex",
+        "GPT-5.6 Sol Ultra"
+      ],
+      "humans": [
+        "Yinfeng Zhu"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "Cerny conjecture one-cluster automata",
+      "problem_statement": "Prove the Cerny conjecture for synchronizing one-cluster automata with positive level: every such $n$-state automaton admits a reset word of length at most $(m-1)(n-1)+m\\ell\\leq(n-1)^2$, and prove the positive-level relative-extending-word conjecture for one-cluster automata.",
+      "date_solved": "2026-07-22",
+      "mathematical_area": "Theoretical Computer Science",
+      "solution_reference": "https://arxiv.org/abs/2607.19675",
+      "verification_status": "Verified",
+      "literature": "Kisielewicz, Kowalski, and Szykula conjecture on relative extending words for one-cluster automata; Cerny conjecture literature",
+      "literature_found_on": "arXiv:2607.19675 abstract and AI-use statement",
+      "literature_similar": "This proves the one-cluster positive-level case and sharp parameter examples; it does not resolve the general Cerny conjecture for all synchronizing automata.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_183",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Aparna Gupte",
+        "Seyoon Ragavan"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "minimum sparsity S-decoding polynomials",
+      "problem_statement": "Resolve the Ghasemi--Kopparty sparsity problem by constructing $S$-decoding polynomials with the lower-bound-minimal $k+1$ nonzero coefficients modulo special products of $k$ primes, yielding exponentially fewer-server private information retrieval constructions.",
+      "date_solved": "2026-07-24",
+      "mathematical_area": "Computational Complexity",
+      "solution_reference": "https://arxiv.org/abs/2607.22033",
+      "verification_status": "Verified",
+      "literature": "Efremenko (STOC 2009) matching-vector PIR; Ghasemi, Kopparty, and Sudan (STOC 2025); Ghasemi--Kopparty ITCS 2026 open problem",
+      "literature_found_on": "arXiv:2607.22033 abstract and AI-use statement",
+      "literature_similar": "The sparsity construction is unconditional; the constant-server PIR theorem is conditional in general but unconditional for the paper's stated finite range $s\\leq 15$.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_184",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.6 Sol Ultra",
+        "Claude Fable 5"
+      ],
+      "humans": [
+        "Dominik Peters"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "Kemeny rank aggregation three voters NP-hardness",
+      "problem_statement": "Resolve the Dwork et al. question whether Kemeny rank aggregation remains NP-complete for three voters by giving a reduction from MAX CUT proving NP-completeness when the number of input rankings is $3$.",
+      "date_solved": "2026-07-28",
+      "mathematical_area": "Theoretical Computer Science",
+      "solution_reference": "https://arxiv.org/abs/2607.25540",
+      "verification_status": "Verified",
+      "literature": "Dwork et al. (2001) proved NP-completeness for every even number of voters $n\\geq 4$ and asked about $n=3$",
+      "literature_found_on": "arXiv:2607.25540 abstract and AI-use statement",
+      "literature_similar": "The reduction was found by GPT-5.6 Sol Ultra and simplified in part with Claude Fable 5; the paper records an author-checked preprint proof.",
+      "was_conjecture": true
     }
   ]
 }
