@@ -4237,6 +4237,254 @@
       "literature_found_on": "arXiv:2607.25540 abstract and AI-use statement",
       "literature_similar": "The reduction was found by GPT-5.6 Sol Ultra and simplified in part with Claude Fable 5; the paper records an author-checked preprint proof.",
       "was_conjecture": true
+    },
+    {
+      "id": "math_185",
+      "source": "Erdős Problems",
+      "source_problem_number": 346,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Codex",
+        "ChatGPT",
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Kenta Kitamura",
+        "Liam Price"
+      ],
+      "solution_status": "Full solution to limit-exists interpretation (Lean)",
+      "problem_tag": "complete sequence golden ratio limit",
+      "problem_statement": "Let $A=\\{1\\leq a_1<a_2<\\cdots\\}$ be an integer sequence such that $A\\setminus B$ is complete for every finite subset $B$, $A\\setminus B$ is not complete for every infinite subset $B$, and $a_{n+1}/a_n\\geq 1+\\epsilon$ for some $\\epsilon>0$. Under the interpretation that the quotient limit exists, prove that $\\lim_n a_{n+1}/a_n=(1+\\sqrt{5})/2$.",
+      "date_solved": "2026-06-21",
+      "mathematical_area": "Number Theory",
+      "solution_reference": "https://github.com/KitaKen1/erdos346-ratio-limit-lean",
+      "verification_status": "Lean verified",
+      "literature": "Graham (1964); Erdős and Graham (1980); Burr and Erdős (1981)",
+      "literature_found_on": "Erdős Problems page, AI-contributions wiki, forum discussion, and Kenta Kitamura's Lean repository",
+      "literature_similar": "The Lean result addresses the limit-exists interpretation of an ambiguously worded problem; the stronger convergence-from-hypotheses interpretation remains a separate reading.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_186",
+      "source": "Erdős Problems",
+      "source_problem_number": 619,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Claude Fable 5",
+        "Codex",
+        "GPT-5.5"
+      ],
+      "humans": [
+        "Nick Kuhn"
+      ],
+      "solution_status": "Counterexample found (Lean)",
+      "problem_tag": "triangle-free diameter four edge additions",
+      "problem_statement": "For a triangle-free connected graph $G$ on $n$ vertices, let $h_4(G)$ be the smallest number of edges that must be added while preserving triangle-freeness so that the resulting graph has diameter at most $4$. Disprove the existence of a constant $c>0$ such that $h_4(G)<(1-c)n$ for every such $G$ by constructing infinitely many examples with $h_4(G)\\geq n-O(n^{8/9}(\\log n)^{2/9})$.",
+      "date_solved": "2026-06-09",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://www.erdosproblems.com/619",
+      "verification_status": "Lean verified",
+      "literature": "Erdős, Gyárfás, and Ruszinkó (1998); Erdős (1999); Alon, Gyárfás, and Ruszinkó (2000); Pontiveros, Griffiths, and Morris for the sparse triangle-free graph input",
+      "literature_found_on": "Erdős Problems page and discussion thread; AI-contributions wiki",
+      "literature_similar": "Claude Fable 5 found the counterexample construction after prompting, Nick Kuhn sketched the construction, and Codex/GPT-5.5 formalized it for the Formal Conjectures project.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_187",
+      "source": "Erdős Problems",
+      "source_problem_number": 707,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "ChatGPT"
+      ],
+      "humans": [
+        "Boris Alexeev",
+        "Dustin G. Mixon"
+      ],
+      "solution_status": "Counterexample found (Lean)",
+      "problem_tag": "Sidon set perfect difference extension",
+      "problem_statement": "Disprove Erdős's Sidon-extension conjecture by showing that the finite Sidon set $\\{1,2,4,8,13\\}$ cannot be extended to a perfect difference set, and in particular that $\\{1,2,4,8\\}$ cannot be extended to a perfect difference set modulo $p^2+p+1$ for any prime $p$.",
+      "date_solved": "2025-10-22",
+      "mathematical_area": "Additive Combinatorics",
+      "solution_reference": "https://arxiv.org/abs/2510.19804",
+      "verification_status": "Lean verified",
+      "literature": "Marshall Hall, Jr. (1947); Erdős problem statements from 1976 onward; Alexeev and Mixon (2025)",
+      "literature_found_on": "arXiv:2510.19804, ancillary Lean files, Erdős Problems page, and Erdős Problems discussion thread",
+      "literature_similar": "Alexeev and Mixon discovered Hall's earlier counterexample during the project; ChatGPT was used to generate the Lean verification of both Hall's and the authors' counterexamples.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_188",
+      "source": "Erdős Problems",
+      "source_problem_number": 865,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.5 Pro",
+        "Aristotle"
+      ],
+      "humans": [
+        "Ricky Cipollini"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "pairwise sum triple five eighths bound",
+      "problem_statement": "Prove that there is a constant $C>0$ such that, for all large $N$, every set $A\\subseteq\\{1,\\ldots,N\\}$ with $|A|\\geq 5N/8+C$ contains distinct $a,b,c\\in A$ with $a+b,a+c,b+c\\in A$, matching the construction $[N/8,N/4]\\cup[N/2,N]$ up to $O(1)$.",
+      "date_solved": "2026-06-22",
+      "mathematical_area": "Additive Combinatorics",
+      "solution_reference": "https://arxiv.org/abs/2606.29361",
+      "verification_status": "Verified",
+      "literature": "Erdős and Sós; Choi, Erdős, and Szemerédi (1975)",
+      "literature_found_on": "arXiv:2606.29361, Erdős Problems page, and AI-contributions wiki",
+      "literature_similar": "The arXiv paper says the manuscript was written by GPT-5.5 Pro from a proof developed by Ricky Cipollini together with GPT-5.5 Pro; an earlier conditional reduction was formalized in Lean 4/Mathlib by Aristotle.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_189",
+      "source": "Erdős Problems",
+      "source_problem_number": 948,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Aristotle",
+        "GPT-5.5 Pro"
+      ],
+      "humans": [
+        "Liam Price"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "bounded Hindman colouring colours omitted",
+      "problem_statement": "Resolve the Erdős--Galvin bounded Hindman-type question: determine whether there are a function $f(n)$ and an integer $k$ such that every $k$-colouring of the integers admits a sequence $a_1<a_2<\\cdots$ with $a_n<f(n)$ for infinitely many $n$ whose finite subset sums omit at least one colour.",
+      "date_solved": "2026-06-21",
+      "mathematical_area": "Ramsey Theory",
+      "solution_reference": "https://www.erdosproblems.com/forum/thread/948",
+      "verification_status": "Lean verified",
+      "literature": "Erdős and Galvin (1991)",
+      "literature_found_on": "Erdős Problems page, discussion thread, and AI-contributions wiki",
+      "literature_similar": "The forum records a GPT-5.5 Pro disproof formalized in Lean with Aristotle; Nat Sothanaphan's screening check reported that the Lean proof appeared correct and matched the paper.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_190",
+      "source": "Erdős Problems",
+      "source_problem_number": 986,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Claude",
+        "OpenAI internal model"
+      ],
+      "humans": [
+        "Domagoj Bradač"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "off-diagonal Ramsey lower exponent",
+      "problem_statement": "Prove Erdős's off-diagonal Ramsey lower-bound conjecture that, for every fixed $s\\geq 3$, $R(s,k)\\gg k^{s-1}/(\\log k)^c$ for some constant $c=c(s)>0$.",
+      "date_solved": "2026-06-16",
+      "mathematical_area": "Graph Theory",
+      "solution_reference": "https://arxiv.org/abs/2605.28793",
+      "verification_status": "Verified",
+      "literature": "Chung and Graham (1998); Spencer (1977); Bohman and Keevash (2010); Mattheus and Verstraete (2023); Ajtai, Komlós, and Szemerédi (1980)",
+      "literature_found_on": "Erdős Problems page/history, Bradač arXiv preprint, and AI-contributions wiki",
+      "literature_similar": "The Erdős Problems record says Bradač proved the lower bound; an earlier version reached exponent $s-2$, and an OpenAI internal model observed the adjustment needed to achieve exponent $s-1$.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_191",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "AlphaEvolve"
+      ],
+      "humans": [
+        "Ansh Nagda",
+        "Prabhakar Raghavan",
+        "Abhradeep Thakurta"
+      ],
+      "solution_status": "Improved lower bounds",
+      "problem_tag": "classical Ramsey number lower bounds",
+      "problem_statement": "Improve known lower bounds for nine classical Ramsey numbers: $R(3,13)\\geq 61$, $R(3,18)\\geq 100$, $R(4,13)\\geq 139$, $R(4,14)\\geq 148$, $R(4,15)\\geq 159$, $R(4,16)\\geq 174$, $R(4,18)\\geq 209$, $R(4,19)\\geq 219$, and $R(4,20)\\geq 237$.",
+      "date_solved": "2026-03-10",
+      "mathematical_area": "Combinatorics",
+      "solution_reference": "https://arxiv.org/abs/2603.09172",
+      "verification_status": "Verified",
+      "literature": "Classical computational Ramsey-number lower-bound literature",
+      "literature_found_on": "arXiv:2603.09172 abstract and paper history",
+      "literature_similar": "The paper reports that AlphaEvolve, an LLM-based code mutation agent, generated search algorithms producing the new lower-bound constructions and recovering many known bounds.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_192",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Claude Fable 5"
+      ],
+      "humans": [
+        "Uri Kol",
+        "Maor Ben-Shahar",
+        "Kfir Sulimany",
+        "Dirk Englund"
+      ],
+      "solution_status": "Full solution (Lean)",
+      "problem_tag": "FGG QAOA ring of disagrees conjecture",
+      "problem_statement": "Prove the Farhi--Goldstone--Gutmann conjecture that depth-$p$ QAOA on the ring of disagrees attains approximation ratio exactly $(2p+1)/(2p+2)$.",
+      "date_solved": "2026-06-29",
+      "mathematical_area": "Optimization",
+      "solution_reference": "https://arxiv.org/abs/2606.29687",
+      "verification_status": "Lean verified",
+      "literature": "Farhi, Goldstone, and Gutmann's QAOA ring-of-disagrees conjecture",
+      "literature_found_on": "arXiv:2606.29687 abstract and methodology statement",
+      "literature_similar": "The authors state that Claude Fable 5 supplied the proof after being given the Lean library and agentic toolkit; Lean 4 verified the proof end to end, while humans checked statement fidelity and scaffolding.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_193",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "Claude Fable 5"
+      ],
+      "humans": [
+        "Jim Conant"
+      ],
+      "solution_status": "Full solution",
+      "problem_tag": "mod 4 Kawauchi Conway polynomial conjecture",
+      "problem_statement": "Prove the mod $4$ version of the Kawauchi conjecture: for every amphicheiral knot $K$, the Conway polynomial satisfies $\\nabla_K(z)\\equiv f(z)f(-z)\\pmod 4$ for some integer polynomial $f$.",
+      "date_solved": "2026-07-21",
+      "mathematical_area": "Geometric Topology",
+      "solution_reference": "https://arxiv.org/abs/2607.18655",
+      "verification_status": "Verified",
+      "literature": "Kawauchi conjecture; Hartley results on amphicheiral knots; Ermotti--Hongler--Weber counterexample to the integral general case; Conant's 2006 mod 4 formulation",
+      "literature_found_on": "arXiv:2607.18655 abstract",
+      "literature_similar": "The arXiv abstract states that the proof was produced with help from Claude Fable 5; the result proves the mod $4$ variant, not the original integral conjecture.",
+      "was_conjecture": true
+    },
+    {
+      "id": "math_194",
+      "source": null,
+      "source_problem_number": null,
+      "level_of_contribution": "AI collaborating with humans",
+      "ai_systems": [
+        "GPT-5.6 Sol",
+        "Claude Fable 5",
+        "Codex",
+        "Claude"
+      ],
+      "humans": [
+        "Akhil Mathew",
+        "Kevin Buzzard"
+      ],
+      "solution_status": "Counterexample found (Lean)",
+      "problem_tag": "Grothendieck finite flat group scheme order",
+      "problem_statement": "Disprove Grothendieck's question whether every finite free group scheme of order $n$ is killed by $n$ by giving a finite flat group scheme of order $4$ that is not killed by $4$.",
+      "date_solved": "2026-07-11",
+      "mathematical_area": "Algebraic Geometry",
+      "solution_reference": "https://github.com/leanprover-community/mathlib4/pull/41748",
+      "verification_status": "Lean verified",
+      "literature": "Grothendieck's finite flat group scheme order question; Deligne's commutative case; Grothendieck's reduced-base case; Schoof and Torti partial results",
+      "literature_found_on": "Merged mathlib PR #41748, Kevin Buzzard's Xena Project report, and VibeMathed lead",
+      "literature_similar": "Buzzard reports that GPT-5.6 Sol found a 12-page counterexample and Claude Fable 5 autoformalized it; the merged mathlib PR discloses Codex and Claude assistance and records the checked Lean counterexample.",
+      "was_conjecture": true
     }
   ]
 }

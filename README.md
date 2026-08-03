@@ -10,7 +10,7 @@ This dataset intends to be used to better understand the current limitations and
 
 **File:** `ai_math_contributions.json`  
 **Schema version:** 1.1  
-**Entries:** 184
+**Entries:** 194
 
 ## Schema
 
@@ -52,8 +52,8 @@ Each entry in the `entries` array has the following fields:
 ### By source
 | Source | Entries |
 |---|---|
-| Erdős Problems | 90 |
-| Individual papers | 46 |
+| Erdős Problems | 96 |
+| Individual papers | 50 |
 | OEIS | 38 |
 | Kourovka Notebook | 8 |
 | Green's Open Problems | 1 |
@@ -62,22 +62,22 @@ Each entry in the `entries` array has the following fields:
 ### By mathematical area (top 8)
 | Area | Entries |
 |---|---|
-| Number Theory | 70 |
+| Number Theory | 71 |
+| Graph Theory | 17 |
 | Analysis | 16 |
-| Graph Theory | 15 |
-| Combinatorics | 15 |
+| Combinatorics | 16 |
 | Geometry | 13 |
-| Additive Combinatorics | 9 |
+| Additive Combinatorics | 11 |
 | Group Theory | 8 |
-| Optimization | 5 |
+| Optimization | 6 |
 
 ### Was it a pre-existing conjecture?
-- **165 entries** (`was_conjecture: true`) - longstanding conjectures posed by others
+- **175 entries** (`was_conjecture: true`) - longstanding conjectures posed by others
 - **16 entries** (`was_conjecture: false`) - open research problems posed by the solving paper's own authors
 - **3 entries** (`was_conjecture: null`) - unclear
 
 ### AI systems represented
-Aletheia, AlphaEvolve, AlphaProof, AlphaTensor, Archivara, Archon, Aristotle, AxiomProver, ChatGPT GPT-5 Pro, ChatGPT-5.2 (Thinking), Claude, Claude Code, Claude Fable 5, Claude Mythos, Claude Opus, Claude Opus 4.5, Claude Opus 4.7, Codex, DeepMind prover agent, DeepMind supervised learning models, FullProof, FunSearch (LLM-based program search), GPT, GPT-5, GPT-5 Pro, GPT-5.2, GPT-5.2 Pro, GPT-5.2 Thinking, GPT-5.4 Pro, GPT-5.4 Thinking, GPT-5.5, GPT-5.5 Pro, GPT-5.5 Thinking, GPT-5.6 Sol Ultra, Gemini, Gemini 3, Gemini 3 Flash, Gemini 3 Pro, Gemini 3.1 Pro, Gemini Pro, Google Gemini DeepThink, Multiscalar Fields System, OpenAI Astra, OpenAI Codex, OpenAI internal model, Rethlas, Seed Prover, Seed Prover 1.5
+Aletheia, AlphaEvolve, AlphaProof, AlphaTensor, Archivara, Archon, Aristotle, AxiomProver, ChatGPT, ChatGPT GPT-5 Pro, ChatGPT-5.2 (Thinking), Claude, Claude Code, Claude Fable 5, Claude Mythos, Claude Opus, Claude Opus 4.5, Claude Opus 4.7, Codex, DeepMind prover agent, DeepMind supervised learning models, FullProof, FunSearch (LLM-based program search), GPT, GPT-5, GPT-5 Pro, GPT-5.2, GPT-5.2 Pro, GPT-5.2 Thinking, GPT-5.4 Pro, GPT-5.4 Thinking, GPT-5.5, GPT-5.5 Pro, GPT-5.5 Thinking, GPT-5.6 Sol, GPT-5.6 Sol Ultra, Gemini, Gemini 3, Gemini 3 Flash, Gemini 3 Pro, Gemini 3.1 Pro, Gemini Pro, Google Gemini DeepThink, Multiscalar Fields System, OpenAI Astra, OpenAI Codex, OpenAI internal model, Rethlas, Seed Prover, Seed Prover 1.5
 
 ## Sources
 
