@@ -10,7 +10,7 @@ This dataset intends to be used to better understand the current limitations and
 
 **File:** `ai_math_contributions.json`  
 **Schema version:** 1.1  
-**Entries:** 194
+**Entries:** 201
 
 ## Schema
 
@@ -56,6 +56,7 @@ Each entry in the `entries` array has the following fields:
 | Individual papers | 50 |
 | OEIS | 38 |
 | Kourovka Notebook | 8 |
+| FirstProof | 7 |
 | Green's Open Problems | 1 |
 | D. Anderson Conjectures | 1 |
 
@@ -73,11 +74,11 @@ Each entry in the `entries` array has the following fields:
 
 ### Was it a pre-existing conjecture?
 - **175 entries** (`was_conjecture: true`) - longstanding conjectures posed by others
-- **16 entries** (`was_conjecture: false`) - open research problems posed by the solving paper's own authors
+- **23 entries** (`was_conjecture: false`) - open research problems posed by the solving paper's own authors
 - **3 entries** (`was_conjecture: null`) - unclear
 
 ### AI systems represented
-Aletheia, AlphaEvolve, AlphaProof, AlphaTensor, Archivara, Archon, Aristotle, AxiomProver, ChatGPT, ChatGPT GPT-5 Pro, ChatGPT-5.2 (Thinking), Claude, Claude Code, Claude Fable 5, Claude Mythos, Claude Opus, Claude Opus 4.5, Claude Opus 4.7, Codex, DeepMind prover agent, DeepMind supervised learning models, FullProof, FunSearch (LLM-based program search), GPT, GPT-5, GPT-5 Pro, GPT-5.2, GPT-5.2 Pro, GPT-5.2 Thinking, GPT-5.4 Pro, GPT-5.4 Thinking, GPT-5.5, GPT-5.5 Pro, GPT-5.5 Thinking, GPT-5.6 Sol, GPT-5.6 Sol Ultra, Gemini, Gemini 3, Gemini 3 Flash, Gemini 3 Pro, Gemini 3.1 Pro, Gemini Pro, Google Gemini DeepThink, Multiscalar Fields System, OpenAI Astra, OpenAI Codex, OpenAI internal model, Rethlas, Seed Prover, Seed Prover 1.5
+Aletheia, AlphaEvolve, AlphaProof, AlphaTensor, Archivara, Archon, Aristotle, AxiomProver, ChatGPT, ChatGPT GPT-5 Pro, ChatGPT-5.2 (Thinking), Claude, Claude Code, Claude Fable 5, Claude Mythos, Claude Opus, Claude Opus 4.5, Claude Opus 4.7, Codex, DeepMind prover agent, DeepMind supervised learning models, FullProof, FunSearch (LLM-based program search), GPT, GPT-5, GPT-5 Pro, GPT-5.2, GPT-5.2 Pro, GPT-5.2 Thinking, GPT-5.4 Pro, GPT-5.4 Thinking, GPT-5.5, GPT-5.5 Pro, GPT-5.5 Thinking, GPT-5.6 Sol, GPT-5.6 Sol Ultra, Gemini, Gemini 3, Gemini 3 Flash, Gemini 3 Pro, Gemini 3.1 Pro, Gemini Pro, Google Gemini DeepThink, IMProofBench ProofCouncil, Multiscalar Fields System, OpenAI Astra, OpenAI ChatGPT 5.5 Pro, OpenAI Codex, OpenAI internal model, Princeton Momus, Rethlas, Seed Prover, Seed Prover 1.5, UCLA Moonshot Harness
 
 ## Sources
 
@@ -86,6 +87,7 @@ Aletheia, AlphaEvolve, AlphaProof, AlphaTensor, Archivara, Archon, Aristotle, Ax
 - **[Green's Open Problems](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf)** — Ben Green's list of open problems in additive combinatorics
 - **D. Anderson Conjectures** — conjectures by Dave Anderson (algebraic geometry / flag varieties)
 - **Kourovka Notebook** — long-running open problems in group theory
+- **[FirstProof](https://1stproof.org/)** — research-level benchmark problems with published AI outputs and expert referee reports
 - **Individual papers** — results from arXiv preprints and published papers, cited per entry in `solution_reference`
 
 ## Adding an entry

@@ -4485,6 +4485,163 @@
       "literature_found_on": "Merged mathlib PR #41748, Kevin Buzzard's Xena Project report, and VibeMathed lead",
       "literature_similar": "Buzzard reports that GPT-5.6 Sol found a 12-page counterexample and Claude Fable 5 autoformalized it; the merged mathlib PR discloses Codex and Claude assistance and records the checked Lean counterexample.",
       "was_conjecture": true
+    },
+    {
+      "id": "math_195",
+      "source": "FirstProof",
+      "source_problem_number": 1,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "IMProofBench ProofCouncil",
+        "UCLA Moonshot Harness",
+        "OpenAI ChatGPT 5.5 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "computably automorphism-countable structures",
+      "problem_statement": "Determine whether there is a countable computably represented first-order structure $\\mathcal{A}$ that is computably $\\operatorname{AUT}$-countable on a cone, while for every finite parameter set $\\bar a$ there is an automorphism $\\pi$ of $\\mathcal{A}$ that is not $\\Sigma^{\\mathrm{in}}_1$-definable in $\\mathcal{A}$ relative to $\\bar a\\cup\\pi(\\bar a)$.",
+      "date_solved": "2026-06-01",
+      "mathematical_area": "Computability Theory",
+      "solution_reference": "https://arxiv.org/abs/2606.18119",
+      "verification_status": "Verified",
+      "literature": "Dariusz Kalocinski and Theodore A. Slaman, First Proof Second Batch Problem 1; Turetsky's coding in automorphism groups; Csima--Rossegger; Alvir--Greenberg--Harrison-Trainor--Turetsky",
+      "literature_found_on": "First Proof Second Batch report, problem statement, and referee summaries",
+      "literature_similar": "Systems A, B, and C received passing editorial decisions; reviewers judged the mathematics correct but flagged missing attribution and exposition issues, so this is recorded as an expert-verified benchmark solve rather than a polished publication.",
+      "was_conjecture": false
+    },
+    {
+      "id": "math_196",
+      "source": "FirstProof",
+      "source_problem_number": 2,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "IMProofBench ProofCouncil",
+        "UCLA Moonshot Harness",
+        "OpenAI ChatGPT 5.5 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "clean triangulation squeeze map infimum",
+      "problem_statement": "For the strip $\\Sigma=\\mathbb{R}\\times[0,1]$ with $G_\\beta(x,y)=(x+\\beta,1-y)$, prove that $\\sqrt 3$ is the infimum of the numbers $\\beta>0$ realized by a continuous map from $\\Sigma$ to $\\mathbb{R}^3$ that restricts to squeeze maps on a $G_\\beta$-invariant clean triangulation and identifies points exactly along $G_\\beta$-orbits.",
+      "date_solved": "2026-06-01",
+      "mathematical_area": "Discrete Geometry",
+      "solution_reference": "https://arxiv.org/abs/2606.18119",
+      "verification_status": "Verified",
+      "literature": "Richard Schwartz, First Proof Second Batch Problem 2; Schwartz's prior work on related clean-triangulation and squeeze-map constructions; Sadowsky; Halpern--Weaver",
+      "literature_found_on": "First Proof Second Batch report, problem statement, and referee summaries",
+      "literature_similar": "Systems A, B, and C received minor-revision editorial decisions; reviewers found correct mathematics, including a surprising six-triangle realization, while emphasizing missing figures and attribution issues.",
+      "was_conjecture": false
+    },
+    {
+      "id": "math_197",
+      "source": "FirstProof",
+      "source_problem_number": 3,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "IMProofBench ProofCouncil"
+      ],
+      "humans": [],
+      "solution_status": "Partial contribution",
+      "problem_tag": "weighted Bernoulli threshold inequality",
+      "problem_statement": "For nonnegative weights $w_1,\\ldots,w_m$ with $\\sum_i w_i=1$ and i.i.d. Bernoulli$(p)$ variables $v_i$, determine for which probabilities $p$ the inequality $\\Pr[\\sum_i w_i v_i\\geq p]\\geq p$ holds.",
+      "date_solved": "2026-06-01",
+      "mathematical_area": "Discrete Probability",
+      "solution_reference": "https://arxiv.org/abs/2606.18119",
+      "verification_status": "Verified",
+      "literature": "Aleksa Milojevic and Benny Sudakov, First Proof Second Batch Problem 3; Manickam--Miklos--Singhi conjecture; Alon--Emek--Feldman--Tennenholtz; Pokrovskiy",
+      "literature_found_on": "First Proof Second Batch report, problem statement, and referee summaries",
+      "literature_similar": "System A received a minor-revision decision for correct, genuinely novel progress: counterexamples outside key intervals, positive results for $p=1/k$, and a new family $p=2/k$ for $k\\geq 6$, but it did not fully classify all $p$.",
+      "was_conjecture": false
+    },
+    {
+      "id": "math_198",
+      "source": "FirstProof",
+      "source_problem_number": 5,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "IMProofBench ProofCouncil"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "skew stochastic heat invariant measure uniqueness",
+      "problem_statement": "For the stochastic heat equation on $[0,1]$ with Dirichlet boundary conditions, additive space-time white noise, and distributional drift $\\delta_0(u(x,t))$, prove or disprove that the associated Markov semigroup $P_t$ has at most one invariant probability measure on $C_0([0,1])$.",
+      "date_solved": "2026-06-01",
+      "mathematical_area": "Stochastic PDE",
+      "solution_reference": "https://arxiv.org/abs/2606.18119",
+      "verification_status": "Verified",
+      "literature": "Oleg Butkovsky, Jonathan C. Mattingly, and Lorenzo Zambotti, First Proof Second Batch Problem 5; Bounebache--Zambotti on the skew heat equation; Athreya--Butkovsky--Le--Mytnik on stochastic heat equations with distributional drift; Khoa Le's stochastic sewing lemma",
+      "literature_found_on": "First Proof Second Batch report, problem statement, and referee summaries",
+      "literature_similar": "System A received an essentially flawless decision; reviewers called the proof correct and novel, using a stochastic sewing lemma drift estimate and finite-time absolute continuity, a different route from the human solution.",
+      "was_conjecture": false
+    },
+    {
+      "id": "math_199",
+      "source": "FirstProof",
+      "source_problem_number": 6,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "UCLA Moonshot Harness",
+        "OpenAI ChatGPT 5.5 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "positive definite weighted tree irreducible vertex",
+      "problem_statement": "Let $T$ be a finite weighted tree whose associated integral bilinear form on $L(T)$ is positive definite. If some vertex $v$ has weight $w(v)<d(v)$, prove that $T$ contains a vertex $u$ that is irreducible in $L(T)$, meaning $u\\neq a+b$ for nonzero $a,b\\in L(T)$ with $a\\cdot b\\geq 0$.",
+      "date_solved": "2026-06-01",
+      "mathematical_area": "Lattice Theory",
+      "solution_reference": "https://arxiv.org/abs/2606.18119",
+      "verification_status": "Verified",
+      "literature": "Joshua Evan Greene and Duncan McCoy, First Proof Second Batch Problem 6 and forthcoming work on the Neumann--Zagier conjecture; Issa--McCoy related work",
+      "literature_found_on": "First Proof Second Batch report, problem statement, and referee summaries",
+      "literature_similar": "Systems B and C received essentially flawless decisions; reviewers found the arguments mathematically complete though stylistically difficult and close to the known human strategy.",
+      "was_conjecture": false
+    },
+    {
+      "id": "math_200",
+      "source": "FirstProof",
+      "source_problem_number": 7,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "IMProofBench ProofCouncil",
+        "UCLA Moonshot Harness",
+        "OpenAI ChatGPT 5.5 Pro",
+        "Princeton Momus"
+      ],
+      "humans": [],
+      "solution_status": "Counterexample found",
+      "problem_tag": "quasi-reduced word matching complex contractibility",
+      "problem_statement": "For a reducible quasi-reduced word $w=w_1\\cdots w_{2n}$ in a free group, let $F_w$ be the CW complex whose $k$-cells are isotopy classes of $k$-crossing matchings with inverse-letter boundary constraints. Determine whether $F_w$ is always contractible.",
+      "date_solved": "2026-06-01",
+      "mathematical_area": "Combinatorial Topology",
+      "solution_reference": "https://arxiv.org/abs/2606.18119",
+      "verification_status": "Verified",
+      "literature": "Sucharit Sarkar, First Proof Second Batch Problem 7; forthcoming Lipshitz--Ng--Sarkar work on a stable homotopy refinement of Legendrian contact homology",
+      "literature_found_on": "First Proof Second Batch report, problem statement, and referee summaries",
+      "literature_similar": "All four systems found counterexamples and received passing decisions; submissions A and C were essentially flawless, while B and D required minor revisions.",
+      "was_conjecture": false
+    },
+    {
+      "id": "math_201",
+      "source": "FirstProof",
+      "source_problem_number": 9,
+      "level_of_contribution": "AI standalone",
+      "ai_systems": [
+        "IMProofBench ProofCouncil",
+        "UCLA Moonshot Harness",
+        "OpenAI ChatGPT 5.5 Pro"
+      ],
+      "humans": [],
+      "solution_status": "Full solution",
+      "problem_tag": "hook coefficients multiset coinvariant Hilbert series",
+      "problem_statement": "For the coinvariant algebra $R_n^{(m)}$ with $m$ sets of $n$ variables, whose multigraded Hilbert series expands as $\\sum_\\lambda c_\\lambda(n)s_\\lambda(q_1,\\ldots,q_m)$, give a combinatorial interpretation of the universal coefficients $c_\\lambda(n)$ when $\\lambda$ is a hook-shaped partition.",
+      "date_solved": "2026-06-01",
+      "mathematical_area": "Algebraic Combinatorics",
+      "solution_reference": "https://arxiv.org/abs/2606.18119",
+      "verification_status": "Verified",
+      "literature": "Sylvie Corteel and John Lentfer, First Proof Second Batch Problem 9; Lentfer and Rhodes--Wilson related work on coinvariant-algebra Hilbert series",
+      "literature_found_on": "First Proof Second Batch report, problem statement, and referee summaries",
+      "literature_similar": "Systems A, B, and C received minor-revision decisions; reviewers found the combinatorial formulas correct and distinct from the human solution, while noting citation and exposition defects.",
+      "was_conjecture": false
     }
   ]
 }
